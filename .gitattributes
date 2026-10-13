@@ -1,0 +1,5 @@
+# Dosya özetlerini korumak için otomatik satır sonu dönüşümü yapma.
+* -text
+# CSV ve çizim dosyalarının kendi biçimindeki boşlukları koru.
+*.csv whitespace=cr-at-eol
+*.svg whitespace=-blank-at-eol
