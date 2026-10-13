@@ -1,0 +1,285 @@
+{
+  "schema": 1,
+  "status": "authorized-full-run-preparation",
+  "approval": {
+    "inference": false,
+    "basis": "Yeni çalışma açık çalıştırma seçeneği gerektirir."
+  },
+  "priceCapUsd": null,
+  "splits": [
+    "dev",
+    "core",
+    "challenge"
+  ],
+  "variants": [
+    "base"
+  ],
+  "models": [
+    {
+      "id": "~typesafe/jev-latest",
+      "settings": [
+        "common",
+        "native"
+      ],
+      "tracks": [
+        "A",
+        "B1",
+        "B2"
+      ],
+      "stateFormat": "object",
+      "compatibilityStatus": "pending-live-preflight"
+    },
+    {
+      "id": "perplexity/pplx-decider-v1.1-27b",
+      "settings": [
+        "common"
+      ],
+      "tracks": [
+        "A",
+        "B1",
+        "B2"
+      ],
+      "stateFormat": "object",
+      "compatibilityStatus": "pending-live-preflight"
+    },
+    {
+      "id": "openai/gpt-6-luna-decisions",
+      "settings": [
+        "common"
+      ],
+      "tracks": [
+        "A",
+        "B1",
+        "B2"
+      ],
+      "stateFormat": "object",
+      "compatibilityStatus": "pending-live-preflight"
+    },
+    {
+      "id": "liquid/d1",
+      "settings": [
+        "common"
+      ],
+      "tracks": [
+        "A",
+        "B1",
+        "B2"
+      ],
+      "stateFormat": "object",
+      "compatibilityStatus": "pending-live-preflight"
+    },
+    {
+      "id": "cloudflare/clef",
+      "settings": [
+        "common"
+      ],
+      "tracks": [
+        "A",
+        "B1",
+        "B2"
+      ],
+      "stateFormat": "object",
+      "compatibilityStatus": "pending-live-preflight"
+    },
+    {
+      "id": "cloudflare/clef-flash",
+      "settings": [
+        "common"
+      ],
+      "tracks": [
+        "A",
+        "B1",
+        "B2"
+      ],
+      "stateFormat": "object",
+      "compatibilityStatus": "pending-live-preflight"
+    },
+    {
+      "id": "jaredpalmer/kev-4b",
+      "settings": [
+        "common"
+      ],
+      "tracks": [
+        "A",
+        "B1",
+        "B2"
+      ],
+      "stateFormat": "object",
+      "compatibilityStatus": "pending-live-preflight"
+    },
+    {
+      "id": "togethercomputer/tev1-4b-experimental",
+      "settings": [
+        "common"
+      ],
+      "tracks": [
+        "A",
+        "B1",
+        "B2"
+      ],
+      "stateFormat": "object",
+      "compatibilityStatus": "pending-live-preflight"
+    },
+    {
+      "id": "inception/mercury-decide:free",
+      "settings": [
+        "common"
+      ],
+      "tracks": [
+        "A",
+        "B1",
+        "B2"
+      ],
+      "stateFormat": "object",
+      "compatibilityStatus": "pending-live-preflight"
+    },
+    {
+      "id": "upstage/solar-decide",
+      "settings": [
+        "common"
+      ],
+      "tracks": [
+        "A",
+        "B1",
+        "B2"
+      ],
+      "stateFormat": "object",
+      "compatibilityStatus": "pending-live-preflight"
+    },
+    {
+      "id": "upstage/solar-decide-flash",
+      "settings": [
+        "common"
+      ],
+      "tracks": [
+        "A",
+        "B1",
+        "B2"
+      ],
+      "stateFormat": "object",
+      "compatibilityStatus": "pending-live-preflight"
+    },
+    {
+      "id": "respan/span-01",
+      "settings": [
+        "common"
+      ],
+      "tracks": [
+        "A"
+      ],
+      "stateFormat": "text",
+      "compatibilityStatus": "pending-live-preflight"
+    },
+    {
+      "id": "respan/span-01-lite",
+      "settings": [
+        "common"
+      ],
+      "tracks": [
+        "A"
+      ],
+      "stateFormat": "text",
+      "compatibilityStatus": "pending-live-preflight"
+    }
+  ],
+  "requestConcurrency": 64,
+  "maxAttempts": 3,
+  "timeoutMs": 90000,
+  "seed": "turkce-karar-v07-full-2026-10-08-schedule-v1",
+  "catalogSnapshotUtc": "2026-10-08T11:13:36.425761+00:00",
+  "excludedTracks": [
+    {
+      "model": "respan/span-01",
+      "tracks": [
+        "B1",
+        "B2"
+      ],
+      "reason": "Prior evidence suggests noul-only; verify before adding choice tracks."
+    },
+    {
+      "model": "respan/span-01-lite",
+      "tracks": [
+        "B1",
+        "B2"
+      ],
+      "reason": "Prior evidence suggests noul-only; verify before adding choice tracks."
+    }
+  ],
+  "checkpointMs": 30000,
+  "modelPolicies": {
+    "~typesafe/jev-latest": {
+      "concurrency": 6,
+      "minIntervalMs": 0,
+      "timeoutMs": 90000
+    },
+    "perplexity/pplx-decider-v1.1-27b": {
+      "concurrency": 2,
+      "minIntervalMs": 900,
+      "timeoutMs": 90000
+    },
+    "openai/gpt-6-luna-decisions": {
+      "concurrency": 6,
+      "minIntervalMs": 0,
+      "timeoutMs": 90000
+    },
+    "liquid/d1": {
+      "concurrency": 6,
+      "minIntervalMs": 0,
+      "timeoutMs": 90000
+    },
+    "cloudflare/clef": {
+      "concurrency": 6,
+      "minIntervalMs": 0,
+      "timeoutMs": 90000
+    },
+    "cloudflare/clef-flash": {
+      "concurrency": 6,
+      "minIntervalMs": 0,
+      "timeoutMs": 90000
+    },
+    "jaredpalmer/kev-4b": {
+      "concurrency": 6,
+      "minIntervalMs": 0,
+      "timeoutMs": 90000
+    },
+    "togethercomputer/tev1-4b-experimental": {
+      "concurrency": 6,
+      "minIntervalMs": 0,
+      "timeoutMs": 90000
+    },
+    "inception/mercury-decide:free": {
+      "concurrency": 4,
+      "minIntervalMs": 100,
+      "timeoutMs": 90000
+    },
+    "upstage/solar-decide": {
+      "concurrency": 20,
+      "minIntervalMs": 0,
+      "timeoutMs": 120000
+    },
+    "upstage/solar-decide-flash": {
+      "concurrency": 10,
+      "minIntervalMs": 0,
+      "timeoutMs": 90000
+    },
+    "respan/span-01": {
+      "concurrency": 6,
+      "minIntervalMs": 0,
+      "timeoutMs": 90000
+    },
+    "respan/span-01-lite": {
+      "concurrency": 6,
+      "minIntervalMs": 0,
+      "timeoutMs": 90000
+    }
+  },
+  "planningBudget": {
+    "priorPilotAll800EstimateUsd": 2.4826,
+    "realisticAllowanceUsd": [
+      3,
+      5
+    ],
+    "notACap": true,
+    "basis": "prior reported pilot usage with modeled failed-request charges, same base matrix; current actual usage will be recorded"
+  }
+}

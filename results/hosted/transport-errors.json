@@ -1,0 +1,2652 @@
+[
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|B1|X039-A|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "perplexity/pplx-decider-v1.1-27b",
+    "slot": "perplexity/pplx-decider-v1.1-27b|common|A|X113-B|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef",
+    "slot": "cloudflare/clef|common|B1|X034-A|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "openai/gpt-6-luna-decisions",
+    "slot": "openai/gpt-6-luna-decisions|common|B1|X062-A|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide-flash",
+    "slot": "upstage/solar-decide-flash|common|A|D065-B|base|dev",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "~typesafe/jev-latest",
+    "slot": "~typesafe/jev-latest|common|A|D095-A|base|dev",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|A|X295-B|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|A|C144-A|base|core",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "liquid/d1",
+    "slot": "liquid/d1|common|B1|D090-C|base|dev",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "~typesafe/jev-latest",
+    "slot": "~typesafe/jev-latest|common|A|D095-A|base|dev",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "inception/mercury-decide:free",
+    "slot": "inception/mercury-decide:free|common|B2|C162-C|base|core",
+    "question": "entity",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef-flash",
+    "slot": "cloudflare/clef-flash|common|B1|X289-A|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01",
+    "slot": "respan/span-01|common|A|D057-A|base|dev",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide-flash",
+    "slot": "upstage/solar-decide-flash|common|A|X399-C|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01",
+    "slot": "respan/span-01|common|A|D057-A|base|dev",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01",
+    "slot": "respan/span-01|common|A|X337-C|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "openai/gpt-6-luna-decisions",
+    "slot": "openai/gpt-6-luna-decisions|common|B1|X232-B|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "openai/gpt-6-luna-decisions",
+    "slot": "openai/gpt-6-luna-decisions|common|B1|X062-A|base|challenge",
+    "question": "main",
+    "attempt": 2,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "liquid/d1",
+    "slot": "liquid/d1|common|A|D094-A|base|dev",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "jaredpalmer/kev-4b",
+    "slot": "jaredpalmer/kev-4b|common|A|X081-A|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "jaredpalmer/kev-4b",
+    "slot": "jaredpalmer/kev-4b|common|A|X081-A|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef-flash",
+    "slot": "cloudflare/clef-flash|common|B1|X266-A|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "jaredpalmer/kev-4b",
+    "slot": "jaredpalmer/kev-4b|common|B1|C107-A|base|core",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|B1|X287-A|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide-flash",
+    "slot": "upstage/solar-decide-flash|common|B1|X407-C|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef-flash",
+    "slot": "cloudflare/clef-flash|common|A|X498-A|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef-flash",
+    "slot": "cloudflare/clef-flash|common|A|X498-A|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "openai/gpt-6-luna-decisions",
+    "slot": "openai/gpt-6-luna-decisions|common|A|X093-C|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef-flash",
+    "slot": "cloudflare/clef-flash|common|B1|C044-C|base|core",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "togethercomputer/tev1-4b-experimental",
+    "slot": "togethercomputer/tev1-4b-experimental|common|B1|X133-B|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01",
+    "slot": "respan/span-01|common|A|X337-C|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01-lite",
+    "slot": "respan/span-01-lite|common|A|X402-A|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide-flash",
+    "slot": "upstage/solar-decide-flash|common|A|C184-A|base|core",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|A|X288-C|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "~typesafe/jev-latest",
+    "slot": "~typesafe/jev-latest|common|A|X023-A|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "~typesafe/jev-latest",
+    "slot": "~typesafe/jev-latest|native|A|X099-B|base|challenge",
+    "question": "P+notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "~typesafe/jev-latest",
+    "slot": "~typesafe/jev-latest|common|A|C200-B|base|core",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "inception/mercury-decide:free",
+    "slot": "inception/mercury-decide:free|common|A|X365-B|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 429,
+    "error": "HTTP 429: {\"error\":{\"code\":\"rate_limit_exceeded\",\"type\":\"rate_limit_error\",\"message\":\"Request or spending limit exceeded.\"}}",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "inception/mercury-decide:free",
+    "slot": "inception/mercury-decide:free|common|A|X365-B|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 429,
+    "error": "HTTP 429: {\"error\":{\"code\":\"rate_limit_exceeded\",\"type\":\"rate_limit_error\",\"message\":\"Request or spending limit exceeded.\"}}",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "inception/mercury-decide:free",
+    "slot": "inception/mercury-decide:free|common|A|D045-B|base|dev",
+    "question": "P",
+    "attempt": 1,
+    "status": 429,
+    "error": "HTTP 429: {\"error\":{\"code\":\"rate_limit_exceeded\",\"type\":\"rate_limit_error\",\"message\":\"Request or spending limit exceeded.\"}}",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "inception/mercury-decide:free",
+    "slot": "inception/mercury-decide:free|common|A|D045-B|base|dev",
+    "question": "notP",
+    "attempt": 1,
+    "status": 429,
+    "error": "HTTP 429: {\"error\":{\"code\":\"rate_limit_exceeded\",\"type\":\"rate_limit_error\",\"message\":\"Request or spending limit exceeded.\"}}",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "togethercomputer/tev1-4b-experimental",
+    "slot": "togethercomputer/tev1-4b-experimental|common|B1|C055-B|base|core",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "openai/gpt-6-luna-decisions",
+    "slot": "openai/gpt-6-luna-decisions|common|B2|X418-B|base|challenge",
+    "question": "entity",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "liquid/d1",
+    "slot": "liquid/d1|common|A|D036-B|base|dev",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide-flash",
+    "slot": "upstage/solar-decide-flash|common|A|X332-B|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "jaredpalmer/kev-4b",
+    "slot": "jaredpalmer/kev-4b|common|A|C189-A|base|core",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef-flash",
+    "slot": "cloudflare/clef-flash|common|B1|D094-C|base|dev",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01",
+    "slot": "respan/span-01|common|A|C011-A|base|core",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide-flash",
+    "slot": "upstage/solar-decide-flash|common|A|X312-C|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "liquid/d1",
+    "slot": "liquid/d1|common|A|X254-A|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|B1|X246-B|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "openai/gpt-6-luna-decisions",
+    "slot": "openai/gpt-6-luna-decisions|common|B2|X418-B|base|challenge",
+    "question": "entity",
+    "attempt": 2,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "liquid/d1",
+    "slot": "liquid/d1|common|A|D036-B|base|dev",
+    "question": "P",
+    "attempt": 2,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|B1|C150-C|base|core",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "openai/gpt-6-luna-decisions",
+    "slot": "openai/gpt-6-luna-decisions|common|A|D064-C|base|dev",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|A|X168-B|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "perplexity/pplx-decider-v1.1-27b",
+    "slot": "perplexity/pplx-decider-v1.1-27b|common|B2|X171-A|base|challenge",
+    "question": "entity",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01",
+    "slot": "respan/span-01|common|A|C172-B|base|core",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01-lite",
+    "slot": "respan/span-01-lite|common|A|C139-A|base|core",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "~typesafe/jev-latest",
+    "slot": "~typesafe/jev-latest|common|B1|D061-A|base|dev",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|B1|X106-A|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide-flash",
+    "slot": "upstage/solar-decide-flash|common|B1|X143-B|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "openai/gpt-6-luna-decisions",
+    "slot": "openai/gpt-6-luna-decisions|common|A|X020-C|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "togethercomputer/tev1-4b-experimental",
+    "slot": "togethercomputer/tev1-4b-experimental|common|A|X040-A|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|A|C129-A|base|core",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "inception/mercury-decide:free",
+    "slot": "inception/mercury-decide:free|common|A|D069-A|base|dev",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef-flash",
+    "slot": "cloudflare/clef-flash|common|B1|X433-A|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|A|X429-A|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|A|C166-C|base|core",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef-flash",
+    "slot": "cloudflare/clef-flash|common|B1|X433-A|base|challenge",
+    "question": "main",
+    "attempt": 2,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|B1|X110-B|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01",
+    "slot": "respan/span-01|common|A|X484-C|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "togethercomputer/tev1-4b-experimental",
+    "slot": "togethercomputer/tev1-4b-experimental|common|A|X368-C|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01",
+    "slot": "respan/span-01|common|A|X484-C|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef-flash",
+    "slot": "cloudflare/clef-flash|common|B1|C167-B|base|core",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "openai/gpt-6-luna-decisions",
+    "slot": "openai/gpt-6-luna-decisions|common|B1|C161-A|base|core",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01",
+    "slot": "respan/span-01|common|A|X484-C|base|challenge",
+    "question": "P",
+    "attempt": 2,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "~typesafe/jev-latest",
+    "slot": "~typesafe/jev-latest|common|A|D067-A|base|dev",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide-flash",
+    "slot": "upstage/solar-decide-flash|common|A|X126-A|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef",
+    "slot": "cloudflare/clef|common|B1|X051-B|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 429,
+    "error": "HTTP 429: {\"errors\":[{\"message\":\"AiError: AiError: Capacity temporarily exceeded, please try again. (097823d3-5409-4202-961b-cdb3317fc94f)\",\"code\":3040}],\"success\":false,\"result\":{},\"messages\":[]}",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01",
+    "slot": "respan/span-01|common|A|X361-C|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef-flash",
+    "slot": "cloudflare/clef-flash|common|A|C181-A|base|core",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "togethercomputer/tev1-4b-experimental",
+    "slot": "togethercomputer/tev1-4b-experimental|common|B1|X472-A|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "jaredpalmer/kev-4b",
+    "slot": "jaredpalmer/kev-4b|common|A|X252-A|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "openai/gpt-6-luna-decisions",
+    "slot": "openai/gpt-6-luna-decisions|common|A|X030-B|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "perplexity/pplx-decider-v1.1-27b",
+    "slot": "perplexity/pplx-decider-v1.1-27b|common|A|X006-A|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 503,
+    "error": "HTTP 503: {\"error\":{\"message\":\"Backend error for model 'rose-decision'\",\"type\":\"backend_unavailable\",\"code\":\"503\",\"model\":\"rose-decision\"}}",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef-flash",
+    "slot": "cloudflare/clef-flash|common|B1|X084-C|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef-flash",
+    "slot": "cloudflare/clef-flash|common|A|X180-B|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef",
+    "slot": "cloudflare/clef|common|A|X112-C|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "openai/gpt-6-luna-decisions",
+    "slot": "openai/gpt-6-luna-decisions|common|A|X268-A|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 504,
+    "error": "HTTP 504: error code: 504\n",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef-flash",
+    "slot": "cloudflare/clef-flash|common|B1|X120-A|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01-lite",
+    "slot": "respan/span-01-lite|common|A|X427-C|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|A|C025-C|base|core",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "jaredpalmer/kev-4b",
+    "slot": "jaredpalmer/kev-4b|common|A|X378-C|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "~typesafe/jev-latest",
+    "slot": "~typesafe/jev-latest|common|B1|X469-B|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "togethercomputer/tev1-4b-experimental",
+    "slot": "togethercomputer/tev1-4b-experimental|common|A|C030-C|base|core",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "~typesafe/jev-latest",
+    "slot": "~typesafe/jev-latest|common|A|C052-A|base|core",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "togethercomputer/tev1-4b-experimental",
+    "slot": "togethercomputer/tev1-4b-experimental|common|A|X254-A|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "jaredpalmer/kev-4b",
+    "slot": "jaredpalmer/kev-4b|common|B1|C094-A|base|core",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "liquid/d1",
+    "slot": "liquid/d1|common|A|X090-B|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|A|X190-B|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|B1|X252-C|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "jaredpalmer/kev-4b",
+    "slot": "jaredpalmer/kev-4b|common|B1|X285-A|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|A|X190-B|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01-lite",
+    "slot": "respan/span-01-lite|common|A|X293-C|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide-flash",
+    "slot": "upstage/solar-decide-flash|common|A|X099-B|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "jaredpalmer/kev-4b",
+    "slot": "jaredpalmer/kev-4b|common|A|D076-A|base|dev",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "liquid/d1",
+    "slot": "liquid/d1|common|A|X090-B|base|challenge",
+    "question": "notP",
+    "attempt": 2,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "togethercomputer/tev1-4b-experimental",
+    "slot": "togethercomputer/tev1-4b-experimental|common|A|X094-A|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "togethercomputer/tev1-4b-experimental",
+    "slot": "togethercomputer/tev1-4b-experimental|common|A|X166-A|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01",
+    "slot": "respan/span-01|common|A|X439-B|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "openai/gpt-6-luna-decisions",
+    "slot": "openai/gpt-6-luna-decisions|common|B1|X021-A|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|A|D075-C|base|dev",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "jaredpalmer/kev-4b",
+    "slot": "jaredpalmer/kev-4b|common|B1|X345-B|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|A|X265-C|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "~typesafe/jev-latest",
+    "slot": "~typesafe/jev-latest|native|A|X059-B|base|challenge",
+    "question": "P+notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|A|X284-C|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "liquid/d1",
+    "slot": "liquid/d1|common|A|X414-A|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "perplexity/pplx-decider-v1.1-27b",
+    "slot": "perplexity/pplx-decider-v1.1-27b|common|B2|C169-C|base|core",
+    "question": "entity",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|A|X461-B|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "liquid/d1",
+    "slot": "liquid/d1|common|A|D026-C|base|dev",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef",
+    "slot": "cloudflare/clef|common|A|C024-B|base|core",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|A|X423-A|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01-lite",
+    "slot": "respan/span-01-lite|common|A|C126-B|base|core",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "openai/gpt-6-luna-decisions",
+    "slot": "openai/gpt-6-luna-decisions|common|A|D020-C|base|dev",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "~typesafe/jev-latest",
+    "slot": "~typesafe/jev-latest|native|A|X059-B|base|challenge",
+    "question": "P+notP",
+    "attempt": 2,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef",
+    "slot": "cloudflare/clef|common|A|C024-B|base|core",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef-flash",
+    "slot": "cloudflare/clef-flash|common|A|X284-A|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "jaredpalmer/kev-4b",
+    "slot": "jaredpalmer/kev-4b|common|A|X346-C|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "~typesafe/jev-latest",
+    "slot": "~typesafe/jev-latest|common|B1|D011-B|base|dev",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef-flash",
+    "slot": "cloudflare/clef-flash|common|B1|X012-A|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01-lite",
+    "slot": "respan/span-01-lite|common|A|X057-C|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01",
+    "slot": "respan/span-01|common|A|X372-A|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef",
+    "slot": "cloudflare/clef|common|A|X041-B|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "togethercomputer/tev1-4b-experimental",
+    "slot": "togethercomputer/tev1-4b-experimental|common|A|X233-A|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide-flash",
+    "slot": "upstage/solar-decide-flash|common|B1|X281-A|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "inception/mercury-decide:free",
+    "slot": "inception/mercury-decide:free|common|B1|X474-A|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "openai/gpt-6-luna-decisions",
+    "slot": "openai/gpt-6-luna-decisions|common|A|X313-C|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "togethercomputer/tev1-4b-experimental",
+    "slot": "togethercomputer/tev1-4b-experimental|common|A|C193-A|base|core",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|A|C114-B|base|core",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|A|X181-B|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01",
+    "slot": "respan/span-01|common|A|X174-B|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|A|X181-B|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "openai/gpt-6-luna-decisions",
+    "slot": "openai/gpt-6-luna-decisions|common|A|C073-C|base|core",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01-lite",
+    "slot": "respan/span-01-lite|common|A|X500-A|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "perplexity/pplx-decider-v1.1-27b",
+    "slot": "perplexity/pplx-decider-v1.1-27b|common|B1|X393-C|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "jaredpalmer/kev-4b",
+    "slot": "jaredpalmer/kev-4b|common|B1|X027-A|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "jaredpalmer/kev-4b",
+    "slot": "jaredpalmer/kev-4b|common|A|X381-B|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef-flash",
+    "slot": "cloudflare/clef-flash|common|A|X203-B|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "liquid/d1",
+    "slot": "liquid/d1|common|A|X095-B|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "inception/mercury-decide:free",
+    "slot": "inception/mercury-decide:free|common|A|C136-A|base|core",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "openai/gpt-6-luna-decisions",
+    "slot": "openai/gpt-6-luna-decisions|common|B1|D007-B|base|dev",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide-flash",
+    "slot": "upstage/solar-decide-flash|common|B1|C189-B|base|core",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef-flash",
+    "slot": "cloudflare/clef-flash|common|B1|D037-C|base|dev",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "togethercomputer/tev1-4b-experimental",
+    "slot": "togethercomputer/tev1-4b-experimental|common|A|D009-A|base|dev",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01-lite",
+    "slot": "respan/span-01-lite|common|A|X249-A|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "jaredpalmer/kev-4b",
+    "slot": "jaredpalmer/kev-4b|common|A|X381-B|base|challenge",
+    "question": "notP",
+    "attempt": 2,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "inception/mercury-decide:free",
+    "slot": "inception/mercury-decide:free|common|B1|X052-B|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "jaredpalmer/kev-4b",
+    "slot": "jaredpalmer/kev-4b|common|B1|X030-C|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide-flash",
+    "slot": "upstage/solar-decide-flash|common|A|C053-B|base|core",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef-flash",
+    "slot": "cloudflare/clef-flash|common|A|X078-B|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide-flash",
+    "slot": "upstage/solar-decide-flash|common|A|C014-C|base|core",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01",
+    "slot": "respan/span-01|common|A|X419-B|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|B2|X191-B|base|challenge",
+    "question": "entity",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "liquid/d1",
+    "slot": "liquid/d1|common|B1|C070-A|base|core",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "togethercomputer/tev1-4b-experimental",
+    "slot": "togethercomputer/tev1-4b-experimental|common|B1|X135-A|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "~typesafe/jev-latest",
+    "slot": "~typesafe/jev-latest|native|A|X063-A|base|challenge",
+    "question": "P+notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "inception/mercury-decide:free",
+    "slot": "inception/mercury-decide:free|common|A|C187-C|base|core",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide-flash",
+    "slot": "upstage/solar-decide-flash|common|A|D024-B|base|dev",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "jaredpalmer/kev-4b",
+    "slot": "jaredpalmer/kev-4b|common|A|D067-C|base|dev",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|A|X299-C|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "togethercomputer/tev1-4b-experimental",
+    "slot": "togethercomputer/tev1-4b-experimental|common|B1|X135-A|base|challenge",
+    "question": "main",
+    "attempt": 2,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|A|C047-B|base|core",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide-flash",
+    "slot": "upstage/solar-decide-flash|common|A|X240-A|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide-flash",
+    "slot": "upstage/solar-decide-flash|common|B1|D015-B|base|dev",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01-lite",
+    "slot": "respan/span-01-lite|common|A|C050-C|base|core",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01-lite",
+    "slot": "respan/span-01-lite|common|A|X383-B|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "openai/gpt-6-luna-decisions",
+    "slot": "openai/gpt-6-luna-decisions|common|B1|X151-A|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "perplexity/pplx-decider-v1.1-27b",
+    "slot": "perplexity/pplx-decider-v1.1-27b|common|A|X323-C|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef-flash",
+    "slot": "cloudflare/clef-flash|common|A|X468-B|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide-flash",
+    "slot": "upstage/solar-decide-flash|common|B2|X194-C|base|challenge",
+    "question": "entity",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01",
+    "slot": "respan/span-01|common|A|X120-B|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide-flash",
+    "slot": "upstage/solar-decide-flash|common|A|C048-C|base|core",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01-lite",
+    "slot": "respan/span-01-lite|common|A|C119-C|base|core",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "jaredpalmer/kev-4b",
+    "slot": "jaredpalmer/kev-4b|common|A|C080-C|base|core",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01",
+    "slot": "respan/span-01|common|A|C171-A|base|core",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef",
+    "slot": "cloudflare/clef|common|A|C009-A|base|core",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef-flash",
+    "slot": "cloudflare/clef-flash|common|B1|X240-C|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "liquid/d1",
+    "slot": "liquid/d1|common|A|X273-C|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide-flash",
+    "slot": "upstage/solar-decide-flash|common|A|X245-B|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide-flash",
+    "slot": "upstage/solar-decide-flash|common|A|X245-B|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef-flash",
+    "slot": "cloudflare/clef-flash|common|B1|D047-A|base|dev",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide-flash",
+    "slot": "upstage/solar-decide-flash|common|A|X393-C|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide-flash",
+    "slot": "upstage/solar-decide-flash|common|B1|X080-B|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef",
+    "slot": "cloudflare/clef|common|A|X133-A|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|A|X406-A|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "openai/gpt-6-luna-decisions",
+    "slot": "openai/gpt-6-luna-decisions|common|B1|C148-B|base|core",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide-flash",
+    "slot": "upstage/solar-decide-flash|common|A|X393-C|base|challenge",
+    "question": "notP",
+    "attempt": 2,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide-flash",
+    "slot": "upstage/solar-decide-flash|common|A|X245-B|base|challenge",
+    "question": "notP",
+    "attempt": 2,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "~typesafe/jev-latest",
+    "slot": "~typesafe/jev-latest|common|A|X334-B|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "togethercomputer/tev1-4b-experimental",
+    "slot": "togethercomputer/tev1-4b-experimental|common|A|C130-B|base|core",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "openai/gpt-6-luna-decisions",
+    "slot": "openai/gpt-6-luna-decisions|common|B1|C111-A|base|core",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef-flash",
+    "slot": "cloudflare/clef-flash|common|B1|D047-A|base|dev",
+    "question": "main",
+    "attempt": 2,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|A|X406-A|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "~typesafe/jev-latest",
+    "slot": "~typesafe/jev-latest|common|A|X167-B|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "inception/mercury-decide:free",
+    "slot": "inception/mercury-decide:free|common|B1|X169-B|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide-flash",
+    "slot": "upstage/solar-decide-flash|common|A|X290-B|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "~typesafe/jev-latest",
+    "slot": "~typesafe/jev-latest|common|A|X167-B|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "inception/mercury-decide:free",
+    "slot": "inception/mercury-decide:free|common|A|X326-B|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|A|C014-C|base|core",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef",
+    "slot": "cloudflare/clef|common|B1|X399-C|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide-flash",
+    "slot": "upstage/solar-decide-flash|common|A|C104-A|base|core",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|B2|X185-A|base|challenge",
+    "question": "entity",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|B1|C126-A|base|core",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef-flash",
+    "slot": "cloudflare/clef-flash|common|A|X020-A|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|A|X198-A|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|A|X198-A|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef-flash",
+    "slot": "cloudflare/clef-flash|common|A|X020-A|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef",
+    "slot": "cloudflare/clef|common|B1|X083-C|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "~typesafe/jev-latest",
+    "slot": "~typesafe/jev-latest|common|A|X334-B|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "openai/gpt-6-luna-decisions",
+    "slot": "openai/gpt-6-luna-decisions|common|B2|X173-C|base|challenge",
+    "question": "entity",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "liquid/d1",
+    "slot": "liquid/d1|common|A|X273-C|base|challenge",
+    "question": "P",
+    "attempt": 2,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01-lite",
+    "slot": "respan/span-01-lite|common|A|D045-A|base|dev",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide-flash",
+    "slot": "upstage/solar-decide-flash|common|A|X245-B|base|challenge",
+    "question": "P",
+    "attempt": 2,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01",
+    "slot": "respan/span-01|common|A|X090-C|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "openai/gpt-6-luna-decisions",
+    "slot": "openai/gpt-6-luna-decisions|common|A|X390-A|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef-flash",
+    "slot": "cloudflare/clef-flash|common|B1|X188-C|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01",
+    "slot": "respan/span-01|common|A|C171-A|base|core",
+    "question": "notP",
+    "attempt": 2,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|B1|X245-A|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|B1|D017-C|base|dev",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "togethercomputer/tev1-4b-experimental",
+    "slot": "togethercomputer/tev1-4b-experimental|common|B1|D030-A|base|dev",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide-flash",
+    "slot": "upstage/solar-decide-flash|common|A|C104-A|base|core",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "togethercomputer/tev1-4b-experimental",
+    "slot": "togethercomputer/tev1-4b-experimental|common|B1|X401-C|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|B2|D082-C|base|dev",
+    "question": "entity",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "jaredpalmer/kev-4b",
+    "slot": "jaredpalmer/kev-4b|common|B1|C083-A|base|core",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|A|C014-C|base|core",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "jaredpalmer/kev-4b",
+    "slot": "jaredpalmer/kev-4b|common|A|X088-C|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef-flash",
+    "slot": "cloudflare/clef-flash|common|B1|X240-C|base|challenge",
+    "question": "main",
+    "attempt": 2,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "perplexity/pplx-decider-v1.1-27b",
+    "slot": "perplexity/pplx-decider-v1.1-27b|common|B2|X153-A|base|challenge",
+    "question": "entity",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01",
+    "slot": "respan/span-01|common|A|X231-C|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|B1|C015-B|base|core",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "togethercomputer/tev1-4b-experimental",
+    "slot": "togethercomputer/tev1-4b-experimental|common|A|C130-B|base|core",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "togethercomputer/tev1-4b-experimental",
+    "slot": "togethercomputer/tev1-4b-experimental|common|B2|X196-A|base|challenge",
+    "question": "entity",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "openai/gpt-6-luna-decisions",
+    "slot": "openai/gpt-6-luna-decisions|common|A|X390-A|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "liquid/d1",
+    "slot": "liquid/d1|common|A|X478-A|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01-lite",
+    "slot": "respan/span-01-lite|common|A|C198-B|base|core",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01",
+    "slot": "respan/span-01|common|A|X231-C|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01-lite",
+    "slot": "respan/span-01-lite|common|A|X068-A|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef",
+    "slot": "cloudflare/clef|common|A|X133-A|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "liquid/d1",
+    "slot": "liquid/d1|common|A|X109-B|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01-lite",
+    "slot": "respan/span-01-lite|common|A|D045-A|base|dev",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "respan/span-01-lite",
+    "slot": "respan/span-01-lite|common|A|C198-B|base|core",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "cloudflare/clef",
+    "slot": "cloudflare/clef|common|A|C009-A|base|core",
+    "question": "P",
+    "attempt": 2,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|B1|X002-C|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|B2|X156-A|base|challenge",
+    "question": "entity",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|B1|X199-C|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "~typesafe/jev-latest",
+    "slot": "~typesafe/jev-latest|common|B1|C070-B|base|core",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide-flash",
+    "slot": "upstage/solar-decide-flash|common|A|X290-B|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "upstage/solar-decide",
+    "slot": "upstage/solar-decide|common|A|X015-C|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 0,
+    "error": "timeout",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "openai/gpt-6-luna-decisions",
+    "slot": "openai/gpt-6-luna-decisions|common|A|C039-C|base|core",
+    "question": "notP",
+    "attempt": 1,
+    "status": 502,
+    "error": "OpenAI refused to answer question \"notP\"",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "liquid/d1",
+    "slot": "liquid/d1|common|A|X085-B|base|challenge",
+    "question": "notP",
+    "attempt": 1,
+    "status": 503,
+    "error": "HTTP 503: upstream connect error or disconnect/reset before headers. reset reason: connection termination",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "perplexity/pplx-decider-v1.1-27b",
+    "slot": "perplexity/pplx-decider-v1.1-27b|common|A|X462-B|base|challenge",
+    "question": "P",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "perplexity/pplx-decider-v1.1-27b",
+    "slot": "perplexity/pplx-decider-v1.1-27b|common|A|X462-B|base|challenge",
+    "question": "P",
+    "attempt": 2,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "perplexity/pplx-decider-v1.1-27b",
+    "slot": "perplexity/pplx-decider-v1.1-27b|common|A|X462-B|base|challenge",
+    "question": "P",
+    "attempt": 3,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  },
+  {
+    "model": "perplexity/pplx-decider-v1.1-27b",
+    "slot": "perplexity/pplx-decider-v1.1-27b|common|B1|X077-A|base|challenge",
+    "question": "main",
+    "attempt": 1,
+    "status": 0,
+    "error": "fetch failed",
+    "generationId": null,
+    "reportedCost": null
+  }
+]

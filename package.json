@@ -1,0 +1,18 @@
+{
+  "name": "turkce-karar-benchmark",
+  "version": "1.0.0",
+  "description": "Türkçe müşteri mesajlarında karar modellerinin açık ve tekrar üretilebilir karşılaştırması.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "engines": {"node": ">=22"},
+  "scripts": {
+    "test": "node --max-old-space-size=6144 --test --test-concurrency=1 tests/*.mjs",
+    "verify": "node --max-old-space-size=6144 scripts/verify-archive.mjs",
+    "replay": "node --max-old-space-size=6144 scripts/replay.mjs",
+    "prepare": "node scripts/new-run.mjs",
+    "execute": "node scripts/execute.mjs",
+    "score": "node scripts/score-new.mjs",
+    "check:publication": "python3 scripts/check_publication.py"
+  }
+}

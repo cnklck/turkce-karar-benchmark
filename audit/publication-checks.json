@@ -1,0 +1,46 @@
+{
+  "checkedOn": "2026-10-13",
+  "scope": "API",
+  "unitTests": {
+    "passed": 25,
+    "failed": 0
+  },
+  "archive": {
+    "status": "passed",
+    "families": 800,
+    "cases": 2400,
+    "decisions": 64059,
+    "requestBodiesChecked": 95259,
+    "terminalApiFailures": 2
+  },
+  "replay": {
+    "status": "passed",
+    "groupsMatched": 108,
+    "confidenceIntervalsMatched": true,
+    "confusionMatricesMatched": true
+  },
+  "fullMatrixPreparation": {
+    "status": "passed",
+    "decisions": 64059,
+    "firstAttemptRequests": 95259,
+    "inferenceAuthorized": false
+  },
+  "visualReview": {
+    "formats": [
+      "PNG",
+      "SVG",
+      "PDF"
+    ],
+    "figures": 3,
+    "pdfPagesPerFigure": 1,
+    "reviewedPdfRenders": true,
+    "paletteMatched": true,
+    "sourceValuesMatched": true
+  },
+  "networkInferenceCallsDuringPublication": 0,
+  "limitations": [
+    "Yanıt anahtarı geçicidir.",
+    "İnsan performansı ölçülmedi.",
+    "265 tarihsel denemede maliyet bilgisi bulunmuyor."
+  ]
+}

@@ -1,0 +1,14 @@
+Türkçe müşteri mesajlarında hangi yapay zeka en isabetli?
+Challenge B1: 11 API modeli; her model için 1.500 örnek / 500 soru kümesi.
+Perplexity Decider V1.1: %91,7; %95 güven aralığı %90,1–%93,3.
+Jev Latest: %89,2; %95 güven aralığı %87,3–%91,0.
+Clef: %87,8; %95 güven aralığı %85,9–%89,7.
+Mercury Decide (ücretsiz): %87,7; %95 güven aralığı %85,8–%89,5.
+GPT-6 Luna Decisions: %86,4; %95 güven aralığı %84,4–%88,3.
+Liquid d1: %82,5; %95 güven aralığı %80,4–%84,6.
+Solar Decide: %79,5; %95 güven aralığı %77,4–%81,7.
+Clef Flash: %75,9; %95 güven aralığı %73,5–%78,5.
+Tev1 4B: %73,7; %95 güven aralığı %71,5–%76,1.
+Kev 4B: %70,0; %95 güven aralığı %67,3–%72,7.
+Solar Decide Flash: %54,4; %95 güven aralığı %51,8–%57,1.
+Yanıt anahtarı yapay zekayla incelendi; insan performansı ölçülmedi. Her sıra farkı anlamlı olmayabilir.

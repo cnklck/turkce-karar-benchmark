@@ -1,0 +1,19 @@
+{
+  "experimentId": "6a68a802025f95589aacdc0d67ac13276e51d0dca26ea1333dcbe1c25762562a",
+  "completedAt": "2026-10-08T13:38:14.069Z",
+  "integrity": "complete",
+  "files": {
+    "REPORT.md": "43082cf7b01f7db7ee5cf879cb3d48969e71d3f9721785530ee08a0cdf8d2e2d",
+    "analysis.json": "0718edb3a5bc38efb695b0e9b2efbd81800fca4a05eb937bcd248efba6c604cb",
+    "per-case.csv": "1ddf68cda2fe68e8de0685e3611bfe134332b65e6a5d2f5a3f6b17dbfb23f76b",
+    "error-review.json": "99cd0abf9ed526cb4a4db6569c585eb98be3e92389ae72cdd46cd9548c4299c4",
+    "transport-errors.json": "318b3178a245ff704829c057f16a7512dca437f79ac2db1cfc96f6585bf24708",
+    "benchmark/attempts.jsonl": "661933b0079d6cf6cff0a18f124f085386ea1b24f80605752597459e550942f6",
+    "benchmark/records.jsonl": "7a125b5033688dde863e81ef065c7492b22e7b29305e0c04e304c21beda74a93",
+    "benchmark/usage.json": "34a18ca88c9b084d3ba0effdb4033ce3eb26bd2e313d43dc770374c94242cd16",
+    "preflight/preflight-attempts.jsonl": "6e2fcd08a4961249b85592f2240a1746477471baf6a628df95a36fcf54927281"
+  },
+  "labelsUnchangedSinceFreeze": true,
+  "humanPerformanceMeasured": false,
+  "priceCapUsd": null
+}

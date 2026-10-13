@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "experimentId": "6a68a802025f95589aacdc0d67ac13276e51d0dca26ea1333dcbe1c25762562a",
+  "plannedRequestComponentsChecked": 95259,
+  "startedAttempts": 95522,
+  "completedAttempts": 95522,
+  "successfulResponseEnvelopesChecked": 95257,
+  "answerEnvelopeErrors": [],
+  "rawParsedDisagreements": [],
+  "historicalFilesChecked": 55,
+  "historicalFilesChanged": [],
+  "packageFilesScannedForCredentialLiteral": 56,
+  "credentialLiteralMatches": 0,
+  "inferenceRequestsDispatchedByThisAudit": 0
+}

@@ -1,0 +1,148 @@
+{
+  "experimentId": "6a68a802025f95589aacdc0d67ac13276e51d0dca26ea1333dcbe1c25762562a",
+  "transport": "openrouter-decisions",
+  "status": "complete",
+  "stopReason": null,
+  "completeSlots": 64059,
+  "expectedDecisions": 64059,
+  "terminalRequests": 95259,
+  "expectedRequests": 95259,
+  "successfulRequests": 95257,
+  "activeRequests": 0,
+  "elapsedSinceResumeMs": 8346280,
+  "completedSinceResume": 95522,
+  "priceCapUsd": null,
+  "updatedAt": "2026-10-08T13:37:39.689Z",
+  "models": {
+    "~typesafe/jev-latest": {
+      "expectedRequests": 9969,
+      "terminalRequests": 9969,
+      "successfulRequests": 9969,
+      "failedRequests": 0,
+      "completeSlots": 7569,
+      "expectedSlots": 7569,
+      "active": 0,
+      "rateLimited": 0
+    },
+    "perplexity/pplx-decider-v1.1-27b": {
+      "expectedRequests": 7569,
+      "terminalRequests": 7569,
+      "successfulRequests": 7568,
+      "failedRequests": 1,
+      "completeSlots": 5169,
+      "expectedSlots": 5169,
+      "active": 0,
+      "rateLimited": 0
+    },
+    "openai/gpt-6-luna-decisions": {
+      "expectedRequests": 7569,
+      "terminalRequests": 7569,
+      "successfulRequests": 7568,
+      "failedRequests": 1,
+      "completeSlots": 5169,
+      "expectedSlots": 5169,
+      "active": 0,
+      "rateLimited": 0
+    },
+    "liquid/d1": {
+      "expectedRequests": 7569,
+      "terminalRequests": 7569,
+      "successfulRequests": 7569,
+      "failedRequests": 0,
+      "completeSlots": 5169,
+      "expectedSlots": 5169,
+      "active": 0,
+      "rateLimited": 0
+    },
+    "cloudflare/clef": {
+      "expectedRequests": 7569,
+      "terminalRequests": 7569,
+      "successfulRequests": 7569,
+      "failedRequests": 0,
+      "completeSlots": 5169,
+      "expectedSlots": 5169,
+      "active": 0,
+      "rateLimited": 1
+    },
+    "cloudflare/clef-flash": {
+      "expectedRequests": 7569,
+      "terminalRequests": 7569,
+      "successfulRequests": 7569,
+      "failedRequests": 0,
+      "completeSlots": 5169,
+      "expectedSlots": 5169,
+      "active": 0,
+      "rateLimited": 0
+    },
+    "jaredpalmer/kev-4b": {
+      "expectedRequests": 7569,
+      "terminalRequests": 7569,
+      "successfulRequests": 7569,
+      "failedRequests": 0,
+      "completeSlots": 5169,
+      "expectedSlots": 5169,
+      "active": 0,
+      "rateLimited": 0
+    },
+    "togethercomputer/tev1-4b-experimental": {
+      "expectedRequests": 7569,
+      "terminalRequests": 7569,
+      "successfulRequests": 7569,
+      "failedRequests": 0,
+      "completeSlots": 5169,
+      "expectedSlots": 5169,
+      "active": 0,
+      "rateLimited": 0
+    },
+    "inception/mercury-decide:free": {
+      "expectedRequests": 7569,
+      "terminalRequests": 7569,
+      "successfulRequests": 7569,
+      "failedRequests": 0,
+      "completeSlots": 5169,
+      "expectedSlots": 5169,
+      "active": 0,
+      "rateLimited": 4
+    },
+    "upstage/solar-decide": {
+      "expectedRequests": 7569,
+      "terminalRequests": 7569,
+      "successfulRequests": 7569,
+      "failedRequests": 0,
+      "completeSlots": 5169,
+      "expectedSlots": 5169,
+      "active": 0,
+      "rateLimited": 0
+    },
+    "upstage/solar-decide-flash": {
+      "expectedRequests": 7569,
+      "terminalRequests": 7569,
+      "successfulRequests": 7569,
+      "failedRequests": 0,
+      "completeSlots": 5169,
+      "expectedSlots": 5169,
+      "active": 0,
+      "rateLimited": 0
+    },
+    "respan/span-01": {
+      "expectedRequests": 4800,
+      "terminalRequests": 4800,
+      "successfulRequests": 4800,
+      "failedRequests": 0,
+      "completeSlots": 2400,
+      "expectedSlots": 2400,
+      "active": 0,
+      "rateLimited": 0
+    },
+    "respan/span-01-lite": {
+      "expectedRequests": 4800,
+      "terminalRequests": 4800,
+      "successfulRequests": 4800,
+      "failedRequests": 0,
+      "completeSlots": 2400,
+      "expectedSlots": 2400,
+      "active": 0,
+      "rateLimited": 0
+    }
+  }
+}

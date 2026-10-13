@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "createdAt": "2026-10-08T11:15:26.349Z",
+  "experimentId": "6a68a802025f95589aacdc0d67ac13276e51d0dca26ea1333dcbe1c25762562a",
+  "datasetHash": "5dfaf5c486781a3e5420aafb80fc6c1d315f146034c8b53e1ee1a9f92aa9c2b7",
+  "implementationHash": "bc6f6c3b834b38eb6fd38db80499b5123453d0c18af67669a65561be82cce964",
+  "files": {
+    "sample.json": "5dfaf5c486781a3e5420aafb80fc6c1d315f146034c8b53e1ee1a9f92aa9c2b7",
+    "plan.json": "da81d382fb9b4dd5583c17137cc2a05deb1a7a168e1477e40c863863a7e7dae6",
+    "model-registry.json": "2f34b58e048c6b3ff67362639c19c2433fdea754d52755be099512499cf4de65",
+    "changes.json": "7bc6345471652fc0d3e805b1f0661949b0452bbdc5c28c4b95795193e6280472",
+    "manifest.json": "a5b6dbadcdc0ceb5c5e1c49fcb2034f1c64cb9bb69dbf24ce1067bebb7a69422",
+    "preflight.json": "3cc7687f4e534dbdb8b95550b45da28222f32a4df5431e698eaa7171f9e5c2f7"
+  },
+  "implementationFiles": {
+    "harness/io.mjs": "512f4265425d3d47b6a52b056ad067bddf6945a527215e1d9bc2dcdf133efb09",
+    "harness/inputs.mjs": "71558a265ce9f0d7a13151e8fea51979c4cac7b6347e5427f2136abd4a4b628e",
+    "harness/manifest.mjs": "84810b492357bf94056ef3c79549f4cd3391a75c43f2527f012d82ecb3b247e6",
+    "harness/live-transport.mjs": "9f2c7310b19da6ec318391c6fc8d010e83b10ae090167a6592d51fe208d819aa",
+    "harness/usage.mjs": "8b0af8bea79087e41b60fe16f66b2dc033f9c71f4cfcd5fe4290925f39e714d6",
+    "harness/run.mjs": "c8822e50d36bd87881c89d6d7533c6b12be72aa440e45fd2214fde440959721c",
+    "harness/freeze.mjs": "773f2e55171c8f3bf2d9778c13259d904f6823c5373bae2f8ea52f8b548cc8b8",
+    "harness/paired.mjs": "0bb158969dbafd72fb956a3618d0db142c5fd63808865dfa0435283f2fe986c5",
+    "harness/preflight.mjs": "d8335cb5358c4d63c2b4b7ab33fe2df14bafc53635a3381252e8de51c19838bf",
+    "scoring/score.mjs": "5739fd0e4873969198382462099b2f341996cfad95bde0c66c17f98e5003b722"
+  },
+  "approval": {
+    "inference": false
+  },
+  "priceCapUsd": null
+}

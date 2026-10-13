@@ -1,0 +1,17 @@
+{
+  "families": 800,
+  "cases": 2400,
+  "entityFamilies": 123,
+  "entityCases": 369,
+  "factTracesChecked": 2934,
+  "evidenceSpansChecked": 2978,
+  "caseIdentitiesAndCopiedQuestionsRulesGold": "pass",
+  "contrastsAndPreservingTargetFacts": "pass",
+  "independentNumericalCases": 480,
+  "numericalAgreements": 480,
+  "resolvedFindingGroups": 43,
+  "revisedFamilies": 138,
+  "answerKeysChanged": 0,
+  "humanValidated": false,
+  "status": "ready for provisional AI-key benchmark"
+}

@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "families": 800,
+  "cases": 2400,
+  "excludedMetadata": [
+    "meta",
+    "families[*].cases[*].review.audit"
+  ],
+  "canonicalization": "UTF-8 JSON, sorted object keys, no whitespace, Unicode preserved",
+  "sourceProjectionSha256": "50e227d0ce020174cda76c92785f475b77575730363a576dc6d5ad9b84480c04",
+  "publishedProjectionSha256": "50e227d0ce020174cda76c92785f475b77575730363a576dc6d5ad9b84480c04",
+  "providerRequestBodiesCheckedBy": "scripts/verify-archive.mjs",
+  "keysChanged": 0,
+  "messagesChangedForPublication": 0,
+  "questionsChangedForPublication": 0,
+  "rulesChangedForPublication": 0
+}

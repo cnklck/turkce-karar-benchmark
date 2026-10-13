@@ -1,0 +1,801 @@
+family_id,split,capability,task_type,question,has_rule,has_entity,cases
+D001,dev,NEG,T2,Müşteri siparişini teslim aldı mı?,False,False,3
+D002,dev,NEG,T2,"Müşteri, siparişindeki ürünlerden en az birini teslim aldı mı?",False,False,3
+D003,dev,NEG,T2,"Müşteri, telefonuna gelen doğrulama kodunu başka birine verdi mi?",False,False,3
+D004,dev,NEG,T2,"Gelen mont, müşterinin sipariş ettiği renkte mi?",False,False,3
+D005,dev,NEG,T2,Müşterinin bu ayki faturasına ek paket ücreti yansıdı mı?,False,False,3
+D006,dev,NEG,T2,"Müşteri, iade ettiği ürünün parasını geri aldı mı?",False,False,3
+D007,dev,NEG,T2,Müşteri bugün mobil uygulamadan hesabına giriş yapabildi mi?,False,False,3
+D008,dev,NEG,T2,Müşterinin kartı çalındı mı?,False,False,3
+D009,dev,NEG,T2,Müşterinin kart hesabında şu anda ödenmemiş bir borç var mı?,False,False,3
+D010,dev,NEG,T2,Müşterinin evdeki internet bağlantısı şu anda çalışıyor mu?,False,False,3
+D011,dev,QUANT,T2,Kurala göre müşterinin sepeti ücretsiz kargo için yeterli mi?,True,False,3
+D012,dev,QUANT,T2,Müşterinin itiraz ettiği harcama 1.000 TL'nin üzerinde mi?,False,False,3
+D013,dev,QUANT,T2,Müşterinin şimdiye kadar ödediği taksitlerin toplamı 2.000 TL'yi geçiyor mu?,False,False,3
+D014,dev,QUANT,T2,Kurala göre bu sipariş eksik ürün iadesine uygun mu?,True,False,3
+D015,dev,QUANT,T2,"Ürünün fiyatı, müşterinin ödediği fiyata göre en az %10 düştü mü?",False,False,3
+D016,dev,QUANT,T2,Müşterinin hesabına yatan iade tutarı 300 TL'den fazla mı?,False,False,3
+D017,dev,QUANT,T2,Müşteri bu ay internet paketinin tamamını kullandı mı?,False,False,3
+D018,dev,QUANT,T2,Kurala göre rezervasyondaki kişi sayısı standart odanın kapasitesini aşıyor mu?,True,False,3
+D019,dev,QUANT,T2,Kurala göre müşteri bu ay ücretsiz kahve kazanacak kadar kahve aldı mı?,True,False,3
+D020,dev,QUANT,T2,Müşterinin son faturası bir önceki aya göre arttı mı?,False,False,3
+D021,dev,TIME,T2,Kurala göre müşteri cayma hakkını süresi içinde mi kullanıyor?,True,False,3
+D022,dev,TIME,T2,Kurala göre müşterinin teslimatı tazminat ödenecek kadar gecikti mi?,True,False,3
+D023,dev,TIME,T2,Kurala göre müşteri ücretsiz bilet değişikliği için yeterince erken mi yazıyor?,True,False,3
+D024,dev,TIME,T2,Kurala göre müşteri ücret iadesi alınabilecek süre içinde mi yazıyor?,True,False,3
+D025,dev,TIME,T2,Kurala göre müşteri hasar bildirimini süresi içinde mi yapıyor?,True,False,3
+D026,dev,TIME,T2,Kurala göre müşterinin siparişi aynı gün kargo için saat sınırı içinde mi verildi?,True,False,3
+D027,dev,TIME,T2,Kurala göre müşterinin bulaşık makinesi hâlâ garanti kapsamında mı?,True,False,3
+D028,dev,TIME,T2,Kurala göre müşteri randevusunu ücret alınmayacak kadar erken mi iptal ediyor?,True,False,3
+D029,dev,TIME,T2,Kurala göre müşterinin faturası zamanında ödendi mi?,True,False,3
+D030,dev,TIME,T2,Kurala göre müşteri ücretsiz deneme süresi içinde mi iptal ediyor?,True,False,3
+D031,dev,ACTOR,T2,Paketi müşterinin kendisi mi teslim aldı?,False,True,3
+D032,dev,ACTOR,T2,Kart iptal işlemini müşterinin kendisi mi gerçekleştirdi?,False,True,3
+D033,dev,ACTOR,T2,Hesap şifresini müşterinin eşi mi değiştirdi?,False,True,3
+D034,dev,ACTOR,T2,Fatura itiraz formunu fiilen müşterinin kendisi mi doldurdu?,False,True,3
+D035,dev,ACTOR,T2,İade paketini kargo şubesine müşterinin oğlu mu götürdü?,False,True,3
+D036,dev,ACTOR,T2,Bu ayki sayaç okumasını şirket görevlisi mi yaptı?,False,True,3
+D037,dev,ACTOR,T2,Siparişi müşterinin annesi mi teslim aldı?,False,True,3
+D038,dev,ACTOR,T2,Çamaşır makinesinin kurulumunu müşterinin kendisi mi yaptı?,False,True,3
+D039,dev,ACTOR,T2,Konser biletini müşterinin kendisi mi satın aldı?,False,True,3
+D040,dev,ACTOR,T2,Film aboneliğini müşterinin kendisi mi başlattı?,False,True,3
+D041,dev,SOURCE,T2,Paket müşterinin kapısının önüne bırakıldı mı?,False,False,3
+D042,dev,SOURCE,T2,Paket müşterinin komşusuna teslim edildi mi?,False,False,3
+D043,dev,SOURCE,T2,900 TL'lik işlemi müşterinin kendisi mi yaptı?,False,False,3
+D044,dev,SOURCE,T2,Müşteri ürünü kullandı mı?,False,False,3
+D045,dev,SOURCE,T2,Müşterinin hesabının bağlı olduğu şube kapandı mı?,False,False,3
+D046,dev,SOURCE,T2,Müşterinin aboneliği iptal edildi mi?,False,False,3
+D047,dev,SOURCE,T2,Müşterinin kredi başvurusu onaylandı mı?,False,False,3
+D048,dev,SOURCE,T2,Müşterinin uçuşu iptal edildi mi?,False,False,3
+D049,dev,SOURCE,T2,Kurye paketi müşterinin binasına getirdi mi?,False,False,3
+D050,dev,SOURCE,T2,"Ayakkabının tabanı, müşteri onu giymeden önce kırık mıydı?",False,False,3
+D051,dev,COND,T2,Müşteri iade süresini kaçırdı mı?,False,False,3
+D052,dev,COND,T2,Müşteri bağlantı uçuşunu kaçırdı mı?,False,False,3
+D053,dev,COND,T2,Müşteri iade ürününü kargoya verdi mi?,False,False,3
+D054,dev,COND,T2,Müşterinin şubede unuttuğu kartı bulundu mu?,False,False,3
+D055,dev,COND,T2,Müşteri ek sigorta paketini satın aldı mı?,False,False,3
+D056,dev,COND,T2,"Müşteri, şüpheli işlemi fark ettiği gün kartını iptal ettirdi mi?",False,False,3
+D057,dev,COND,T2,"Müşteri paketi kapıda, kuryenin yanında açıp kontrol etti mi?",False,False,3
+D058,dev,COND,T2,Müşterinin hesabından aynı ödeme iki kez çekildi mi?,False,False,3
+D059,dev,COND,T1,Bu mesajda müşteri siparişinin iptal edilmesini talep ediyor mu?,False,False,3
+D060,dev,COND,T1,Bu mesajda müşteri siparişinin iptal edilmesini talep ediyor mu?,False,False,3
+D061,dev,UPDATE,T2,Sipariş edilen ürünlerin hepsi koliden çıktı mı?,False,False,3
+D062,dev,UPDATE,T2,Müşteriden yanlışlıkla çekilen ücret şu anda iade edilmiş durumda mı?,False,False,3
+D063,dev,UPDATE,T2,Ürün şu anda müşteride mi?,False,False,3
+D064,dev,UPDATE,T2,Müşterinin paketi teslim edildi mi?,False,False,3
+D065,dev,UPDATE,T2,Müşterinin şikâyet kaydı şu anda kapalı mı?,False,False,3
+D066,dev,UPDATE,T2,Siparişin teslimat adresi şu anda müşterinin iş yeri adresi mi?,False,False,3
+D067,dev,UPDATE,T2,Müşterinin hattı şu anda aktif mi?,False,False,3
+D068,dev,UPDATE,T1,Bu mesajda müşteri aboneliğinin iptal edilmesini talep ediyor mu?,False,False,3
+D069,dev,UPDATE,T1,Bu mesajda müşteri ürünün değiştirilmesini talep ediyor mu?,False,False,3
+D070,dev,UPDATE,T1,Bu mesajda müşteri teknisyenin cumartesi gelmesini talep ediyor mu?,False,False,3
+D071,dev,REQ,T1,Bu mesajda müşteri geçen ayın faturasının e-posta adresine gönderilmesini talep ediyor mu?,False,False,3
+D072,dev,REQ,T1,Bu mesajda müşteri telefonla geri aranmayı talep ediyor mu?,False,False,3
+D073,dev,REQ,T1,"Müşteri, yarın ürünü mağazaya kendisi götüreceğini söylüyor mu?",False,False,3
+D074,dev,REQ,T1,Bu mesajda müşteri hesabının kapatılmasını talep ediyor mu?,False,False,3
+D075,dev,REQ,T1,Bu mesajda müşteri siparişine hediye paketi yapılmasını talep ediyor mu?,False,False,3
+D076,dev,REQ,T1,Bu mesajda müşteri teslimat saatinin değiştirilmesini talep ediyor mu?,False,False,3
+D077,dev,REQ,T1,Bu mesajda müşteri ödediği kargo ücretinin iade edilmesini talep ediyor mu?,False,False,3
+D078,dev,REQ,T1,Bu mesajda müşteri siparişinin iptal edilmesini talep ediyor mu?,False,False,3
+D079,dev,REQ,T1,Müşteri ücret iadesi talep ediyor mu?,False,False,3
+D080,dev,REQ,T1,Mesajda tam bir kart numarası yer alıyor mu?,True,False,3
+D081,dev,REF,T2,Kargoyu müşterinin kendisi mi teslim aldı?,False,True,3
+D082,dev,REF,T2,Kuryeyi müşterinin kardeşi mi aradı?,False,True,3
+D083,dev,REF,T2,Siparişteki mavi kupa kırık mı geldi?,False,False,3
+D084,dev,REF,T2,Müşteri eski telefonunu mağazaya iade etti mi?,False,False,3
+D085,dev,REF,T2,Faturayı müşterinin kendisi mi ödedi?,False,True,3
+D086,dev,REF,T2,Paket kapıcıya mı bırakıldı?,False,True,3
+D087,dev,REF,T2,Müşterinin kendi siparişi teslim edildi mi?,False,False,3
+D088,dev,REF,T2,Müşteriden yanlışlıkla çekilen 120 TL iade edildi mi?,False,False,3
+D089,dev,REF,T2,Müşterinin eşi yeni kartını teslim aldı mı?,False,False,3
+D090,dev,REF,T2,Müşterinin bloke olan kartı kredi kartı mı?,False,False,3
+D091,dev,LIST,T2,Siparişteki tablet kılıfı müşteriye ulaştı mı?,False,False,3
+D092,dev,LIST,T2,Siparişteki kulaklık eksik mi geldi?,False,False,3
+D093,dev,LIST,T2,Siparişteki iki lambadan en az biri çalışıyor mu?,False,False,3
+D094,dev,LIST,T2,Kutudan şarj adaptörü çıktı mı?,False,False,3
+D095,dev,LIST,T2,Müşteriye yapılan iade kargo ücretini de kapsıyor mu?,False,False,3
+D096,dev,LIST,T2,Siparişteki bardakların hepsi sağlam geldi mi?,False,False,3
+D097,dev,LIST,T2,Müşterinin üç ayrı siparişinin hepsi teslim edildi mi?,False,False,3
+D098,dev,LIST,T2,Ekstredeki işlemlerin hepsini müşterinin kendisi mi yaptı?,False,False,3
+D099,dev,LIST,T2,"Kurala göre müşterinin sepeti ""3 al 2 öde"" kampanyasına uygun mu?",True,False,3
+D100,dev,LIST,T2,Paketteki kitaplardan sayfası eksik olan var mı?,False,False,3
+C001,core,NEG,T2,Müşteri kedisini aşı randevusuna götürdü mü?,False,False,3
+C002,core,NEG,T2,Spor salonunun duşlarında dün akşam sıcak su vardı mı?,False,False,3
+C003,core,NEG,T2,Kreş bugün müşteriyi telefonla aradı mı?,False,False,3
+C004,core,NEG,T2,"Oda, müşteriye teslim edilmeden önce temizlendi mi?",False,False,3
+C005,core,NEG,T2,Elektrik kesintisinden önce müşteriye haber verildi mi?,False,False,3
+C006,core,NEG,T2,Müşteri su faturasını internet sitesinden ödeyebildi mi?,False,False,3
+C007,core,NEG,T2,Müşterinin telefondaki fotoğrafları buluta yedeklendi mi?,False,False,3
+C008,core,NEG,T2,Müşteri aboneliğini iptal etti mi?,False,False,3
+C009,core,NEG,T2,Sorunun kaynağı müşterinin kendi internet bağlantısı mı?,False,False,3
+C010,core,NEG,T2,Lisans ücretinin iadesi müşterinin hesabına yattı mı?,False,False,3
+C011,core,NEG,T2,Dün sınıftaki öğrencilerin hepsi kursa geldi mi?,False,False,3
+C012,core,NEG,T2,Eksper hasarlı araca bakmaya geldi mi?,False,False,3
+C013,core,NEG,T2,Kitap siparişine kargo ücreti yansıtıldı mı?,False,False,3
+C014,core,NEG,T2,Müşteri dün akşam markette kasadan fiş aldı mı?,False,False,3
+C015,core,NEG,T2,Servis müşterinin aracında fren balatalarını değiştirdi mi?,False,False,3
+C016,core,NEG,T2,"Oyuncak, içinde pille birlikte mi geldi?",False,False,3
+C017,core,NEG,T2,Klinik müşteriyi bugün telefonla aradı mı?,False,False,3
+C018,core,NEG,T2,"Çiçek, müşterinin annesinin adresine teslim edildi mi?",False,False,3
+C019,core,NEG,T2,Müşteri fotoğraf baskı siparişinin ücretini ödedi mi?,False,False,3
+C020,core,NEG,T2,Müşterinin çamaşır makinesi garanti kapsamında mı?,False,False,3
+C021,core,QUANT,T2,Kurala göre bu paket için ek ağırlık ücreti alınır mı?,True,False,3
+C022,core,QUANT,T2,Kurala göre müşteri bu park için ücret ödemek zorunda mı?,True,False,3
+C023,core,QUANT,T2,Müşterinin bu ay hesabına yatan maaş ve havale tutarları toplamı 5.000 TL veya daha fazla mı?,False,False,3
+C024,core,QUANT,T2,"Satıcıdan kesilen komisyon, satış tutarının %5'inden fazla mı?",False,False,3
+C025,core,QUANT,T2,Kurala göre müşterinin sipariş tutarı minimum tutarı karşılıyor mu?,True,False,3
+C026,core,QUANT,T2,Kurala göre müşterinin cihazı değişim için gerekli servis kaydı sayısına ulaştı mı?,True,False,3
+C027,core,QUANT,T2,Kurala göre müşterinin şampuanı kabin bagajına alınabilir mi?,True,False,3
+C028,core,QUANT,T2,Kurala göre bu taşınma için kilometre başına ek ücret alınır mı?,True,False,3
+C029,core,QUANT,T2,"Müşterinin yatırdığı kapora, ürün bedelinin yarısından fazla mı?",False,False,3
+C030,core,QUANT,T2,Müşterinin sepet tutarı 1.000 TL veya daha fazla mı?,False,False,3
+C031,core,QUANT,T2,Kurala göre müşterinin grubu grup indiriminden yararlanabilir mi?,True,False,3
+C032,core,QUANT,T2,Kurala göre müşteri kardeş indiriminden yararlanabilir mi?,True,False,3
+C033,core,QUANT,T2,Kurala göre müşterinin kalan borcu abonelik kesilmesini önleyen sınırın içinde mi?,True,False,3
+C034,core,QUANT,T2,Müşterinin rezervasyonunun toplam tutarı 3.000 TL veya daha fazla mı?,False,False,3
+C035,core,QUANT,T2,Kurala göre müşterinin aile paketi için ek kullanıcı ücreti alınır mı?,True,False,3
+C036,core,QUANT,T2,Kurala göre müşteri hediye çeki almaya hak kazandı mı?,True,False,3
+C037,core,QUANT,T2,Kurala göre müşterinin bugünkü havalesi günlük limiti aşıyor mu?,True,False,3
+C038,core,QUANT,T2,Kurala göre bu mahalle için servis güzergâhı açılır mı?,True,False,3
+C039,core,QUANT,T2,Müşterinin hesabında kalan bakiye 100 TL veya daha fazla mı?,True,False,3
+C040,core,QUANT,T2,Müşterinin siparişine uygulanan indirim 250 TL veya daha fazla mı?,False,False,3
+C041,core,TIME,T2,Kurala göre müşteri üyelik iptalini ücret iadesi alabileceği süre içinde mi yapıyor?,True,False,3
+C042,core,TIME,T2,Kurala göre müşterinin kayıt iptali ücretsiz iptal süresine giriyor mu?,True,False,3
+C043,core,TIME,T2,Kurala göre müşteri ücretsiz kontrol hakkını süresi içinde mi kullanıyor?,True,False,3
+C044,core,TIME,T2,Kurala göre müşteri prim iadesi için başvuruyu süresi içinde mi yapıyor?,True,False,3
+C045,core,TIME,T2,Kurala göre müşteri teslimat gecikmesi nedeniyle indirim kuponu almaya hak kazandı mı?,True,False,3
+C046,core,TIME,T2,Kurala göre müşteri bileti tam iade alınabilecek kadar erken mi iptal ediyor?,True,False,3
+C047,core,TIME,T2,Kurala göre müşteri gecikme indirimi almaya hak kazandı mı?,True,False,3
+C048,core,TIME,T2,Kurala göre müşterinin otopark süresi ücretsiz kapsamda mı?,True,False,3
+C049,core,TIME,T2,Kurala göre müşteri eksik ürünü süresi içinde mi bildiriyor?,True,False,3
+C050,core,TIME,T2,Kurala göre müşteri montaj hatasını süresi içinde mi bildiriyor?,True,False,3
+C051,core,TIME,T2,Kurala göre müşteri rezervasyonu ücretsiz iptal edebilecek kadar erken mi yazıyor?,True,False,3
+C052,core,TIME,T2,Kurala göre müşteri lisans iadesini süresi içinde mi talep ediyor?,True,False,3
+C053,core,TIME,T2,Kurala göre nakliye ekibi tazminat ödenecek kadar geç mi geldi?,True,False,3
+C054,core,TIME,T2,Kurala göre müşterinin aidatı zamanında ödendi mi?,True,False,3
+C055,core,TIME,T2,Kurala göre müşterinin teslimatı gecikme tazminatı ödenecek kadar geç mi yapıldı?,True,False,3
+C056,core,TIME,T2,Kurala göre müşteri taahhüt süresi dolmadan mı iptal ediyor?,True,False,3
+C057,core,TIME,T2,Kurala göre çocuğun kreşte kalış süresi ek ücret alınan sınırı aşıyor mu?,True,False,3
+C058,core,TIME,T2,Kurala göre müşteri solmuş çiçeği süresi içinde mi bildiriyor?,True,False,3
+C059,core,TIME,T2,Kurala göre müşteri kaporanın iadesi için yeterince erken mi iptal ediyor?,True,False,3
+C060,core,TIME,T2,Kurala göre müşteri yıllık plan iadesini süresi içinde mi talep ediyor?,True,False,3
+C061,core,ACTOR,T2,Online check-in işlemini müşterinin kendisi mi yaptı?,False,True,3
+C062,core,ACTOR,T2,Randevuyu müşterinin annesi mi iptal etti?,False,True,3
+C063,core,ACTOR,T2,Onam formunu fiilen müşterinin kendisi mi imzaladı?,False,True,3
+C064,core,ACTOR,T2,Spor salonu üyeliğini müşterinin eşi mi dondurdu?,False,True,3
+C065,core,ACTOR,T2,Poliçeyi müşterinin kendisi mi yeniledi?,False,True,3
+C066,core,ACTOR,T2,Modem kurulumunu müşterinin eşi mi yaptı?,False,True,3
+C067,core,ACTOR,T2,Doğalgaz aboneliğini müşterinin kendisi mi başlattı?,False,True,3
+C068,core,ACTOR,T2,Kiralık aracı müşteri ile eşi birlikte mi teslim aldı?,False,True,3
+C069,core,ACTOR,T2,Montu kuru temizlemeye müşterinin kardeşi mi bıraktı?,False,True,3
+C070,core,ACTOR,T2,Su faturasını müşterinin eşi mi ödedi?,False,True,3
+C071,core,ACTOR,T2,Otel rezervasyonunu müşterinin annesi mi yaptı?,False,True,3
+C072,core,ACTOR,T2,Kurs kaydını müşterinin kardeşi mi yaptı?,False,True,3
+C073,core,ACTOR,T2,Baskı onayını müşterinin iş ortağı mı verdi?,False,True,3
+C074,core,ACTOR,T2,Çiçek siparişini müşterinin arkadaşı mı verdi?,False,True,3
+C075,core,ACTOR,T2,Market siparişini müşterinin oğlu mu verdi?,False,True,3
+C076,core,ACTOR,T2,Asansörün arıza kaydını site yöneticisi mi açtı?,False,True,3
+C077,core,ACTOR,T2,Kayıt formunu müşterinin kendisi mi doldurdu?,False,True,3
+C078,core,ACTOR,T2,Su kaçağı için servis kaydını müşterinin kuzeni mi açtı?,False,True,3
+C079,core,ACTOR,T2,Baskı siparişini müşterinin ablası mı verdi?,False,True,3
+C080,core,ACTOR,T2,Eşyaları müşterinin kardeşi mi paketledi?,False,True,3
+C081,core,SOURCE,T2,Müşterinin muayene randevusu onaylandı mı?,False,False,3
+C082,core,SOURCE,T2,Teknisyen müşterinin evine geldi mi?,False,False,3
+C083,core,SOURCE,T2,Siparişteki tatlı müşteriye ulaştı mı?,False,False,3
+C084,core,SOURCE,T2,Müşterinin otobüs seferinin saati değişti mi?,False,False,3
+C085,core,SOURCE,T2,Otel görevlileri müşterinin odasını temizledi mi?,False,False,3
+C086,core,SOURCE,T2,Müşteri üyelik ücretini ödedi mi?,False,False,3
+C087,core,SOURCE,T2,Sağ kapıdaki çizik araç teslim alınırken zaten var mıydı?,False,False,3
+C088,core,SOURCE,T2,Montaj ekibi müşterinin dolabını kurdu mu?,False,False,3
+C089,core,SOURCE,T2,Kuru temizleme ceketin lekesini çıkardı mı?,False,False,3
+C090,core,SOURCE,T2,Havale müşterinin kardeşinin hesabına yattı mı?,False,False,3
+C091,core,SOURCE,T2,Sigorta eksperi müşterinin aracını inceledi mi?,False,False,3
+C092,core,SOURCE,T2,Satın alınan oyun müşterinin kütüphanesine eklendi mi?,False,False,3
+C093,core,SOURCE,T2,Müşterinin paylaşım bağlantısı çalışıyor mu?,False,False,3
+C094,core,SOURCE,T2,Servis müşterinin çamaşır makinesinin pompasını değiştirdi mi?,False,False,3
+C095,core,SOURCE,T2,Çiçekler müşterinin annesine ulaştı mı?,False,False,3
+C096,core,SOURCE,T2,Matbaa müşterinin kartvizitlerini bastı mı?,False,False,3
+C097,core,SOURCE,T2,Nakliyeciler koltuğu merdivende düşürdü mü?,False,False,3
+C098,core,SOURCE,T2,Otopark görevlisi müşteriye makbuz verdi mi?,False,False,3
+C099,core,SOURCE,T2,Müşterinin oğlu bugün kreşe gitti mi?,False,False,3
+C100,core,SOURCE,T2,Müşterinin evinde elektrik kesildi mi?,False,False,3
+C101,core,COND,T2,Doğalgaz sayacı bu ay okundu mu?,False,False,3
+C102,core,COND,T2,Müşteri yabancı dil kursuna kayıt oldu mu?,False,False,3
+C103,core,COND,T2,Dolap teslimat sırasında yere düştü mü?,False,False,3
+C104,core,COND,T2,Müşteri rezervasyon tarihini değiştirdi mi?,False,False,3
+C105,core,COND,T2,Müşteri hat devri için noterden onay aldı mı?,False,False,3
+C106,core,COND,T2,Müşteri spor salonu üyeliğini yeniledi mi?,False,False,3
+C107,core,COND,T2,Müşteri kiralama sözleşmesini imzaladı mı?,False,False,3
+C108,core,COND,T2,Müşteri kedisini geçen ay kontrole götürdü mü?,False,False,3
+C109,core,COND,T1,Bu mesajda müşteri siparişine L beden ürün gönderilmesini talep ediyor mu?,False,False,3
+C110,core,COND,T2,Müşteri otobüs biletini geçen hafta aldı mı?,False,False,3
+C111,core,COND,T2,Müşterinin montu kuru temizlemeye bırakıldı mı?,False,False,3
+C112,core,COND,T2,Müşteri fotoğraflarını buluta yedekledi mi?,False,False,3
+C113,core,COND,T1,Bu mesajda müşteri broşürlerin yeniden basılmasını talep ediyor mu?,False,False,3
+C114,core,COND,T2,Kreş bu dönem aidat artışı yaptı mı?,False,False,3
+C115,core,COND,T2,Müşterinin eşi klimayı söktü mü?,False,False,3
+C116,core,COND,T2,Müşteri çiçek siparişini iptal etti mi?,False,False,3
+C117,core,COND,T2,Nakliye ekibi eşyaları yeni adrese ulaştırdı mı?,False,False,3
+C118,core,COND,T2,Kurye müşterinin zilini çaldı mı?,False,False,3
+C119,core,COND,T1,Bu mesajda müşteri mevcut elektrik aboneliğinin kapatılmasını talep ediyor mu?,False,False,3
+C120,core,COND,T1,Bu mesajda müşteri otopark aboneliğinin iptal edilmesini talep ediyor mu?,False,False,3
+C121,core,UPDATE,T2,Müşterinin rezervasyonu şu anda üç gecelik mi?,False,False,3
+C122,core,UPDATE,T2,Müşteri siparişi iptal etmeden önce restoranı aradı mı?,False,False,3
+C123,core,UPDATE,T2,Müşterinin randevusu şu anda cuma gününe alınmış durumda mı?,False,False,3
+C124,core,UPDATE,T2,Müşterinin elektrik faturası ödenmiş durumda mı?,False,False,3
+C125,core,UPDATE,T2,Müşteri şu anda 200 GB'lık pakette mi?,False,False,3
+C126,core,UPDATE,T2,Bilet iade tutarı müşterinin hesabına yatmış durumda mı?,False,False,3
+C127,core,UPDATE,T2,Müşterinin montaj randevusu şu anda geçerli mi?,False,False,3
+C128,core,UPDATE,T2,Müşteri kitap paketini kargoya verdi mi?,False,False,3
+C129,core,UPDATE,T2,Müşterinin bu ayki aidatı ödenmiş durumda mı?,False,False,3
+C130,core,UPDATE,T2,Müşteri servis ücretini teknisyen gelmeden önce mi ödedi?,False,False,3
+C131,core,UPDATE,T2,Müşteri fotoğraf baskı siparişini pazartesi günü mü verdi?,False,False,3
+C132,core,UPDATE,T2,Müşterinin ceketindeki leke çıkmış durumda mı?,False,False,3
+C133,core,UPDATE,T2,Müşterinin sepetinde şu anda süt var mı?,False,False,3
+C134,core,UPDATE,T2,Müşterinin kartından çekilmiş ve henüz iade edilmemiş bir kiralama depozitosu var mı?,False,False,3
+C135,core,UPDATE,T1,Bu mesajda müşteri broşürlerin 300 adet basılmasını talep ediyor mu?,False,False,3
+C136,core,UPDATE,T1,Bu mesajda müşteri biletinin iptal edilmesini talep ediyor mu?,False,False,3
+C137,core,UPDATE,T1,Müşteri velilik toplantısına kendisinin gideceğini söylüyor mu?,False,False,3
+C138,core,UPDATE,T1,Müşteri faturanın basılı olarak adresine gönderilmesini istiyor mu?,False,False,3
+C139,core,UPDATE,T1,Bu mesajda müşteri poliçesine cam kırılması teminatı eklenmesini talep ediyor mu?,False,False,3
+C140,core,UPDATE,T1,Müşteri aracı servise bugün getireceğini söylüyor mu?,False,False,3
+C141,core,REQ,T1,Bu mesajda müşteri doğalgaz sayacının yeniden okunmasını talep ediyor mu?,False,False,3
+C142,core,REQ,T1,Bu mesajda müşteri rezervasyonundaki bagaj hakkının artırılmasını talep ediyor mu?,False,False,3
+C143,core,REQ,T1,Bu mesajda müşteri üyeliğinin dondurulmasını talep ediyor mu?,False,False,3
+C144,core,REQ,T1,Müşteri perşembe günkü randevusuna gideceğini söylüyor mu?,False,False,3
+C145,core,REQ,T1,Müşteri yanlış gelen yemeğin yerine doğrusunun gönderilmesini istiyor mu?,False,False,3
+C146,core,REQ,T1,Bu mesajda müşteri kargosunun başka bir adrese gönderilmesini talep ediyor mu?,False,False,3
+C147,core,REQ,T1,Bu mesajda müşteri elektrik faturasındaki adres bilgisinin düzeltilmesini talep ediyor mu?,False,False,3
+C148,core,REQ,T1,Bu mesajda müşteri poliçesinin yenilenmesini talep ediyor mu?,True,False,3
+C149,core,REQ,T1,Bu mesajda müşteri paltosunun düğmelerinin dikilmesini talep ediyor mu?,False,False,3
+C150,core,REQ,T1,Müşteri internet paketini yükselteceğini söylüyor mu?,False,False,3
+C151,core,REQ,T1,Mesajda tam bir IBAN yer alıyor mu?,True,False,3
+C152,core,REQ,T1,Mesajda tam bir telefon numarası yer alıyor mu?,True,False,3
+C153,core,REQ,T1,"Bu mesaj, verilen kurala göre müşterinin tüketici hakem heyetine başvuru planını içeriyor mu?",True,False,3
+C154,core,REQ,T1,Bu mesajda müşteri odasının bugün temizlenmesini talep ediyor mu?,False,False,3
+C155,core,REQ,T1,Müşteri aracı yarın teslim edeceğini söylüyor mu?,False,False,3
+C156,core,REQ,T1,Bu mesajda müşteri kızının öğle uykusu saatinin değiştirilmesini talep ediyor mu?,False,False,3
+C157,core,REQ,T1,Bu mesajda müşteri depolama alanının artırılmasını talep ediyor mu?,False,False,3
+C158,core,REQ,T1,Bu mesajda müşteri köpeğinin aşı randevusunun ertelenmesini talep ediyor mu?,False,False,3
+C159,core,REQ,T1,Bu mesajda müşteri siparişine ek broşür basılmasını talep ediyor mu?,False,False,3
+C160,core,REQ,T1,Bu mesajda müşteri biletindeki yolcu adının değiştirilmesini talep ediyor mu?,False,False,3
+C161,core,REF,T2,Montu müşterinin kendisi mi kuru temizlemeye bıraktı?,False,True,3
+C162,core,REF,T2,Aboneliği müşterinin kendisi mi iptal etti?,False,True,3
+C163,core,REF,T2,Müşterinin dairesinin aidatı ödendi mi?,False,False,3
+C164,core,REF,T2,Yatak odasındaki klima su damlatıyor mu?,False,False,3
+C165,core,REF,T2,Çocuğu kreşten müşterinin annesi mi teslim aldı?,False,True,3
+C166,core,REF,T2,Sipariş edilen robot eksik parçalı mı geldi?,False,False,3
+C167,core,REF,T2,Fren balatalarının değişmesini servis müdürü mü önerdi?,False,True,3
+C168,core,REF,T2,Spor salonu müşterinin üyeliğini dondurdu mu?,False,False,3
+C169,core,REF,T2,Aramayı müşteri mi başlattı?,False,True,3
+C170,core,REF,T2,Evye çizik mi geldi?,False,False,3
+C171,core,REF,T2,Bileti müşterinin teyzesi mi iptal etti?,False,True,3
+C172,core,REF,T2,Müşterinin kardeşi yemek siparişini iptal etti mi?,False,False,3
+C173,core,REF,T2,Randevuyu müşterinin eşi mi aldı?,False,True,3
+C174,core,REF,T2,Çiçekleri müşterinin babası mı teslim aldı?,False,True,3
+C175,core,REF,T2,Kutuları asansöre kapıcı mı taşıdı?,False,True,3
+C176,core,REF,T2,Müşteri kampanya kuponunu kullandı mı?,False,False,3
+C177,core,REF,T2,Küçük mama kabı kırık mı geldi?,False,False,3
+C178,core,REF,T2,Hasar tutanağını müşterinin dayısı mı imzaladı?,False,True,3
+C179,core,REF,T2,Bariyere müşterinin kayınpederi mi çarptı?,False,True,3
+C180,core,REF,T2,Koltuk şu anda kokuyor mu?,False,False,3
+C181,core,LIST,T2,"Garanti, servis faturasındaki işçilik kalemini karşıladı mı?",False,False,3
+C182,core,LIST,T2,Müşteri ceketi iade etti mi?,False,False,3
+C183,core,LIST,T2,Siparişteki şampuan müşterinin eline ulaştı mı?,False,False,3
+C184,core,LIST,T2,Yatak odasındaki klima monte edildi mi?,False,False,3
+C185,core,LIST,T2,Müşterinin fotoğraflar klasörü silindi mi?,False,False,3
+C186,core,LIST,T2,Kiralama faturasında ek sürücü ücreti var mı?,False,False,3
+C187,core,LIST,T2,Müşterinin hesabına DLC eklendi mi?,False,False,3
+C188,core,LIST,T2,Siparişteki yoğurt bozuk geldi mi?,False,False,3
+C189,core,LIST,T2,Kurala göre bu sipariş ücretsiz kargo için yeterli mi?,True,False,3
+C190,core,LIST,T2,Rezervasyon fiyatına kahvaltı dahil mi?,False,False,3
+C191,core,LIST,T2,Yatak odasında su kaçağı var mı?,False,False,3
+C192,core,LIST,T2,Faturadaki vergi kalemi hatalı mı?,False,False,3
+C193,core,LIST,T2,Kurala göre müşterinin sepetinde kampanyaya uygun ürün var mı?,True,False,3
+C194,core,LIST,T2,Kurala göre dairedeki araç sayısı otopark kartı sınırını aşıyor mu?,True,False,3
+C195,core,LIST,T2,Poliçede deprem teminatı var mı?,False,False,3
+C196,core,LIST,T2,Setteki fil figürü hasarlı mı?,False,False,3
+C197,core,LIST,T2,Müşteri kayıt bedelini ödedi mi?,False,False,3
+C198,core,LIST,T2,Uçuşta içecek ikram edildi mi?,False,False,3
+C199,core,LIST,T2,Müşterinin gömleği temizlendi mi?,False,False,3
+C200,core,LIST,T2,Müşterinin şofbeni arızalı mı?,False,False,3
+X001,challenge,NEG,T2,Müşterinin uçuşu iptal edildi mi?,False,False,3
+X002,challenge,NEG,T2,Öğretmen ya da yardımcı hoca müşterinin oğluna öğle ilacını verdi mi?,False,False,3
+X003,challenge,NEG,T2,Müşteri otobüs biletini iptal etti mi?,False,False,3
+X004,challenge,NEG,T2,Müşteri bu ayki doğalgaz sayaç endeksini bildirdi mi?,False,False,3
+X005,challenge,NEG,T2,Müşterinin telefonuna tarife değişikliği için onay mesajı geldi mi?,False,False,3
+X006,challenge,NEG,T2,Gelen yemek paketinde ayran var mıydı?,False,False,3
+X007,challenge,NEG,T2,Bulaşık makinesiyle birlikte müşteriye garanti belgesi verildi mi?,False,False,3
+X008,challenge,NEG,T2,Montaj için söylenen ustalardan en az biri geldi mi?,False,False,3
+X009,challenge,NEG,T2,Montaj ekibi klimanın dış ünitesini balkona sabitleyebildi mi?,False,False,3
+X010,challenge,NEG,T2,Baskıya geçilmeden önce müşteri prova çıktısını onayladı mı?,False,False,3
+X011,challenge,NEG,T2,Taşınma sırasında müşterinin eşyalarından biri kırıldı mı?,False,False,3
+X012,challenge,NEG,T2,Müşteriye randevu saatinin değiştiği bildirildi mi?,False,False,3
+X013,challenge,NEG,T2,Kurala göre müşterinin iade talebi kabul edilir mi?,True,False,3
+X014,challenge,NEG,T2,Müşterinin evinde şu anda su geliyor mu?,False,False,3
+X015,challenge,NEG,T2,Müşteri aracı teslim alırken aracın sağ kapısında çizik var mıydı?,False,False,3
+X016,challenge,NEG,T2,Müşteri haziran abonelik ücretini ödedi mi?,False,False,3
+X017,challenge,NEG,T2,Müşteri kredinin taksitlerinden en az birini ödedi mi?,False,False,3
+X018,challenge,NEG,T2,Kurala göre sigorta müşterinin tedavi giderlerini karşılar mı?,True,False,3
+X019,challenge,NEG,T2,Müşteri yazılım lisansını yeniledi mi?,False,False,3
+X020,challenge,NEG,T2,Silinen dosyalar müşterinin klasörüne geri yüklendi mi?,False,False,3
+X021,challenge,NEG,T2,Müşteri spor salonuna kayıt ücretini ödedi mi?,False,False,3
+X022,challenge,NEG,T2,Montun 42 bedeni müşterinin aradığı dört mağazadan en az birinde stokta mı?,False,False,3
+X023,challenge,NEG,T2,Müşterinin gelen kulaklığında hasar var mı?,False,False,3
+X024,challenge,NEG,T2,Asansör bu hafta arızalandı mı?,False,False,3
+X025,challenge,NEG,T2,Müşterinin e-posta hesabına doğrulama e-postası geldi mi?,False,False,3
+X026,challenge,NEG,T2,Müşteri iade paketini kargoya verdi mi?,False,False,3
+X027,challenge,NEG,T2,Mutfak musluğu şu anda damlıyor mu?,False,False,3
+X028,challenge,NEG,T2,Kuru temizleyici paltoyu teslim alırken müşteriyle birlikte kontrol etti mi?,False,False,3
+X029,challenge,NEG,T2,Müşteri kendi koltuğunu seçebildi mi?,False,False,3
+X030,challenge,NEG,T2,Gelen mama torbasının üzerinde etiket var mıydı?,False,False,3
+X031,challenge,NEG,T2,Elektrik faturasına gecikme zammı işlendi mi?,False,False,3
+X032,challenge,NEG,T2,Kurala göre müşterinin hasar tazminatı ödenir mi?,True,False,3
+X033,challenge,NEG,T2,Müşteri siparişinin hepsini teslim aldı mı?,False,False,3
+X034,challenge,NEG,T2,Kapıya gelen kişi operatörün teknisyeni miydi?,False,False,3
+X035,challenge,NEG,T2,Gruptaki arkadaşlardan en az biri konser bileti aldı mı?,False,False,3
+X036,challenge,NEG,T2,Müşterinin otel odasında kasa var mıydı?,False,False,3
+X037,challenge,NEG,T2,Çilingir müşterinin kapısını açtı mı?,False,False,3
+X038,challenge,NEG,T2,Müşteri kitabı iade kutusuna bıraktı mı?,False,False,3
+X039,challenge,NEG,T2,Müşterinin röntgeninde çürük tespit edildi mi?,False,False,3
+X040,challenge,NEG,T2,Aracın periyodik bakımı yapıldı mı?,False,False,3
+X041,challenge,NEG,T2,Kurala göre kedinin aşısı yapılır mı?,True,False,3
+X042,challenge,NEG,T2,Oyuncak setinde eksik parça var mı?,False,False,3
+X043,challenge,NEG,T2,Tamirci telefonun şarj soketini değiştirdi mi?,False,False,3
+X044,challenge,NEG,T2,Kurye müşterinin kapı zilini çaldı mı?,False,False,3
+X045,challenge,NEG,T2,Destek ekibi hesaptaki satın alımı iade etti mi?,False,False,3
+X046,challenge,NEG,T2,Müşterinin kurs hesabına erişimi kapatıldı mı?,False,False,3
+X047,challenge,NEG,T2,Kartın yıllık kullanım ücreti var mı?,False,False,3
+X048,challenge,NEG,T2,Bisikletin ön tekerinde hava kaçağı var mı?,False,False,3
+X049,challenge,NEG,T2,Müşteri poliçe belgesini aldı mı?,False,False,3
+X050,challenge,NEG,T2,Müşteri düğün salonu rezervasyonunu iptal etti mi?,False,False,3
+X051,challenge,QUANT,T2,Kurala göre müşterinin kartına iade edilecek tutar 500 TL'den fazla mı?,True,False,3
+X052,challenge,QUANT,T2,Kurala göre müşteriye iade edilecek tutar 2.000 TL veya daha fazla mı?,True,False,3
+X053,challenge,QUANT,T2,"Müşterinin peşinat dahil ödeyeceği toplam tutar, ürünün peşin fiyatından fazla mı?",False,False,3
+X054,challenge,QUANT,T2,Kurala göre müşteri bu ay sadakat indirimi için yeterli sayıda gün salona geldi mi?,True,False,3
+X055,challenge,QUANT,T2,Kurala göre müşteri sözleşmesini cezasız feshedebilir mi?,True,False,3
+X056,challenge,QUANT,T2,Kurala göre müşteriden yazılı onay alınması gerekiyor mu?,True,False,3
+X057,challenge,QUANT,T2,"Yıllık plan, aylık planı 12 ay ödemeye göre en az 600 TL daha ucuz mu?",False,False,3
+X058,challenge,QUANT,T2,Kurala göre müşterinin broşür siparişi için ödeyeceği toplam tutar 3.000 TL'yi aşıyor mu?,True,False,3
+X059,challenge,QUANT,T2,Kurala göre bu teslimat ücretsiz mi?,True,False,3
+X060,challenge,QUANT,T2,Kurala göre müşteriye sadık öğrenci indirimi uygulanır mı?,True,False,3
+X061,challenge,QUANT,T2,Kurala göre müşterinin iade kargo ücreti kendisine ait mi?,True,False,3
+X062,challenge,QUANT,T2,Kurala göre müşterinin faturası taksitlendirme için yeterli mi?,True,False,3
+X063,challenge,QUANT,T2,Kurala göre müşterinin siparişi toplu alım indirimi için yeterli sayıda oyuncak içeriyor mu?,True,False,3
+X064,challenge,QUANT,T2,Kurala göre müşterinin rezervasyonu ücretsiz koltuk seçimi için yeterli sayıda yolcu içeriyor mu?,True,False,3
+X065,challenge,QUANT,T2,Kurala göre bu yılki aylık aidat kat malikleri kurulu onayı gerektiriyor mu?,True,False,3
+X066,challenge,QUANT,T2,Müşterinin baskı siparişinin toplam tutarı 500 TL veya daha fazla mı?,False,False,3
+X067,challenge,QUANT,T2,Müşterinin ödediği tur bedeli 3.500 TL'den fazla mı?,False,False,3
+X068,challenge,QUANT,T2,Kurala göre bu hasar için ekspertiz raporu zorunlu mu?,True,False,3
+X069,challenge,QUANT,T2,Kurala göre müşterinin lisansı için ek lisans gerekiyor mu?,True,False,3
+X070,challenge,QUANT,T2,Kurala göre müşterinin evi için ek personel ücreti alınır mı?,True,False,3
+X071,challenge,QUANT,T2,Kurala göre oyun için iade yapılabilir mi?,True,False,3
+X072,challenge,QUANT,T2,Kurala göre müşteri aboneliğin yeniden açılması için yeterli tutarı yatırdı mı?,True,False,3
+X073,challenge,QUANT,T2,Kurala göre müşterinin kaydı dondurulabilir mi?,True,False,3
+X074,challenge,QUANT,T2,Müşterinin rezervasyonundaki toplam konaklama bedeli 10.000 TL veya daha fazla mı?,False,False,3
+X075,challenge,QUANT,T2,Müşterinin sepet tutarı 1.000 TL veya daha fazla mı?,False,False,3
+X076,challenge,QUANT,T2,Kurala göre müşterinin gardırobu asansörle taşınabilir mi?,True,False,3
+X077,challenge,QUANT,T2,Kurala göre bu sıvılar tek kolide gönderilebilir mi?,True,False,3
+X078,challenge,QUANT,T2,Kurala göre bu koli için ek ücret alınır mı?,True,False,3
+X079,challenge,QUANT,T2,Kurala göre müşteriye telafi kuponu verilir mi?,True,False,3
+X080,challenge,QUANT,T2,Kurala göre müşterinin depolama alanı yeni yedekleme için yeterli mi?,True,False,3
+X081,challenge,QUANT,T2,Kurala göre müşterinin kiralama ücreti 70 TL'den fazla mı?,True,False,3
+X082,challenge,QUANT,T2,Kurala göre müşteri sınava girebilir mi?,True,False,3
+X083,challenge,QUANT,T2,Kurala göre müşteri çocuklarının hepsi için çocuk bileti alabilir mi?,True,False,3
+X084,challenge,QUANT,T2,Kurala göre müşterinin hattına tarife yükseltme teklifi sunulur mu?,True,False,3
+X085,challenge,QUANT,T2,Kurala göre müşterinin işlemi toplu bilet indirimi için yeterli sayıda bilet içeriyor mu?,True,False,3
+X086,challenge,QUANT,T2,Kurala göre müşterinin valizi ücretsiz bagaj hakkı içinde mi?,True,False,3
+X087,challenge,QUANT,T2,Kurala göre salona ek güvenlik görevlisi çağrılır mı?,True,False,3
+X088,challenge,QUANT,T2,Kurala göre müşterinin cihazı ücretsiz değişim için gerekli servis kaydı sayısına ulaştı mı?,True,False,3
+X089,challenge,QUANT,T2,Kurala göre müşterinin ödeyeceği toplam tutar 3.000 TL'yi aşıyor mu?,True,False,3
+X090,challenge,QUANT,T2,Müşterinin hediye kartındaki bakiye 450 TL'den fazla mı?,True,False,3
+X091,challenge,QUANT,T2,Kurala göre müşterinin işlemi toplu indirim için yeterli sayıda ücretli bilet içeriyor mu?,True,False,3
+X092,challenge,QUANT,T2,Kurala göre müşteriye uzatılmış garanti paketi sunulur mu?,True,False,3
+X093,challenge,QUANT,T2,Kurala göre müşteri erken kapama indiriminden yararlanabilir mi?,True,False,3
+X094,challenge,QUANT,T2,Müşterinin son üç aylık market harcaması ortalaması 2.000 TL'den fazla mı?,False,False,3
+X095,challenge,QUANT,T2,Kurala göre müşterinin halısı için ek ücret alınır mı?,True,False,3
+X096,challenge,QUANT,T2,Müşterinin tesisatçıya ödediği işçilik ücreti 1.000 TL'den fazla mı?,False,False,3
+X097,challenge,QUANT,T2,Kurala göre müşteri telafi muayenesine hak kazandı mı?,True,False,3
+X098,challenge,QUANT,T2,Müşterinin kiraladığı çadırın kapasitesi 5 kişi veya daha fazla mı?,False,False,3
+X099,challenge,QUANT,T2,Kurala göre müşterinin saha ücreti 300 TL'den fazla mı?,True,False,3
+X100,challenge,QUANT,T2,Kurala göre müşteriye ücretsiz hediye kutusu verilir mi?,True,False,3
+X101,challenge,TIME,T2,Kurala göre müşteri değişim talebini süresi içinde mi yapıyor?,True,False,3
+X102,challenge,TIME,T2,Kurala göre müşterinin rezervasyon iptali ücretsiz iptal süresine giriyor mu?,True,False,3
+X103,challenge,TIME,T2,Kurala göre müşterinin iade talebi için öngörülen süre henüz dolmadı mı?,True,False,3
+X104,challenge,TIME,T2,Kurala göre müşteri iadeyi süresi içinde mi talep ediyor?,True,False,3
+X105,challenge,TIME,T2,Kurala göre müşteri baskı hatasını süresi içinde mi bildiriyor?,True,False,3
+X106,challenge,TIME,T2,Kurala göre teslimat süresi müşterinin siparişi iptal etmesine imkân verecek kadar aşıldı mı?,True,False,3
+X107,challenge,TIME,T2,Kurala göre müşteri ücretsiz ilk bakım hakkını süresi içinde mi kullanıyor?,True,False,3
+X108,challenge,TIME,T2,Kurala göre müşterinin toplam kalış süresi ek ücret alınan sınırı aşıyor mu?,True,False,3
+X109,challenge,TIME,T2,Kurala göre müşterinin hediye çeki hâlâ kullanılabilir mi?,True,False,3
+X110,challenge,TIME,T2,Kurala göre müşteri ücretsiz tekrar tamiri süresi içinde mi talep ediyor?,True,False,3
+X111,challenge,TIME,T2,Kurala göre müşteri ücretsiz deneme süresi içinde mi iptal ediyor?,True,False,3
+X112,challenge,TIME,T2,Kurala göre müşteri su sızıntısını ücretsiz giderim süresi içinde mi bildiriyor?,True,False,3
+X113,challenge,TIME,T2,Kurala göre müşterinin ürün değişim talebi süre içinde mi?,True,False,3
+X114,challenge,TIME,T2,Kurala göre müşteri bilet değişikliğini ücretsiz yapılabilecek kadar erken mi istiyor?,True,False,3
+X115,challenge,TIME,T2,Kurala göre müşteri ücretsiz kontrol muayenesini süresi içinde mi istiyor?,True,False,3
+X116,challenge,TIME,T2,Kurala göre müşterinin kuponu geçerli süre içinde mi kullanıldı?,True,False,3
+X117,challenge,TIME,T2,Kurala göre müşteri bagaj hasarını süresi içinde mi bildiriyor?,True,False,3
+X118,challenge,TIME,T2,Kurala göre müşteri ayakkabı değişimini süresi içinde mi istiyor?,True,False,3
+X119,challenge,TIME,T2,Kurala göre müşterinin transfer iptali ücretsiz iptal kapsamında mı?,True,False,3
+X120,challenge,TIME,T2,Kurala göre müşteri geçici cihaz almaya hak kazandı mı?,True,False,3
+X121,challenge,TIME,T2,Kurala göre müşteri ücret iadesine hak kazandı mı?,True,False,3
+X122,challenge,TIME,T2,Kurala göre müşteri kozmetik ürünü süresi içinde mi iade ediyor?,True,False,3
+X123,challenge,TIME,T2,Kurala göre müşteri hasarı süresi içinde mi bildiriyor?,True,False,3
+X124,challenge,TIME,T2,Kurala göre müşterinin rötuş talebi ücretsiz süre içinde mi?,True,False,3
+X125,challenge,TIME,T2,Kurala göre müşteri ücretsiz arıza kaydını süresi içinde mi istiyor?,True,False,3
+X126,challenge,TIME,T2,Kurala göre müşterinin rezervasyon iptali ücretsiz iptal kapsamında mı?,True,False,3
+X127,challenge,TIME,T2,Kurala göre müşteri konaklama indirimine hak kazandı mı?,True,False,3
+X128,challenge,TIME,T2,Kurala göre müşterinin ders iptali ücretsiz iptal kapsamında mı?,True,False,3
+X129,challenge,TIME,T2,Kurala göre müşteri renk akmasını süresi içinde mi bildiriyor?,True,False,3
+X130,challenge,TIME,T2,Müşterinin kulaklık paketi söz verilen günden sonra mı teslim edildi?,False,False,3
+X131,challenge,TIME,T2,Kurala göre müşteri ücret iadesini süresi içinde mi talep ediyor?,True,False,3
+X132,challenge,TIME,T2,Kurala göre müşteri bir sonraki ay ücret alınmayacak kadar erken mi iptal ediyor?,True,False,3
+X133,challenge,TIME,T2,Kurala göre müşterinin kart iadesi için öngörülen süre henüz dolmadı mı?,True,False,3
+X134,challenge,TIME,T2,Müşteri siparişi kampanyanın bitiş tarihinden daha erken bir tarihte mi verdi?,False,False,3
+X135,challenge,TIME,T2,Müşteri aboneliğini son yenileme gününden daha erken bir tarihte mi yeniledi?,False,False,3
+X136,challenge,TIME,T2,Kurala göre müşteri gecikme indirimi almaya hak kazandı mı?,True,False,3
+X137,challenge,TIME,T2,Kurala göre müşteri tekrar muayeneyi ek ücret alınmayacak süre içinde mi istiyor?,True,False,3
+X138,challenge,TIME,T2,Kurala göre müşteri ücretsiz tekrar servisi süresi içinde mi talep ediyor?,True,False,3
+X139,challenge,TIME,T2,Kurala göre müşteri ücretsiz tekrar bakımı süresi içinde mi talep ediyor?,True,False,3
+X140,challenge,TIME,T2,Kurala göre müşterinin değişim talebi süre içinde mi?,True,False,3
+X141,challenge,TIME,T2,Kurala göre müşteri servis seferini ücretsiz iptal edebilecek kadar erken mi yazıyor?,True,False,3
+X142,challenge,TIME,T2,Kurala göre müşterinin teslimatı için öngörülen süre henüz dolmadı mı?,True,False,3
+X143,challenge,TIME,T2,Kurala göre müşteri kayıt yenilemesini zamsız ücret uygulanan süre içinde mi yaptı?,True,False,3
+X144,challenge,TIME,T2,Müşterinin paketi söz verilen günden sonra mı teslim edildi?,False,False,3
+X145,challenge,TIME,T2,Kurala göre müşteri renk solmasını süresi içinde mi bildiriyor?,True,False,3
+X146,challenge,TIME,T2,Söz verilen teslim günü geçti mi?,False,False,3
+X147,challenge,TIME,T2,Kurala göre müşteri kusuru süresi içinde mi bildiriyor?,True,False,3
+X148,challenge,TIME,T2,Kurala göre müşteri boya kusurunu süresi içinde mi bildiriyor?,True,False,3
+X149,challenge,TIME,T2,Müşteri servise randevu saatinden sonra mı vardı?,False,False,3
+X150,challenge,TIME,T2,Kurala göre müşteri kaporanın iadesi için yeterince erken mi iptal ediyor?,True,False,3
+X151,challenge,ACTOR,T2,Tarih değişikliğini müşterinin kendisi mi yaptı?,False,True,3
+X152,challenge,ACTOR,T2,Adresi uygulamaya müşterinin kuzeni mi girdi?,False,True,3
+X153,challenge,ACTOR,T2,Fren balatalarını servisteki usta mı değiştirdi?,False,True,3
+X154,challenge,ACTOR,T2,İç ünitenin braketini müşterinin kardeşi mi taktı?,False,True,3
+X155,challenge,ACTOR,T2,Dolabın montajını firmanın ekibi mi yaptı?,False,True,3
+X156,challenge,ACTOR,T2,Değişim talebini müşterinin kendisi mi açtı?,False,True,3
+X157,challenge,ACTOR,T2,Fotoğraf klasörünü müşterinin kendisi mi sildi?,False,True,3
+X158,challenge,ACTOR,T2,Lisans aktivasyonunu stajyer mi yaptı?,False,True,3
+X159,challenge,ACTOR,T2,Aylık otopark ücretini müşterinin eşi mi yatırdı?,False,True,3
+X160,challenge,ACTOR,T2,Serumun mührünü müşterinin kardeşi mi kopardı?,False,True,3
+X161,challenge,ACTOR,T2,Oyun içi paketi müşterinin oğlu mu satın aldı?,False,True,3
+X162,challenge,ACTOR,T2,Bileti müşterinin iş arkadaşı mı iptal etti?,False,True,3
+X163,challenge,ACTOR,T2,Fatura adresini müşterinin kendisi mi girdi?,False,True,3
+X164,challenge,ACTOR,T2,Değişim işlemini müşterinin annesi bizzat kendisi mi yaptı?,False,True,3
+X165,challenge,ACTOR,T2,Dolapların içini temizlik görevlisi mi sildi?,False,True,3
+X166,challenge,ACTOR,T2,İhtiyaç kredisi başvurusunu müşterinin eşi mi yaptı?,False,True,3
+X167,challenge,ACTOR,T2,Mama aboneliğini müşterinin eşi mi başlattı?,False,True,3
+X168,challenge,ACTOR,T2,Bilet saatini gişe görevlisi mi değiştirdi?,False,True,3
+X169,challenge,ACTOR,T2,Garanti başvurusunu müşterinin kendisi mi açtı?,False,True,3
+X170,challenge,ACTOR,T2,Ekran değişimini yetkili servis mi yaptı?,False,True,3
+X171,challenge,ACTOR,T2,Hasar fotoğraflarını sigorta eksperi mi çekti?,False,True,3
+X172,challenge,ACTOR,T2,Hat taşıma işlemini müşterinin kayınpederi mi tamamladı?,False,True,3
+X173,challenge,ACTOR,T2,Teslim formunu müşterinin kendisi mi imzaladı?,False,True,3
+X174,challenge,ACTOR,T2,Elektrik aboneliğinin devrini müşterinin ev sahibi mi yaptı?,False,True,3
+X175,challenge,ACTOR,T2,Salonu müşteri ile kayınbiraderi birlikte mi boyadı?,False,True,3
+X176,challenge,ACTOR,T2,Provizyon talebini müşterinin kendisi mi açtı?,False,True,3
+X177,challenge,ACTOR,T2,Ek bagaj ücretini müşterinin abisi mi ödedi?,False,True,3
+X178,challenge,ACTOR,T2,Panoramik röntgeni diş asistanı mı çekti?,False,True,3
+X179,challenge,ACTOR,T2,Aile paketine geçişi müşterinin eşi mi yaptı?,False,True,3
+X180,challenge,ACTOR,T2,Muayene randevusunu müşterinin kızı mı aldı?,False,True,3
+X181,challenge,ACTOR,T2,Pantolonun paçasını terzinin kendisi mi kısalttı?,False,True,3
+X182,challenge,ACTOR,T2,İlk taksiti müşterinin kendisi mi ödedi?,False,True,3
+X183,challenge,ACTOR,T2,Halı sahayı müşterinin arkadaşı mı rezerve etti?,False,True,3
+X184,challenge,ACTOR,T2,Köpeği evcil hayvan oteline müşterinin eşi mi bıraktı?,False,True,3
+X185,challenge,ACTOR,T2,E-kitabı müşterinin kızı mı satın aldı?,False,True,3
+X186,challenge,ACTOR,T2,Menü seçimini müşterinin ablası mı yaptı?,False,True,3
+X187,challenge,ACTOR,T2,Filtreyi servis teknisyeni mi değiştirdi?,False,True,3
+X188,challenge,ACTOR,T2,Ürün yorumunu fiilen müşterinin kendisi mi yazdı?,False,True,3
+X189,challenge,ACTOR,T2,Mesajda belirtilen iki aramayı müşterinin annesi mi yaptı?,False,True,3
+X190,challenge,ACTOR,T2,Sınav başvurusunu kurs sekreteri mi yaptı?,False,True,3
+X191,challenge,ACTOR,T2,Taksiyi müşterinin eşi mi çağırdı?,False,True,3
+X192,challenge,ACTOR,T2,Kuaför randevusunu müşterinin arkadaşı mı aldı?,False,True,3
+X193,challenge,ACTOR,T2,Dış kapının kilidini çilingir mi değiştirdi?,False,True,3
+X194,challenge,ACTOR,T2,Taksitlendirme işlemini müşterinin kendisi mi yaptı?,False,True,3
+X195,challenge,ACTOR,T2,Kablo çekimini teknisyenin kendisi mi yaptı?,False,True,3
+X196,challenge,ACTOR,T2,Yazılım güncellemesini mağaza çalışanı mı yaptı?,False,True,3
+X197,challenge,ACTOR,T2,Çerçeveyi müşterinin komşusunun oğlu mu hizaladı?,False,True,3
+X198,challenge,ACTOR,T2,Pastayı pastaneden müşterinin amcası mı getirdi?,False,True,3
+X199,challenge,ACTOR,T2,Yurt başvurusunu müşterinin annesi mi yaptı?,False,True,3
+X200,challenge,ACTOR,T2,Kiralama sözleşmesini müşterinin kendisi mi imzaladı?,False,True,3
+X201,challenge,SOURCE,T2,Sayaç okuyucu müşterinin doğalgaz sayacını okudu mu?,False,False,3
+X202,challenge,SOURCE,T2,"Müşteriye gönderilen mont, sipariş ettiği bedende miydi?",False,False,3
+X203,challenge,SOURCE,T2,Veteriner müşterinin kedisine kuduz aşısı yaptı mı?,False,False,3
+X204,challenge,SOURCE,T2,Müşterinin hattına 10 GB ek paket tanımlandı mı?,False,False,3
+X205,challenge,SOURCE,T2,Kurs ücretinin iadesi müşterinin hesabına yattı mı?,False,False,3
+X206,challenge,SOURCE,T2,Tren bileti müşterinin istediği tarihe kesildi mi?,False,False,3
+X207,challenge,SOURCE,T2,Temizlik ekibi mutfak dolaplarının içini sildi mi?,False,False,3
+X208,challenge,SOURCE,T2,Klimanın iç ünitesi yatak odasına takıldı mı?,False,False,3
+X209,challenge,SOURCE,T2,Fotoğraflar parlak kâğıda basıldı mı?,False,False,3
+X210,challenge,SOURCE,T2,Müşterinin bu ayki aidatı yatırıldı mı?,False,False,3
+X211,challenge,SOURCE,T2,Servis müşterinin aracının hava filtresini değiştirdi mi?,False,False,3
+X212,challenge,SOURCE,T2,Kolide setin üçüncü cildi var mıydı?,False,False,3
+X213,challenge,SOURCE,T2,Oyuncak kutusundan garanti belgesi çıktı mı?,False,False,3
+X214,challenge,SOURCE,T2,Siparişteki yumurtalar müşteriye ulaştı mı?,False,False,3
+X215,challenge,SOURCE,T2,Lisans anahtarı müşterinin e-postasına geldi mi?,False,False,3
+X216,challenge,SOURCE,T2,Kargo kutusu ezik teslim edildi mi?,False,False,3
+X217,challenge,SOURCE,T2,Tesisatçı su kaçağını onardı mı?,False,False,3
+X218,challenge,SOURCE,T2,İade tutarı müşterinin kartına yansıdı mı?,False,False,3
+X219,challenge,SOURCE,T2,Müşteri rezervasyonu kahvaltılı seçenekle yaptı mı?,False,False,3
+X220,challenge,SOURCE,T2,Mama paketinin mührü kopuk muydu?,False,False,3
+X221,challenge,SOURCE,T2,Telefonun ekranında teslimatta çatlak vardı mı?,False,False,3
+X222,challenge,SOURCE,T2,Gardırobun sağ kapağı kırık mı teslim edildi?,False,False,3
+X223,challenge,SOURCE,T2,Kurye müşteriyi telefonla aradı mı?,False,False,3
+X224,challenge,SOURCE,T2,Diş hekimi müşterinin sol alt dişine dolgu yaptı mı?,False,False,3
+X225,challenge,SOURCE,T2,Teknisyen laptopun ekranını değiştirdi mi?,False,False,3
+X226,challenge,SOURCE,T2,Müşterinin valizi teslim bandına geldi mi?,False,False,3
+X227,challenge,SOURCE,T2,Sigorta şirketi müşterinin hasar dosyasını kapattı mı?,False,False,3
+X228,challenge,SOURCE,T2,Banka müşterinin yeni kartını postaya verdi mi?,False,False,3
+X229,challenge,SOURCE,T2,Yenileme ücreti müşterinin kartından çekildi mi?,False,False,3
+X230,challenge,SOURCE,T2,Müşterinin silinen klasörü geri yüklendi mi?,False,False,3
+X231,challenge,SOURCE,T2,Araç depo dolu teslim edildi mi?,False,False,3
+X232,challenge,SOURCE,T2,İade kargosu paketi müşterinin evinden aldı mı?,False,False,3
+X233,challenge,SOURCE,T2,Müşterinin su sayacı değiştirildi mi?,False,False,3
+X234,challenge,SOURCE,T2,Servis müşterinin kombisinin basınç valfini değiştirdi mi?,False,False,3
+X235,challenge,SOURCE,T2,Kasada kampanya indirimi uygulandı mı?,False,False,3
+X236,challenge,SOURCE,T2,Konser biletleri müşterinin e-postasına geldi mi?,False,False,3
+X237,challenge,SOURCE,T2,Pantolonun paçası kısaltıldı mı?,False,False,3
+X238,challenge,SOURCE,T2,Müşterinin otobüsü kalkış saatinden geç kalktı mı?,False,False,3
+X239,challenge,SOURCE,T2,Müşterinin internet tarifesi indirimli tarifeye geçirildi mi?,False,False,3
+X240,challenge,SOURCE,T2,Satıcı siparişteki ürünü kargoya verdi mi?,False,False,3
+X241,challenge,SOURCE,T2,Restoran müşterinin rezervasyonunu kaydetti mi?,False,False,3
+X242,challenge,SOURCE,T2,Tatil köyünün yüzme havuzu bugün açık mı?,False,False,3
+X243,challenge,SOURCE,T2,Uygulamanın açılış hatası düzeldi mi?,False,False,3
+X244,challenge,SOURCE,T2,Ayakkabının iki teki de aynı numara mıydı?,False,False,3
+X245,challenge,SOURCE,T2,Ev sahibi depozitoyu müşteriye iade etti mi?,False,False,3
+X246,challenge,SOURCE,T2,Fatura müşterinin e-postasına gönderildi mi?,False,False,3
+X247,challenge,SOURCE,T2,Gelen yatak sipariş edilen ölçüde miydi?,False,False,3
+X248,challenge,SOURCE,T2,Çekici müşterinin aracını yoldan aldı mı?,False,False,3
+X249,challenge,SOURCE,T2,Müşteri kayıt formunu okula teslim etti mi?,False,False,3
+X250,challenge,SOURCE,T2,Fotoğrafçı düğün albümünü müşteriye teslim etti mi?,False,False,3
+X251,challenge,COND,T2,Müşteri kasko firmasına hasar bildirimi yaptı mı?,False,False,3
+X252,challenge,COND,T2,Klinik müşterinin diş taşı temizliği randevusunu onayladı mı?,False,False,3
+X253,challenge,COND,T2,Müşteri valizini trende unuttu mu?,False,False,3
+X254,challenge,COND,T2,Müşteri site aidat borcunu ödedi mi?,False,False,3
+X255,challenge,COND,T2,Müşteri dizüstü bilgisayarı servise teslim etti mi?,False,False,3
+X256,challenge,COND,T2,Müşteri strateji oyununu satın aldı mı?,False,False,3
+X257,challenge,COND,T2,Müşteri muhasebe programının lisansını yeniledi mi?,False,False,3
+X258,challenge,COND,T2,Müşteri konser biletini ön satışta aldı mı?,False,False,3
+X259,challenge,COND,T2,Otel müşterinin rezervasyonunu iptal etti mi?,False,False,3
+X260,challenge,COND,T2,Müşterinin aracına kış lastikleri dün sabah yola çıkmadan önce takıldı mı?,False,False,3
+X261,challenge,COND,T2,Müşterinin internet arıza kaydı açıldı mı?,False,False,3
+X262,challenge,COND,T2,Müşteri robot süpürgeyi servise gönderdi mi?,False,False,3
+X263,challenge,COND,T2,Sipariş iptal edildi mi?,False,False,3
+X264,challenge,COND,T2,Müşteri kitap siparişini cuma günü evde teslim aldı mı?,False,False,3
+X265,challenge,COND,T1,Bu mesajda müşteri aboneliğinin iptal edilmesini talep ediyor mu?,False,False,3
+X266,challenge,COND,T2,Müşteri tur kaporasını yatırdı mı?,False,False,3
+X267,challenge,COND,T2,Müşteri ahşap tren setini iade etti mi?,False,False,3
+X268,challenge,COND,T2,Müşteri fazla bagaj ücretini ödedi mi?,False,False,3
+X269,challenge,COND,T1,Bu mesajda müşteri stokta olmayan ürünün yerine benzerinin gönderilmesini talep ediyor mu?,False,False,3
+X270,challenge,COND,T2,Müşteri kayıt yenileme formunu teslim etti mi?,False,False,3
+X271,challenge,COND,T2,Müşterinin telefonu tamir edildi mi?,False,False,3
+X272,challenge,COND,T2,Müşteri ana vanayı kapattı mı?,False,False,3
+X273,challenge,COND,T1,Bu mesajda müşteri odasının değiştirilmesini talep ediyor mu?,False,False,3
+X274,challenge,COND,T1,Bu mesajda müşteri EFT işleminin iptal edilmesini talep ediyor mu?,False,False,3
+X275,challenge,COND,T1,Bu mesajda müşteri direksiyon sınavının ertelenmesini talep ediyor mu?,False,False,3
+X276,challenge,COND,T2,Hastane provizyon başvurusunu yaptı mı?,False,False,3
+X277,challenge,COND,T2,Temizlik görevlisi vazoyu düşürdü mü?,False,False,3
+X278,challenge,COND,T2,Ev sahibi depozitoyu iade etti mi?,False,False,3
+X279,challenge,COND,T2,Müşteri biyometrik fotoğraflarını yanına aldı mı?,False,False,3
+X280,challenge,COND,T2,Müşteri yıllık plana geçti mi?,False,False,3
+X281,challenge,COND,T2,Müşteri numarasını bu operatöre taşıdı mı?,False,False,3
+X282,challenge,COND,T2,Müşteri araç muayene randevusunu aldı mı?,False,False,3
+X283,challenge,COND,T2,Müşterinin oğlu yaz dönemi yüzme kursuna kaydedildi mi?,False,False,3
+X284,challenge,COND,T2,Müşteri ayakkabı için değişim talebinde bulundu mu?,False,False,3
+X285,challenge,COND,T1,Müşteri üyeliğinin dondurulmasını istiyor mu?,False,False,3
+X286,challenge,COND,T2,Müşteri kedi mamasını toplu aldı mı?,False,False,3
+X287,challenge,COND,T2,Müşteri iade formunu gönderdi mi?,False,False,3
+X288,challenge,COND,T2,Müşterinin dairesindeki su sayacı değiştirildi mi?,False,False,3
+X289,challenge,COND,T2,Müşteri yeni buzdolabını cumartesi günü teslim aldı mı?,False,False,3
+X290,challenge,COND,T2,Yıkama personeli aracın sağ aynasını kırdı mı?,False,False,3
+X291,challenge,COND,T1,Bu mesajda müşteri konut kredisi başvurusunun iptal edilmesini talep ediyor mu?,False,False,3
+X292,challenge,COND,T2,Havale satıcının hesabına geçti mi?,False,False,3
+X293,challenge,COND,T2,Müşteri albüm baskı onay formunu imzaladı mı?,False,False,3
+X294,challenge,COND,T2,Müşteri salon halısını yıkamaya verdi mi?,False,False,3
+X295,challenge,COND,T2,Peyzaj ekibi budamayı tamamladı mı?,False,False,3
+X296,challenge,COND,T2,Müşteri düğün salonu kaporasını ödedi mi?,False,False,3
+X297,challenge,COND,T2,Müşteri dünkü lazer seansına katıldı mı?,False,False,3
+X298,challenge,COND,T1,Bu mesajda müşteri muayene randevusunun öne alınmasını talep ediyor mu?,False,False,3
+X299,challenge,COND,T1,Bu mesajda müşteri biletlerin iade edilmesini talep ediyor mu?,False,False,3
+X300,challenge,COND,T1,Bu mesajda müşteri paketin şubede bekletilmesini talep ediyor mu?,False,False,3
+X301,challenge,UPDATE,T2,Müşterinin internet arıza kaydı şu anda kapalı mı?,False,False,3
+X302,challenge,UPDATE,T2,Kurala göre müşteri iade talebini süresi içinde mi yapıyor?,True,False,3
+X303,challenge,UPDATE,T2,Müşterinin tarifesi şu anda 50 GB'lık mı?,False,False,3
+X304,challenge,UPDATE,T2,Müşteri gidiş biletini cumartesi seferine mi aldı?,False,False,3
+X305,challenge,UPDATE,T2,Müşterinin sağlık sigortası poliçesi yenilenmiş durumda mı?,False,False,3
+X306,challenge,UPDATE,T2,Müşterinin otopark aboneliği 1 Mayıs'ta sona erdi mi?,False,False,3
+X307,challenge,UPDATE,T2,Müşteri paketi yükseltmeden önce eski dosyaları silmeyi denedi mi?,False,False,3
+X308,challenge,UPDATE,T2,Kurala göre müşteriye yüksek tüketim uyarısı gönderilir mi?,True,False,3
+X309,challenge,UPDATE,T2,Müşterinin satın aldığı oyun iade edilmiş durumda mı?,False,False,3
+X310,challenge,UPDATE,T2,Müşteri nakliye depozitosunu keşif ziyaretinden önce mi yatırdı?,False,False,3
+X311,challenge,UPDATE,T2,Müşterinin spor salonu üyeliği 12 aya yenilenmiş durumda mı?,False,False,3
+X312,challenge,UPDATE,T2,Müşterinin diş randevusu iptal edilmiş durumda mı?,False,False,3
+X313,challenge,UPDATE,T2,Müşterinin kartından ürün bedeli olarak çekilmiş ve henüz iade edilmemiş bir tutar var mı?,False,False,3
+X314,challenge,UPDATE,T2,Müşteri koltuk siparişini şimdiye kadar en az bir kez iptal etti mi?,False,False,3
+X315,challenge,UPDATE,T2,Müşterinin çocuğunun kreş kaydı şu anda silinmiş durumda mı?,False,False,3
+X316,challenge,UPDATE,T2,Müşterinin su aboneliği şu anda kapalı mı?,False,False,3
+X317,challenge,UPDATE,T2,Müşterinin gönderdiği buket teslim edilmiş durumda mı?,False,False,3
+X318,challenge,UPDATE,T2,Müşterinin kedisinin aşı randevusu perşembeye alınmış durumda mı?,False,False,3
+X319,challenge,UPDATE,T1,Bu mesajda müşteri kart limitinin artırılmasını talep ediyor mu?,False,False,3
+X320,challenge,UPDATE,T1,Bu mesajda müşteri internet hattının yeni adrese taşınmasını talep ediyor mu?,False,False,3
+X321,challenge,UPDATE,T1,Bu mesajda müşteri temizlik ekibinin sabah gelmesini talep ediyor mu?,False,False,3
+X322,challenge,UPDATE,T1,Bu mesajda müşteri otelden geç çıkış yapmayı talep ediyor mu?,False,False,3
+X323,challenge,UPDATE,T1,Müşteri borcunun tamamını bu ay içinde ödeyeceğini söylüyor mu?,False,False,3
+X324,challenge,UPDATE,T1,Bu mesajda müşteri dolap teslimatının ertelenmesini talep ediyor mu?,False,False,3
+X325,challenge,UPDATE,T1,Bu mesajda müşteri lisansının otomatik yenilenmesini talep ediyor mu?,False,False,3
+X326,challenge,UPDATE,T2,Müşterinin kredi kartı şu anda bloke mi?,False,False,3
+X327,challenge,UPDATE,T2,Kurala göre müşterinin siparişi ücretsiz kargo kapsamında mı?,True,False,3
+X328,challenge,UPDATE,T2,Müşteri müzik aboneliğini iptal etti mi?,False,False,3
+X329,challenge,UPDATE,T2,Teknisyen çamaşır makinesinin kartını değiştirdi mi?,False,False,3
+X330,challenge,UPDATE,T2,Müşterinin bileti şu anda 18.00 uçuşuna değiştirilmiş durumda mı?,False,False,3
+X331,challenge,UPDATE,T2,Müşterinin telefonu servisten teslim alınmaya hazır mı?,False,False,3
+X332,challenge,UPDATE,T2,Müşteri odası değiştirilmeden önce resepsiyona şikâyet etti mi?,False,False,3
+X333,challenge,UPDATE,T2,Kurala göre müşteri kaydını ücretsiz iptal edebilir mi?,True,False,3
+X334,challenge,UPDATE,T2,Müşterinin musluktaki su kaçağı şu anda giderilmiş durumda mı?,False,False,3
+X335,challenge,UPDATE,T2,Müşterinin faturası şu anda 750 TL'nin altına düşürülmüş durumda mı?,False,False,3
+X336,challenge,UPDATE,T2,Müşterinin sipariş ettiği mama markası değiştirilmiş durumda mı?,False,False,3
+X337,challenge,UPDATE,T2,Lisans eski bilgisayardan kaldırılmış durumda mı?,False,False,3
+X338,challenge,UPDATE,T2,Müşteri kartvizit provasının son halini onayladı mı?,False,False,3
+X339,challenge,UPDATE,T2,Kurala göre müşteri seansı ücretsiz iptal edebilir mi?,True,False,3
+X340,challenge,UPDATE,T2,Müşteri aracı İzmir şubesinden mi teslim aldı?,False,False,3
+X341,challenge,UPDATE,T2,Müşterinin internet paketi 100 Mbps'e yükseltilmiş durumda mı?,False,False,3
+X342,challenge,UPDATE,T2,Müşteri iade paketini kargo firmasına teslim etti mi?,False,False,3
+X343,challenge,UPDATE,T1,Bu mesajda müşteri otomatik ödeme talimatının devam etmesini talep ediyor mu?,False,False,3
+X344,challenge,UPDATE,T1,Bu mesajda müşteri kulaklığın servise gönderilmesini talep ediyor mu?,False,False,3
+X345,challenge,UPDATE,T1,Bu mesajda müşteri akşam grubuna geçmeyi talep ediyor mu?,False,False,3
+X346,challenge,UPDATE,T1,Bu mesajda müşteri hasar dosyasının kapatılmasını talep ediyor mu?,False,False,3
+X347,challenge,UPDATE,T1,Bu mesajda müşteri hesabının silinmesini talep ediyor mu?,False,False,3
+X348,challenge,UPDATE,T1,Bu mesajda müşteri siparişine deterjan eklenmesini talep ediyor mu?,False,False,3
+X349,challenge,UPDATE,T1,Müşteri paketi şubeden kendisinin alacağını söylüyor mu?,False,False,3
+X350,challenge,UPDATE,T1,Bu mesajda müşteri mama aboneliğinin bir ay ertelenmesini talep ediyor mu?,False,False,3
+X351,challenge,REQ,T1,Bu mesajda müşteri montajın cumartesi yapılmasını talep ediyor mu?,False,False,3
+X352,challenge,REQ,T1,Bu mesajda müşteri bilet tarihinin değiştirilmesini talep ediyor mu?,False,False,3
+X353,challenge,REQ,T1,Bu mesajda müşteri oda değişikliği talep ediyor mu?,False,False,3
+X354,challenge,REQ,T1,"Bu mesaj, verilen kurala göre müşterinin rezervasyonunun iptal edilmesine ilişkin talebini içeriyor mu?",True,False,3
+X355,challenge,REQ,T1,Bu mesajda müşteri klima montaj randevusunun ertelenmesini talep ediyor mu?,False,False,3
+X356,challenge,REQ,T1,Bu mesajda müşteri kremin yeniden gönderilmesini talep ediyor mu?,False,False,3
+X357,challenge,REQ,T1,Mesajda tam bir IBAN yer alıyor mu?,True,False,3
+X358,challenge,REQ,T1,Mesajda tam bir kargo takip numarası yer alıyor mu?,True,False,3
+X359,challenge,REQ,T1,Bu mesajda müşteri su sayacının değiştirilmesini talep ediyor mu?,False,False,3
+X360,challenge,REQ,T1,Bu mesajda müşteri kurs kaydının dondurulmasını talep ediyor mu?,False,False,3
+X361,challenge,REQ,T1,Bu mesajda müşteri mama siparişinin bu hafta kargoya verilmesini talep ediyor mu?,False,False,3
+X362,challenge,REQ,T1,Müşteri aracının yağ değişiminin yapılmasını istiyor mu?,False,False,3
+X363,challenge,REQ,T1,Bu mesajda müşteri eksik gelen ürünün yeniden gönderilmesini talep ediyor mu?,False,False,3
+X364,challenge,REQ,T1,Bu mesajda müşteri kitabın değiştirilmesini talep ediyor mu?,False,False,3
+X365,challenge,REQ,T1,Müşteri lisansını yenileyeceğini söylüyor mu?,False,False,3
+X366,challenge,REQ,T1,Müşteri sigorta tahkim komisyonuna başvuracağını söylüyor mu?,False,False,3
+X367,challenge,REQ,T1,Müşteri düzenleyici kuruma şikâyette bulunacağını söylüyor mu?,True,False,3
+X368,challenge,REQ,T1,Bu mesajda müşteri buketin yerine saksı çiçeği gönderilmesini talep ediyor mu?,False,False,3
+X369,challenge,REQ,T1,Bu mesajda müşteri tesisatçının bugün gelmesini talep ediyor mu?,False,False,3
+X370,challenge,REQ,T1,Bu mesajda müşteri nakliye tarihinin öne alınmasını talep ediyor mu?,False,False,3
+X371,challenge,REQ,T1,Bu mesajda müşteri kampanya fiyatından işlem yapılmasını talep ediyor mu?,False,False,3
+X372,challenge,REQ,T1,Müşteri cihazını bizzat servisten alacağını söylüyor mu?,False,False,3
+X373,challenge,REQ,T1,Bu mesajda müşteri ürünün başka bir bedenle değiştirilmesini talep ediyor mu?,False,False,3
+X374,challenge,REQ,T1,Bu mesajda müşteri halıdaki lekenin çıkarılması için özel işlem yapılmasını talep ediyor mu?,False,False,3
+X375,challenge,REQ,T1,Bu mesajda müşteri otopark aboneliğinin yenilenmesini talep ediyor mu?,False,False,3
+X376,challenge,REQ,T1,Bu mesajda müşteri kulaklığın yenisiyle değiştirilmesini talep ediyor mu?,False,False,3
+X377,challenge,REQ,T1,Bu mesajda müşteri kuryenin kapı zilini çalmasını talep ediyor mu?,False,False,3
+X378,challenge,REQ,T1,Bu mesajda müşteri poliçe kapsamının yazılı olarak gönderilmesini talep ediyor mu?,False,False,3
+X379,challenge,REQ,T1,Müşteri noter aracılığıyla ihtarname göndereceğini söylüyor mu?,False,False,3
+X380,challenge,REQ,T1,"Bu mesaj, verilen kurala göre müşterinin hukuki yola başvuru planını içeriyor mu?",True,False,3
+X381,challenge,REQ,T1,Bu mesajda müşteri temizlik hizmetinin haftalık yapılmasını talep ediyor mu?,False,False,3
+X382,challenge,REQ,T1,Bu mesajda müşteri hesabından çekilen bir ücretin iade edilmesini talep ediyor mu?,False,False,3
+X383,challenge,REQ,T1,Bu mesajda müşteri tarifesinin değiştirilmesini talep ediyor mu?,False,False,3
+X384,challenge,REQ,T1,Müşteri teknisyeni evde bekleyeceğini söylüyor mu?,False,False,3
+X385,challenge,REQ,T1,Bu mesajda müşteri kargosunun şubede bekletilmesini talep ediyor mu?,False,False,3
+X386,challenge,REQ,T1,Bu mesajda müşteri randevusunun yarına alınmasını talep ediyor mu?,False,False,3
+X387,challenge,REQ,T1,Bu mesajda müşteri kalan haftaların ücretinin iade edilmesini talep ediyor mu?,False,False,3
+X388,challenge,REQ,T1,Mesajda tam bir telefon numarası yer alıyor mu?,True,False,3
+X389,challenge,REQ,T1,Mesajda tam bir abone numarası yer alıyor mu?,True,False,3
+X390,challenge,REQ,T1,Bu mesajda müşteri lastik değişim randevusunun cumartesiye alınmasını talep ediyor mu?,False,False,3
+X391,challenge,REQ,T1,Bu mesajda müşteri gözlük camlarının yeniden yapılmasını talep ediyor mu?,False,False,3
+X392,challenge,REQ,T1,Bu mesajda müşteri pantolonun paçasının kısaltılmasını talep ediyor mu?,False,False,3
+X393,challenge,REQ,T1,Müşteri çocuğunu bugün erken alacağını söylüyor mu?,False,False,3
+X394,challenge,REQ,T1,Bu mesajda müşteri otomatik yenilemenin kapatılmasını talep ediyor mu?,False,False,3
+X395,challenge,REQ,T1,Müşteri ürünün iade alınmasını istiyor mu?,True,False,3
+X396,challenge,REQ,T1,Bu mesajda müşteri oyuncak setinin yenisiyle değiştirilmesini talep ediyor mu?,False,False,3
+X397,challenge,REQ,T1,Bu mesajda müşteri biletinin öğleden sonraki bir sefere çevrilmesini talep ediyor mu?,False,False,3
+X398,challenge,REQ,T1,Bu mesajda müşteri albümün yeniden basılmasını talep ediyor mu?,False,False,3
+X399,challenge,REQ,T1,Bu mesajda müşteri dijital dergi aboneliğinin yenilenmesini talep ediyor mu?,False,False,3
+X400,challenge,REQ,T1,Müşteri havalimanına kendi aracıyla gideceğini söylüyor mu?,False,False,3
+X401,challenge,REF,T2,Dondurulmuş ürün kolisini müşterinin kendisi mi teslim aldı?,False,True,3
+X402,challenge,REF,T2,Parayı müşterinin kendisi mi gönderdi?,False,True,3
+X403,challenge,REF,T2,Kaza hasar dosyası onaylandı mı?,False,False,3
+X404,challenge,REF,T2,Hat iptal dilekçesini müşterinin kayınvalidesi mi verdi?,False,True,3
+X405,challenge,REF,T2,Modemi müşterinin kuzeni mi taktı?,False,True,3
+X406,challenge,REF,T2,Müşterinin dairesinde elektrik şu anda kesik mi?,False,False,3
+X407,challenge,REF,T2,Müşterinin doğalgaz faturası düştü mü?,False,False,3
+X408,challenge,REF,T2,Check-in işlemini müşterinin kendisi mi yaptı?,False,True,3
+X409,challenge,REF,T2,Deluxe odada klima çalışmıyor mu?,False,False,3
+X410,challenge,REF,T2,Kediyi kliniğe müşterinin kardeşi mi götürdü?,False,True,3
+X411,challenge,REF,T2,Kayıt formunu müşterinin komşusu mu doldurdu?,False,True,3
+X412,challenge,REF,T2,Müşterinin iş hesabı premium plana geçti mi?,False,False,3
+X413,challenge,REF,T2,Müşteri oyunu iade etti mi?,False,False,3
+X414,challenge,REF,T2,Servis ekibi müşterinin çamaşır makinesini söktü mü?,False,False,3
+X415,challenge,REF,T2,Elli beş inç televizyonun paneli arızalı mı çıktı?,False,False,3
+X416,challenge,REF,T2,Paketi şubede müşterinin eşi mi teslim etti?,False,True,3
+X417,challenge,REF,T2,Son kullanma tarihi geçmiş krem müşterinin kendi paketinden mi çıktı?,False,True,3
+X418,challenge,REF,T2,Ciltli baskıyı müşterinin kızı mı aldı?,False,True,3
+X419,challenge,REF,T2,Müşterinin kartvizit baskısı hazırlandı mı?,False,False,3
+X420,challenge,REF,T2,Vanayı tesisatçının çırağı mı değiştirdi?,False,True,3
+X421,challenge,REF,T2,Çerçeveli baskı bir hafta geç mi geldi?,False,False,3
+X422,challenge,REF,T2,Dönüş biletini müşterinin kardeşi mi aldı?,False,True,3
+X423,challenge,REF,T2,Sayacın fotoğrafını su idaresinin görevlisi mi çekti?,False,True,3
+X424,challenge,REF,T2,Activate işlemini müşterinin ekip arkadaşı mı yaptı?,False,True,3
+X425,challenge,REF,T2,Müşteri kırmızı ayakkabıyı iade etti mi?,False,False,3
+X426,challenge,REF,T2,Pizza siparişini müşterinin kendisi mi verdi?,False,True,3
+X427,challenge,REF,T2,Market harcamasını müşteri mi yaptı?,False,False,3
+X428,challenge,REF,T2,Formu sigortaya müşterinin eşi mi gönderdi?,False,True,3
+X429,challenge,REF,T2,Numara taşıma başvurusu müşterinin annesinin hattı için mi yapıldı?,False,True,3
+X430,challenge,REF,T2,Muayene odasına müşterinin eşi mi girdi?,False,True,3
+X431,challenge,REF,T2,Dolabın kapağını usta mı çizdi?,False,True,3
+X432,challenge,REF,T2,Kazaktaki leke çıktı mı?,False,False,3
+X433,challenge,REF,T2,Dolap anahtarını müşteri mi kaybetti?,False,True,3
+X434,challenge,REF,T2,Küçük çocuğun ateşi çıktı mı?,False,False,3
+X435,challenge,REF,T2,Servis ücretini müşterinin kardeşi mi ödedi?,False,True,3
+X436,challenge,REF,T2,Sözleşmeyi müşterinin ağabeyi mi imzaladı?,False,True,3
+X437,challenge,REF,T2,Tamponu çizilen araç müşterinin aracı mı?,False,True,3
+X438,challenge,REF,T2,Piyanoyu müşterinin komşusu mu taşıdı?,False,True,3
+X439,challenge,REF,T2,Müşterinin annesinin buketine gül konuldu mu?,False,False,3
+X440,challenge,REF,T2,Yedek anahtarı müşterinin komşusu aldı mı?,False,False,3
+X441,challenge,REF,T2,Dış ünite bugün takıldı mı?,False,False,3
+X442,challenge,REF,T2,Koliyi şubede müşterinin oğlu mu teslim etti?,False,True,3
+X443,challenge,REF,T2,Koltuk değişimini müşterinin arkadaşı mı istedi?,False,True,3
+X444,challenge,REF,T2,Müşterinin kendi kartıyla ödeme geçti mi?,False,False,3
+X445,challenge,REF,T2,Müşterinin kart başvurusu mu onaylandı?,False,True,3
+X446,challenge,REF,T2,Pilli arabada eksik parça çıktı mı?,False,False,3
+X447,challenge,REF,T2,Aboneliği müşterinin ablası mı yeniledi?,False,True,3
+X448,challenge,REF,T2,Ciltli roman hasarlı mı geldi?,False,False,3
+X449,challenge,REF,T2,Fondöten kullanılamaz durumda mı?,False,False,3
+X450,challenge,REF,T2,Tost makinesi geldi mi?,False,False,3
+X451,challenge,LIST,T2,Şemsiye paketi dün teslim edildi mi?,False,False,3
+X452,challenge,LIST,T2,Büfe yeni eve ulaştı mı?,False,False,3
+X453,challenge,LIST,T2,Siparişte tatlı geldi mi?,False,False,3
+X454,challenge,LIST,T2,Spor salonunun saunası dün akşam açık mıydı?,False,False,3
+X455,challenge,LIST,T2,Müşteri bugün tabletten giriş yapabildi mi?,False,False,3
+X456,challenge,LIST,T2,Köpeğe bugün kuduz aşısı yapıldı mı?,False,False,3
+X457,challenge,LIST,T2,Kurala göre müşteri ücretsiz yerinde servis koşulunu sağlıyor mu?,True,False,3
+X458,challenge,LIST,T2,Bu ay elektrik otomatik ödemesi hesaptan çekildi mi?,False,False,3
+X459,challenge,LIST,T2,İdrar tetkiki sonucunda sapma var mı?,False,False,3
+X460,challenge,LIST,T2,Kurala göre biletlerden en az birinde indirim uygulanabilir mi?,True,False,3
+X461,challenge,LIST,T2,Kurala göre müşteri kardeş indirimi için yeterli sayıda kayıtlı çocuğa sahip mi?,True,False,3
+X462,challenge,LIST,T2,Faturada sayaç okuma bedeli kalemi var mı?,False,False,3
+X463,challenge,LIST,T2,Dördüncü fotoğraf baskısı bulanık mı?,False,False,3
+X464,challenge,LIST,T2,Buketteki lale taze miydi?,False,False,3
+X465,challenge,LIST,T2,Montaj kolisinde menteşe eksik mi?,False,False,3
+X466,challenge,LIST,T2,Müşterinin dairesine otopark kartı verildi mi?,False,False,3
+X467,challenge,LIST,T2,Müşterinin depo lisansı aktif mi?,False,False,3
+X468,challenge,LIST,T2,Tabletin yedeği buluta yüklendi mi?,False,False,3
+X469,challenge,LIST,T2,Kurala göre müşterinin aldığı ürün küçük ev aletleri kategorisinde mi?,True,False,3
+X470,challenge,LIST,T2,Kurala göre müşteriden ek bagaj ücreti alınır mı?,True,False,3
+X471,challenge,LIST,T2,Rezervasyonda son gece için kahvaltı fiyata dahil mi?,False,False,3
+X472,challenge,LIST,T2,Kartvizit baskısı hatasız mı?,False,False,3
+X473,challenge,LIST,T2,Bu ay sıcak su sayacı okundu mu?,False,False,3
+X474,challenge,LIST,T2,Dönüş bileti için onay e-postası geldi mi?,False,False,3
+X475,challenge,LIST,T2,İkinci hat için paket tanımlandı mı?,False,False,3
+X476,challenge,LIST,T2,Menzil genişletici dün kuruldu mu?,False,False,3
+X477,challenge,LIST,T2,Alt sepet kutudan çıktı mı?,False,False,3
+X478,challenge,LIST,T2,Müşteri dördüncü taksiti ödedi mi?,False,False,3
+X479,challenge,LIST,T2,Kurala göre müşterinin teslimat adresi ücretsiz teslimat bölgesinde mi?,True,False,3
+X480,challenge,LIST,T2,Teknisyen baca temizliği yaptı mı?,False,False,3
+X481,challenge,LIST,T2,Yatak odası temizlendi mi?,False,False,3
+X482,challenge,LIST,T2,Kurala göre müşterinin kazası ağır hasar ödemesi için yeterli mi?,True,False,3
+X483,challenge,LIST,T2,Alttaki yirmilik diş çekildi mi?,False,False,3
+X484,challenge,LIST,T2,Kurala göre müşteri sertifika şartını sağlıyor mu?,True,False,3
+X485,challenge,LIST,T2,İkinci oyunun ücreti iade edildi mi?,False,False,3
+X486,challenge,LIST,T2,Çevrimdışı dinleme seçeneği açık mı?,False,False,3
+X487,challenge,LIST,T2,Kurala göre müşteri kuponu kullanabilir mi?,True,False,3
+X488,challenge,LIST,T2,Mutfak musluğunun contası değiştirildi mi?,False,False,3
+X489,challenge,LIST,T2,Mavi tişört kargo görevlisi tarafından teslim alındı mı?,False,False,3
+X490,challenge,LIST,T2,Müşteri teslim alırken arka tamponda çizik gördü mü?,False,False,3
+X491,challenge,LIST,T2,Ayna dün teslim edildi mi?,False,False,3
+X492,challenge,LIST,T2,Robotun sağ kolu hareket ediyor mu?,False,False,3
+X493,challenge,LIST,T2,Kurala göre müşteriden istenen 300 TL'lik gider aidata dahil mi?,True,False,3
+X494,challenge,LIST,T2,Serumun kutusu ezik mi geldi?,False,False,3
+X495,challenge,LIST,T2,Kurala göre müşterinin monitörü değiştirme kapsamında mı?,True,False,3
+X496,challenge,LIST,T2,Cheesecake masaya geldi mi?,False,False,3
+X497,challenge,LIST,T2,Yeni ekip arkadaşı muhasebe klasörüne erişebiliyor mu?,False,False,3
+X498,challenge,LIST,T2,Siparişteki süt bozuk çıktı mı?,False,False,3
+X499,challenge,LIST,T2,Sanal kart bloke oldu mu?,False,False,3
+X500,challenge,LIST,T2,Kurala göre müşterinin gönderisi için kargo sigortası zorunlu mu?,True,False,3

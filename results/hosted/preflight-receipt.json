@@ -1,0 +1,592 @@
+{
+  "experimentId": "6a68a802025f95589aacdc0d67ac13276e51d0dca26ea1333dcbe1c25762562a",
+  "preflightId": "ebd133c897ddc1d8283079c1c6c20fdb52c27fc56deeb6e6862c26a3eb79a754",
+  "rows": [
+    {
+      "model": "~typesafe/jev-latest",
+      "kind": "noul",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "typesafe/jev-1.13-20260917"
+      ]
+    },
+    {
+      "model": "~typesafe/jev-latest",
+      "kind": "choice3",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "typesafe/jev-1.13-20260917"
+      ]
+    },
+    {
+      "model": "~typesafe/jev-latest",
+      "kind": "choice4",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "typesafe/jev-1.13-20260917"
+      ]
+    },
+    {
+      "model": "~typesafe/jev-latest",
+      "kind": "multi-noul",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "typesafe/jev-1.13-20260917"
+      ]
+    },
+    {
+      "model": "perplexity/pplx-decider-v1.1-27b",
+      "kind": "noul",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "perplexity/pplx-decider-v1.1-27b-20261006"
+      ]
+    },
+    {
+      "model": "perplexity/pplx-decider-v1.1-27b",
+      "kind": "choice3",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "perplexity/pplx-decider-v1.1-27b-20261006"
+      ]
+    },
+    {
+      "model": "perplexity/pplx-decider-v1.1-27b",
+      "kind": "choice4",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "perplexity/pplx-decider-v1.1-27b-20261006"
+      ]
+    },
+    {
+      "model": "openai/gpt-6-luna-decisions",
+      "kind": "noul",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "openai/gpt-6-luna-decisions-20261006"
+      ]
+    },
+    {
+      "model": "openai/gpt-6-luna-decisions",
+      "kind": "choice3",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "openai/gpt-6-luna-decisions-20261006"
+      ]
+    },
+    {
+      "model": "openai/gpt-6-luna-decisions",
+      "kind": "choice4",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "openai/gpt-6-luna-decisions-20261006"
+      ]
+    },
+    {
+      "model": "liquid/d1",
+      "kind": "noul",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "liquid/d1-20260930"
+      ]
+    },
+    {
+      "model": "liquid/d1",
+      "kind": "choice3",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "liquid/d1-20260930"
+      ]
+    },
+    {
+      "model": "liquid/d1",
+      "kind": "choice4",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "liquid/d1-20260930"
+      ]
+    },
+    {
+      "model": "cloudflare/clef",
+      "kind": "noul",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "cloudflare/clef"
+      ]
+    },
+    {
+      "model": "cloudflare/clef",
+      "kind": "choice3",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "cloudflare/clef"
+      ]
+    },
+    {
+      "model": "cloudflare/clef",
+      "kind": "choice4",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "cloudflare/clef"
+      ]
+    },
+    {
+      "model": "cloudflare/clef-flash",
+      "kind": "noul",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "cloudflare/clef-flash"
+      ]
+    },
+    {
+      "model": "cloudflare/clef-flash",
+      "kind": "choice3",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "cloudflare/clef-flash"
+      ]
+    },
+    {
+      "model": "cloudflare/clef-flash",
+      "kind": "choice4",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "cloudflare/clef-flash"
+      ]
+    },
+    {
+      "model": "jaredpalmer/kev-4b",
+      "kind": "noul",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "jaredpalmer/kev-4b-20260924"
+      ]
+    },
+    {
+      "model": "jaredpalmer/kev-4b",
+      "kind": "choice3",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "jaredpalmer/kev-4b-20260924"
+      ]
+    },
+    {
+      "model": "jaredpalmer/kev-4b",
+      "kind": "choice4",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "jaredpalmer/kev-4b-20260924"
+      ]
+    },
+    {
+      "model": "togethercomputer/tev1-4b-experimental",
+      "kind": "noul",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "togethercomputer/tev1-4b-experimental-20260923"
+      ]
+    },
+    {
+      "model": "togethercomputer/tev1-4b-experimental",
+      "kind": "choice3",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "togethercomputer/tev1-4b-experimental-20260923"
+      ]
+    },
+    {
+      "model": "togethercomputer/tev1-4b-experimental",
+      "kind": "choice4",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "togethercomputer/tev1-4b-experimental-20260923"
+      ]
+    },
+    {
+      "model": "inception/mercury-decide:free",
+      "kind": "noul",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "inception/mercury-decide-20260930"
+      ]
+    },
+    {
+      "model": "inception/mercury-decide:free",
+      "kind": "choice3",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "inception/mercury-decide-20260930"
+      ]
+    },
+    {
+      "model": "inception/mercury-decide:free",
+      "kind": "choice4",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "inception/mercury-decide-20260930"
+      ]
+    },
+    {
+      "model": "upstage/solar-decide",
+      "kind": "noul",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "upstage/solar-decide-20260928"
+      ]
+    },
+    {
+      "model": "upstage/solar-decide",
+      "kind": "choice3",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "upstage/solar-decide-20260928"
+      ]
+    },
+    {
+      "model": "upstage/solar-decide",
+      "kind": "choice4",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "upstage/solar-decide-20260928"
+      ]
+    },
+    {
+      "model": "upstage/solar-decide-flash",
+      "kind": "noul",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "upstage/solar-decide-flash-20261008"
+      ]
+    },
+    {
+      "model": "upstage/solar-decide-flash",
+      "kind": "choice3",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "upstage/solar-decide-flash-20261008"
+      ]
+    },
+    {
+      "model": "upstage/solar-decide-flash",
+      "kind": "choice4",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "upstage/solar-decide-flash-20261008"
+      ]
+    },
+    {
+      "model": "respan/span-01",
+      "kind": "noul",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "respan/span-01-20260925"
+      ]
+    },
+    {
+      "model": "respan/span-01-lite",
+      "kind": "noul",
+      "attempts": 1,
+      "passed": true,
+      "servedModels": [
+        "respan/span-01-lite-20260925"
+      ]
+    }
+  ],
+  "verifiedModels": [
+    "~typesafe/jev-latest",
+    "perplexity/pplx-decider-v1.1-27b",
+    "openai/gpt-6-luna-decisions",
+    "liquid/d1",
+    "cloudflare/clef",
+    "cloudflare/clef-flash",
+    "jaredpalmer/kev-4b",
+    "togethercomputer/tev1-4b-experimental",
+    "inception/mercury-decide:free",
+    "upstage/solar-decide",
+    "upstage/solar-decide-flash",
+    "respan/span-01",
+    "respan/span-01-lite"
+  ],
+  "usage": {
+    "priceCapUsd": null,
+    "dispatchAttempts": 36,
+    "completedAttempts": 36,
+    "unresolvedAttempts": [],
+    "reportedUsd": 0.0008369760000000003,
+    "costMissing": 0,
+    "accountingComplete": true,
+    "basis": "Provider-reported cost only; an explicit zero is valid. Missing cost remains unknown. All phases, errors and retries included.",
+    "byModel": {
+      "~typesafe/jev-latest": {
+        "requests": 4,
+        "failed": 0,
+        "retries": 0,
+        "providerReportedUsd": 0.000139692,
+        "costReported": 4,
+        "costMissing": 0,
+        "inputTokens": 3326,
+        "outputTokens": 159,
+        "inputMissing": 0,
+        "outputMissing": 0,
+        "servedModels": [
+          "typesafe/jev-1.13-20260917"
+        ],
+        "providers": [
+          "TypeSafe"
+        ]
+      },
+      "perplexity/pplx-decider-v1.1-27b": {
+        "requests": 3,
+        "failed": 0,
+        "retries": 0,
+        "providerReportedUsd": 0.00002874,
+        "costReported": 3,
+        "costMissing": 0,
+        "inputTokens": 1437,
+        "outputTokens": 3,
+        "inputMissing": 0,
+        "outputMissing": 0,
+        "servedModels": [
+          "perplexity/pplx-decider-v1.1-27b-20261006"
+        ],
+        "providers": [
+          "Perplexity"
+        ]
+      },
+      "openai/gpt-6-luna-decisions": {
+        "requests": 3,
+        "failed": 0,
+        "retries": 0,
+        "providerReportedUsd": 0.00015680000000000002,
+        "costReported": 3,
+        "costMissing": 0,
+        "inputTokens": 1568,
+        "outputTokens": 0,
+        "inputMissing": 0,
+        "outputMissing": 0,
+        "servedModels": [
+          "openai/gpt-6-luna-decisions-20261006"
+        ],
+        "providers": [
+          "OpenAI"
+        ]
+      },
+      "liquid/d1": {
+        "requests": 3,
+        "failed": 0,
+        "retries": 0,
+        "providerReportedUsd": 0.000055759999999999995,
+        "costReported": 3,
+        "costMissing": 0,
+        "inputTokens": 1394,
+        "outputTokens": 0,
+        "inputMissing": 0,
+        "outputMissing": 0,
+        "servedModels": [
+          "liquid/d1-20260930"
+        ],
+        "providers": [
+          "Liquid"
+        ]
+      },
+      "cloudflare/clef": {
+        "requests": 3,
+        "failed": 0,
+        "retries": 0,
+        "providerReportedUsd": 0.000065688,
+        "costReported": 3,
+        "costMissing": 0,
+        "inputTokens": 1564,
+        "outputTokens": 0,
+        "inputMissing": 0,
+        "outputMissing": 0,
+        "servedModels": [
+          "cloudflare/clef"
+        ],
+        "providers": [
+          "PrimeIntellect"
+        ]
+      },
+      "cloudflare/clef-flash": {
+        "requests": 3,
+        "failed": 0,
+        "retries": 0,
+        "providerReportedUsd": 0.000032844,
+        "costReported": 3,
+        "costMissing": 0,
+        "inputTokens": 1564,
+        "outputTokens": 0,
+        "inputMissing": 0,
+        "outputMissing": 0,
+        "servedModels": [
+          "cloudflare/clef-flash"
+        ],
+        "providers": [
+          "PrimeIntellect"
+        ]
+      },
+      "jaredpalmer/kev-4b": {
+        "requests": 3,
+        "failed": 0,
+        "retries": 0,
+        "providerReportedUsd": 0.000051114,
+        "costReported": 3,
+        "costMissing": 0,
+        "inputTokens": 1217,
+        "outputTokens": 177,
+        "inputMissing": 0,
+        "outputMissing": 0,
+        "servedModels": [
+          "jaredpalmer/kev-4b-20260924"
+        ],
+        "providers": [
+          "SiliconFlow"
+        ]
+      },
+      "togethercomputer/tev1-4b-experimental": {
+        "requests": 3,
+        "failed": 0,
+        "retries": 0,
+        "providerReportedUsd": 0.00006043799999999999,
+        "costReported": 3,
+        "costMissing": 0,
+        "inputTokens": 1439,
+        "outputTokens": 6,
+        "inputMissing": 0,
+        "outputMissing": 0,
+        "servedModels": [
+          "togethercomputer/tev1-4b-experimental-20260923"
+        ],
+        "providers": [
+          "Together"
+        ]
+      },
+      "inception/mercury-decide:free": {
+        "requests": 3,
+        "failed": 0,
+        "retries": 0,
+        "providerReportedUsd": 0,
+        "costReported": 3,
+        "costMissing": 0,
+        "inputTokens": 1376,
+        "outputTokens": 9,
+        "inputMissing": 0,
+        "outputMissing": 0,
+        "servedModels": [
+          "inception/mercury-decide-20260930"
+        ],
+        "providers": [
+          "Inception"
+        ]
+      },
+      "upstage/solar-decide": {
+        "requests": 3,
+        "failed": 0,
+        "retries": 0,
+        "providerReportedUsd": 0.0001186,
+        "costReported": 3,
+        "costMissing": 0,
+        "inputTokens": 2372,
+        "outputTokens": 3,
+        "inputMissing": 0,
+        "outputMissing": 0,
+        "servedModels": [
+          "upstage/solar-decide-20260928"
+        ],
+        "providers": [
+          "Upstage"
+        ]
+      },
+      "upstage/solar-decide-flash": {
+        "requests": 3,
+        "failed": 0,
+        "retries": 0,
+        "providerReportedUsd": 0.0001186,
+        "costReported": 3,
+        "costMissing": 0,
+        "inputTokens": 2372,
+        "outputTokens": 3,
+        "inputMissing": 0,
+        "outputMissing": 0,
+        "servedModels": [
+          "upstage/solar-decide-flash-20261008"
+        ],
+        "providers": [
+          "Upstage"
+        ]
+      },
+      "respan/span-01": {
+        "requests": 1,
+        "failed": 0,
+        "retries": 0,
+        "providerReportedUsd": 0.0000087,
+        "costReported": 1,
+        "costMissing": 0,
+        "inputTokens": 435,
+        "outputTokens": 0,
+        "inputMissing": 0,
+        "outputMissing": 0,
+        "servedModels": [
+          "respan/span-01-20260925"
+        ],
+        "providers": [
+          "Respan"
+        ]
+      },
+      "respan/span-01-lite": {
+        "requests": 1,
+        "failed": 0,
+        "retries": 0,
+        "providerReportedUsd": 0,
+        "costReported": 1,
+        "costMissing": 0,
+        "inputTokens": 435,
+        "outputTokens": 0,
+        "inputMissing": 0,
+        "outputMissing": 0,
+        "servedModels": [
+          "respan/span-01-lite-20260925"
+        ],
+        "providers": [
+          "Respan"
+        ]
+      }
+    }
+  },
+  "journalHash": "34d6d58ddeaab83f46c17b92b3024973806e6e3736d1ac55857864edbe7d598d"
+}

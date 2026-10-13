@@ -1,0 +1,481 @@
+case_id,capability,split,stored_key,recomputed_key,status,independent_calculation
+D011-A,QUANT,dev,EVET,EVET,agrees,770 >= 750
+D011-B,QUANT,dev,HAYIR,HAYIR,agrees,720 >= 750
+D011-C,QUANT,dev,EVET,EVET,agrees,770 >= 750
+D012-A,QUANT,dev,EVET,EVET,agrees,1250 > 1000
+D012-B,QUANT,dev,HAYIR,HAYIR,agrees,125 > 1000
+D012-C,QUANT,dev,EVET,EVET,agrees,1250 > 1000
+D013-A,QUANT,dev,HAYIR,HAYIR,agrees,1800 > 2000
+D013-B,QUANT,dev,EVET,EVET,agrees,2250 > 2000
+D013-C,QUANT,dev,HAYIR,HAYIR,agrees,1800 > 2000
+D014-A,QUANT,dev,EVET,EVET,agrees,3 >= 3
+D014-B,QUANT,dev,HAYIR,HAYIR,agrees,2 >= 3
+D014-C,QUANT,dev,EVET,EVET,agrees,3 >= 3
+D015-A,QUANT,dev,EVET,EVET,agrees,1/8 >= 1/10
+D015-B,QUANT,dev,HAYIR,HAYIR,agrees,3/40 >= 1/10
+D015-C,QUANT,dev,EVET,EVET,agrees,1/8 >= 1/10
+D016-A,QUANT,dev,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+D016-B,QUANT,dev,EVET,EVET,agrees,340 > 300
+D016-C,QUANT,dev,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+D017-A,QUANT,dev,HAYIR,HAYIR,agrees,MB=19500; decimal quota=20000; binary quota=20480
+D017-B,QUANT,dev,EVET,EVET,agrees,MB=21500; decimal quota=20000; binary quota=20480
+D017-C,QUANT,dev,HAYIR,HAYIR,agrees,MB=19500; decimal quota=20000; binary quota=20480
+D018-A,QUANT,dev,HAYIR,HAYIR,agrees,3 > 3
+D018-B,QUANT,dev,EVET,EVET,agrees,4 > 3
+D018-C,QUANT,dev,HAYIR,HAYIR,agrees,3 > 3
+D019-A,QUANT,dev,HAYIR,HAYIR,agrees,8 >= 10
+D019-B,QUANT,dev,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+D019-C,QUANT,dev,HAYIR,HAYIR,agrees,8 >= 10
+D020-A,QUANT,dev,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+D020-B,QUANT,dev,HAYIR,HAYIR,agrees,-60 > 0
+D020-C,QUANT,dev,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+D021-A,TIME,dev,EVET,EVET,agrees,12 <= 14
+D021-B,TIME,dev,HAYIR,HAYIR,agrees,15 <= 14
+D021-C,TIME,dev,EVET,EVET,agrees,12 <= 14
+D022-A,TIME,dev,EVET,EVET,agrees,3 >= 3
+D022-B,TIME,dev,HAYIR,HAYIR,agrees,2 >= 3
+D022-C,TIME,dev,EVET,EVET,agrees,3 >= 3
+D023-A,TIME,dev,HAYIR,HAYIR,agrees,20.0 >= 24
+D023-B,TIME,dev,EVET,EVET,agrees,28.0 >= 24
+D023-C,TIME,dev,HAYIR,HAYIR,agrees,20.0 >= 24
+D024-A,TIME,dev,EVET,EVET,agrees,1 <= 7
+D024-B,TIME,dev,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+D024-C,TIME,dev,EVET,EVET,agrees,1 <= 7
+D025-A,TIME,dev,HAYIR,HAYIR,agrees,14 <= 3
+D025-B,TIME,dev,EVET,EVET,agrees,1 <= 3
+D025-C,TIME,dev,HAYIR,HAYIR,agrees,14 <= 3
+D026-A,TIME,dev,EVET,EVET,agrees,900 <= 900
+D026-B,TIME,dev,HAYIR,HAYIR,agrees,905 <= 900
+D026-C,TIME,dev,EVET,EVET,agrees,900 <= 900
+D027-A,TIME,dev,HAYIR,HAYIR,agrees,48 < 24
+D027-B,TIME,dev,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+D027-C,TIME,dev,HAYIR,HAYIR,agrees,48 < 24
+D028-A,TIME,dev,HAYIR,HAYIR,agrees,10.5 >= 12
+D028-B,TIME,dev,EVET,EVET,agrees,14.0 >= 12
+D028-C,TIME,dev,HAYIR,HAYIR,agrees,10.5 >= 12
+D029-A,TIME,dev,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+D029-B,TIME,dev,HAYIR,HAYIR,agrees,-3 >= 0
+D029-C,TIME,dev,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+D030-A,TIME,dev,HAYIR,HAYIR,agrees,40 <= 30
+D030-B,TIME,dev,EVET,EVET,agrees,20 <= 30
+D030-C,TIME,dev,HAYIR,HAYIR,agrees,40 <= 30
+C021-A,QUANT,core,EVET,EVET,agrees,5200 > 5000
+C021-B,QUANT,core,HAYIR,HAYIR,agrees,4800 > 5000
+C021-C,QUANT,core,EVET,EVET,agrees,5200 > 5000
+C022-A,QUANT,core,HAYIR,HAYIR,agrees,90 > 90
+C022-B,QUANT,core,EVET,EVET,agrees,105 > 90
+C022-C,QUANT,core,HAYIR,HAYIR,agrees,90 > 90
+C023-A,QUANT,core,EVET,EVET,agrees,5000 >= 5000
+C023-B,QUANT,core,HAYIR,HAYIR,agrees,4700 >= 5000
+C023-C,QUANT,core,EVET,EVET,agrees,5000 >= 5000
+C024-A,QUANT,core,EVET,EVET,agrees,12000 > 10000
+C024-B,QUANT,core,HAYIR,HAYIR,agrees,9000 > 10000
+C024-C,QUANT,core,EVET,EVET,agrees,12000 > 10000
+C025-A,QUANT,core,HAYIR,HAYIR,agrees,270 >= 300
+C025-B,QUANT,core,EVET,EVET,agrees,310 >= 300
+C025-C,QUANT,core,HAYIR,HAYIR,agrees,270 >= 300
+C026-A,QUANT,core,EVET,EVET,agrees,"interval [4.0,inf] >= 3"
+C026-B,QUANT,core,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [2.0,inf] >= 3"
+C026-C,QUANT,core,EVET,EVET,agrees,"interval [4.0,inf] >= 3"
+C027-A,QUANT,core,HAYIR,HAYIR,agrees,500 <= 100
+C027-B,QUANT,core,EVET,EVET,agrees,100 <= 100
+C027-C,QUANT,core,HAYIR,HAYIR,agrees,500 <= 100
+C028-A,QUANT,core,HAYIR,HAYIR,agrees,24500 > 25000
+C028-B,QUANT,core,EVET,EVET,agrees,27800 > 25000
+C028-C,QUANT,core,HAYIR,HAYIR,agrees,24500 > 25000
+C029-A,QUANT,core,EVET,EVET,agrees,13000 > 12000
+C029-B,QUANT,core,HAYIR,HAYIR,agrees,11000 > 12000
+C029-C,QUANT,core,EVET,EVET,agrees,13000 > 12000
+C030-A,QUANT,core,EVET,EVET,agrees,1100 >= 1000
+C030-B,QUANT,core,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+C030-C,QUANT,core,EVET,EVET,agrees,1100 >= 1000
+C031-A,QUANT,core,EVET,EVET,agrees,18 >= 15
+C031-B,QUANT,core,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [12.0,16.0] >= 15"
+C031-C,QUANT,core,EVET,EVET,agrees,18 >= 15
+C032-A,QUANT,core,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [1.0,2.0] >= 2"
+C032-B,QUANT,core,EVET,EVET,agrees,2 >= 2
+C032-C,QUANT,core,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [1.0,2.0] >= 2"
+C033-A,QUANT,core,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+C033-B,QUANT,core,EVET,EVET,agrees,280.0 <= 300
+C033-C,QUANT,core,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+C034-A,QUANT,core,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+C034-B,QUANT,core,EVET,EVET,agrees,3500 >= 3000
+C034-C,QUANT,core,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+C035-A,QUANT,core,HAYIR,HAYIR,agrees,"interval [0,4.0] > 5"
+C035-B,QUANT,core,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [0,7.0] > 5"
+C035-C,QUANT,core,HAYIR,HAYIR,agrees,"interval [0,4.0] > 5"
+C036-A,QUANT,core,HAYIR,HAYIR,agrees,1150 >= 1500
+C036-B,QUANT,core,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+C036-C,QUANT,core,HAYIR,HAYIR,agrees,1150 >= 1500
+C037-A,QUANT,core,HAYIR,HAYIR,agrees,"interval [2700.0,3300.0] > 5000"
+C037-B,QUANT,core,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [4500.0,5500.0] > 5000"
+C037-C,QUANT,core,HAYIR,HAYIR,agrees,"interval [2700.0,3300.0] > 5000"
+C038-A,QUANT,core,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [0,9.0] >= 8"
+C038-B,QUANT,core,HAYIR,HAYIR,agrees,"interval [0,6.0] >= 8"
+C038-C,QUANT,core,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [0,9.0] >= 8"
+C039-A,QUANT,core,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+C039-B,QUANT,core,HAYIR,HAYIR,agrees,50 >= 100
+C039-C,QUANT,core,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+C040-A,QUANT,core,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+C040-B,QUANT,core,HAYIR,HAYIR,agrees,200.0 >= 250
+C040-C,QUANT,core,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+C041-A,TIME,core,EVET,EVET,agrees,9 <= 10
+C041-B,TIME,core,HAYIR,HAYIR,agrees,12 <= 10
+C041-C,TIME,core,EVET,EVET,agrees,9 <= 10
+C042-A,TIME,core,EVET,EVET,agrees,4 <= 4
+C042-B,TIME,core,HAYIR,HAYIR,agrees,5 <= 4
+C042-C,TIME,core,EVET,EVET,agrees,4 <= 4
+C043-A,TIME,core,EVET,EVET,agrees,2 <= 2
+C043-B,TIME,core,HAYIR,HAYIR,agrees,3 <= 2
+C043-C,TIME,core,EVET,EVET,agrees,2 <= 2
+C044-A,TIME,core,EVET,EVET,agrees,26 <= 30
+C044-B,TIME,core,HAYIR,HAYIR,agrees,36 <= 30
+C044-C,TIME,core,EVET,EVET,agrees,26 <= 30
+C045-A,TIME,core,HAYIR,HAYIR,agrees,2 >= 4
+C045-B,TIME,core,EVET,EVET,agrees,4 >= 4
+C045-C,TIME,core,HAYIR,HAYIR,agrees,2 >= 4
+C046-A,TIME,core,HAYIR,HAYIR,agrees,4.0 >= 6
+C046-B,TIME,core,EVET,EVET,agrees,8.0 >= 6
+C046-C,TIME,core,HAYIR,HAYIR,agrees,4.0 >= 6
+C047-A,TIME,core,HAYIR,HAYIR,agrees,40 >= 60
+C047-B,TIME,core,EVET,EVET,agrees,70 >= 60
+C047-C,TIME,core,HAYIR,HAYIR,agrees,40 >= 60
+C048-A,TIME,core,HAYIR,HAYIR,agrees,200 <= 180
+C048-B,TIME,core,EVET,EVET,agrees,170 <= 180
+C048-C,TIME,core,HAYIR,HAYIR,agrees,200 <= 180
+C049-A,TIME,core,EVET,EVET,agrees,1 <= 1
+C049-B,TIME,core,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [1.0,2.0] <= 1"
+C049-C,TIME,core,EVET,EVET,agrees,1 <= 1
+C050-A,TIME,core,EVET,EVET,agrees,3 <= 5
+C050-B,TIME,core,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+C050-C,TIME,core,EVET,EVET,agrees,3 <= 5
+C051-A,TIME,core,EVET,EVET,agrees,50.0 >= 48
+C051-B,TIME,core,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+C051-C,TIME,core,EVET,EVET,agrees,50.0 >= 48
+C052-A,TIME,core,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+C052-B,TIME,core,EVET,EVET,agrees,16 <= 20
+C052-C,TIME,core,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+C053-A,TIME,core,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+C053-B,TIME,core,EVET,EVET,agrees,4 >= 3
+C053-C,TIME,core,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+C054-A,TIME,core,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+C054-B,TIME,core,EVET,EVET,agrees,2 >= 0
+C054-C,TIME,core,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+C055-A,TIME,core,HAYIR,HAYIR,agrees,2 >= 5
+C055-B,TIME,core,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+C055-C,TIME,core,HAYIR,HAYIR,agrees,2 >= 5
+C056-A,TIME,core,HAYIR,HAYIR,agrees,month difference=14; anniversary days not given
+C056-B,TIME,core,ANLASILMIYOR,ANLASILMIYOR,agrees,month difference=12; anniversary days not given
+C056-C,TIME,core,HAYIR,HAYIR,agrees,month difference=14; anniversary days not given
+C057-A,TIME,core,HAYIR,HAYIR,agrees,510 > 540
+C057-B,TIME,core,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+C057-C,TIME,core,HAYIR,HAYIR,agrees,510 > 540
+C058-A,TIME,core,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+C058-B,TIME,core,HAYIR,HAYIR,agrees,5 <= 2
+C058-C,TIME,core,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+C059-A,TIME,core,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [3.0,4.0] >= 4"
+C059-B,TIME,core,HAYIR,HAYIR,agrees,2 >= 4
+C059-C,TIME,core,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [3.0,4.0] >= 4"
+C060-A,TIME,core,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+C060-B,TIME,core,HAYIR,HAYIR,agrees,45 <= 30
+C060-C,TIME,core,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X051-A,QUANT,challenge,EVET,EVET,agrees,5499/10 > 500
+X051-B,QUANT,challenge,HAYIR,HAYIR,agrees,4999/10 > 500
+X051-C,QUANT,challenge,EVET,EVET,agrees,5499/10 > 500
+X052-A,QUANT,challenge,HAYIR,HAYIR,agrees,1980 >= 2000
+X052-B,QUANT,challenge,EVET,EVET,agrees,2070 >= 2000
+X052-C,QUANT,challenge,HAYIR,HAYIR,agrees,1980 >= 2000
+X053-A,QUANT,challenge,EVET,EVET,agrees,6900 > 6500
+X053-B,QUANT,challenge,HAYIR,HAYIR,agrees,6300 > 6500
+X053-C,QUANT,challenge,EVET,EVET,agrees,6900 > 6500
+X054-A,QUANT,challenge,HAYIR,HAYIR,agrees,10 >= 12
+X054-B,QUANT,challenge,EVET,EVET,agrees,12 >= 12
+X054-C,QUANT,challenge,HAYIR,HAYIR,agrees,10 >= 12
+X055-A,QUANT,challenge,EVET,EVET,agrees,1550 > 1500
+X055-B,QUANT,challenge,HAYIR,HAYIR,agrees,1475 > 1500
+X055-C,QUANT,challenge,EVET,EVET,agrees,1550 > 1500
+X056-A,QUANT,challenge,EVET,EVET,agrees,1050.5 > 1000
+X056-B,QUANT,challenge,HAYIR,HAYIR,agrees,950.5 > 1000
+X056-C,QUANT,challenge,EVET,EVET,agrees,1050.5 > 1000
+X057-A,QUANT,challenge,HAYIR,HAYIR,agrees,2999/5 >= 600
+X057-B,QUANT,challenge,EVET,EVET,agrees,3044/5 >= 600
+X057-C,QUANT,challenge,HAYIR,HAYIR,agrees,2999/5 >= 600
+X058-A,QUANT,challenge,HAYIR,HAYIR,agrees,3000 > 3000
+X058-B,QUANT,challenge,EVET,EVET,agrees,3120 > 3000
+X058-C,QUANT,challenge,HAYIR,HAYIR,agrees,3000 > 3000
+X059-A,QUANT,challenge,EVET,EVET,agrees,5 >= 5
+X059-B,QUANT,challenge,HAYIR,HAYIR,agrees,4 >= 5
+X059-C,QUANT,challenge,EVET,EVET,agrees,5 >= 5
+X060-A,QUANT,challenge,EVET,EVET,agrees,5250 >= 5000
+X060-B,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [3750.0,inf] >= 5000"
+X060-C,QUANT,challenge,EVET,EVET,agrees,5250 >= 5000
+X061-A,QUANT,challenge,EVET,EVET,agrees,4 > 3
+X061-B,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [2.00000001,inf] > 3"
+X061-C,QUANT,challenge,EVET,EVET,agrees,4 > 3
+X062-A,QUANT,challenge,EVET,EVET,agrees,"interval [720.0,880.0] >= 500"
+X062-B,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [450.0,550.0] >= 500"
+X062-C,QUANT,challenge,EVET,EVET,agrees,"interval [720.0,880.0] >= 500"
+X063-A,QUANT,challenge,HAYIR,HAYIR,agrees,5 >= 6
+X063-B,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X063-C,QUANT,challenge,HAYIR,HAYIR,agrees,5 >= 6
+X064-A,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X064-B,QUANT,challenge,EVET,EVET,agrees,5 >= 4
+X064-C,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X065-A,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X065-B,QUANT,challenge,EVET,EVET,agrees,1200 > 1000
+X065-C,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X066-A,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X066-B,QUANT,challenge,EVET,EVET,agrees,500.0 >= 500
+X066-C,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X067-A,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X067-B,QUANT,challenge,EVET,EVET,agrees,3600 > 3500
+X067-C,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X068-A,QUANT,challenge,HAYIR,HAYIR,agrees,4650 > 5000
+X068-B,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [3200.0,inf] > 5000"
+X068-C,QUANT,challenge,HAYIR,HAYIR,agrees,4650 > 5000
+X069-A,QUANT,challenge,HAYIR,HAYIR,agrees,4 > 5
+X069-B,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [3.00000001,inf] > 5"
+X069-C,QUANT,challenge,HAYIR,HAYIR,agrees,4 > 5
+X070-A,QUANT,challenge,HAYIR,HAYIR,agrees,"interval [81.0,99.0] > 120"
+X070-B,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [108.0,132.0] > 120"
+X070-C,QUANT,challenge,HAYIR,HAYIR,agrees,"interval [81.0,99.0] > 120"
+X071-A,QUANT,challenge,EVET,EVET,agrees,120 <= 120
+X071-B,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X071-C,QUANT,challenge,EVET,EVET,agrees,120 <= 120
+X072-A,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X072-B,QUANT,challenge,HAYIR,HAYIR,agrees,750 >= 900
+X072-C,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X073-A,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X073-B,QUANT,challenge,HAYIR,HAYIR,agrees,6000 <= 3000
+X073-C,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X074-A,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X074-B,QUANT,challenge,HAYIR,HAYIR,agrees,7200 >= 10000
+X074-C,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X075-A,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [900.0,1100.0] >= 1000"
+X075-B,QUANT,challenge,HAYIR,HAYIR,agrees,"interval [700.0,900.0] >= 1000"
+X075-C,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [900.0,1100.0] >= 1000"
+X076-A,QUANT,challenge,HAYIR,HAYIR,agrees,dimensions 210x120; limits 205x150
+X076-B,QUANT,challenge,EVET,EVET,agrees,dimensions 205x120; limits 205x150
+X076-C,QUANT,challenge,HAYIR,HAYIR,agrees,dimensions 210x120; limits 205x150
+X077-A,QUANT,challenge,HAYIR,HAYIR,agrees,5500.0 <= 5000
+X077-B,QUANT,challenge,EVET,EVET,agrees,5000 <= 5000
+X077-C,QUANT,challenge,HAYIR,HAYIR,agrees,5500.0 <= 5000
+X078-A,QUANT,challenge,EVET,EVET,agrees,40 > 30
+X078-B,QUANT,challenge,HAYIR,HAYIR,agrees,30 > 30
+X078-C,QUANT,challenge,EVET,EVET,agrees,40 > 30
+X079-A,QUANT,challenge,HAYIR,HAYIR,agrees,85 > 90
+X079-B,QUANT,challenge,EVET,EVET,agrees,95 > 90
+X079-C,QUANT,challenge,HAYIR,HAYIR,agrees,85 > 90
+X080-A,QUANT,challenge,EVET,EVET,agrees,200/3 >= 60
+X080-B,QUANT,challenge,HAYIR,HAYIR,agrees,50 >= 60
+X080-C,QUANT,challenge,EVET,EVET,agrees,200/3 >= 60
+X081-A,QUANT,challenge,HAYIR,HAYIR,agrees,60 > 70
+X081-B,QUANT,challenge,EVET,EVET,agrees,75 > 70
+X081-C,QUANT,challenge,HAYIR,HAYIR,agrees,60 > 70
+X082-A,QUANT,challenge,EVET,EVET,agrees,3 <= 4
+X082-B,QUANT,challenge,HAYIR,HAYIR,agrees,5 <= 4
+X082-C,QUANT,challenge,EVET,EVET,agrees,3 <= 4
+X083-A,QUANT,challenge,HAYIR,HAYIR,agrees,"ages [12, 9, 5]; every child <12"
+X083-B,QUANT,challenge,EVET,EVET,agrees,"ages [11, 9, 5]; every child <12"
+X083-C,QUANT,challenge,HAYIR,HAYIR,agrees,"ages [12, 9, 5]; every child <12"
+X084-A,QUANT,challenge,EVET,EVET,agrees,1240/3 > 400
+X084-B,QUANT,challenge,HAYIR,HAYIR,agrees,1190/3 > 400
+X084-C,QUANT,challenge,EVET,EVET,agrees,1240/3 > 400
+X085-A,QUANT,challenge,EVET,EVET,agrees,7 >= 5
+X085-B,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [3.0,7.0] >= 5"
+X085-C,QUANT,challenge,EVET,EVET,agrees,7 >= 5
+X086-A,QUANT,challenge,EVET,EVET,agrees,"interval [0,18.5] <= 20"
+X086-B,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [0,21.5] <= 20"
+X086-C,QUANT,challenge,EVET,EVET,agrees,"interval [0,18.5] <= 20"
+X087-A,QUANT,challenge,EVET,EVET,agrees,"interval [50.00000001,inf] > 40"
+X087-B,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [25.00000001,inf] > 40"
+X087-C,QUANT,challenge,EVET,EVET,agrees,"interval [50.00000001,inf] > 40"
+X088-A,QUANT,challenge,EVET,EVET,agrees,5 >= 4
+X088-B,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [3.0,4.0] >= 4"
+X088-C,QUANT,challenge,EVET,EVET,agrees,5 >= 4
+X089-A,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X089-B,QUANT,challenge,EVET,EVET,agrees,3120 > 3000
+X089-C,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X090-A,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [405.0,495.0] > 450"
+X090-B,QUANT,challenge,HAYIR,HAYIR,agrees,"interval [225.0,275.0] > 450"
+X090-C,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [405.0,495.0] > 450"
+X091-A,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,8 total tickets; invited=>=1
+X091-B,QUANT,challenge,EVET,EVET,agrees,8 total tickets; invited=0
+X091-C,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,8 total tickets; invited=>=1
+X092-A,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X092-B,QUANT,challenge,EVET,EVET,agrees,1600 >= 1500
+X092-C,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X093-A,QUANT,challenge,HAYIR,HAYIR,agrees,2 >= 3
+X093-B,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [0,3.0] >= 3"
+X093-C,QUANT,challenge,HAYIR,HAYIR,agrees,2 >= 3
+X094-A,QUANT,challenge,HAYIR,HAYIR,agrees,1950 > 2000
+X094-B,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X094-C,QUANT,challenge,HAYIR,HAYIR,agrees,1950 > 2000
+X095-A,QUANT,challenge,HAYIR,HAYIR,agrees,7.5 > 8
+X095-B,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X095-C,QUANT,challenge,HAYIR,HAYIR,agrees,7.5 > 8
+X096-A,QUANT,challenge,HAYIR,HAYIR,agrees,900 > 1000
+X096-B,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [900.0,1100.0] > 1000"
+X096-C,QUANT,challenge,HAYIR,HAYIR,agrees,900 > 1000
+X097-A,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [60.0,inf] > 90"
+X097-B,QUANT,challenge,EVET,EVET,agrees,"interval [120.0,inf] > 90"
+X097-C,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [60.0,inf] > 90"
+X098-A,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [3.0,7.0] >= 5"
+X098-B,QUANT,challenge,HAYIR,HAYIR,agrees,3 >= 5
+X098-C,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [3.0,7.0] >= 5"
+X099-A,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,ceil(hours)*100; <3 gives <=300; approximate3 straddles 300/400
+X099-B,QUANT,challenge,HAYIR,HAYIR,agrees,ceil(hours)*100; <3 gives <=300; approximate3 straddles 300/400
+X099-C,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,ceil(hours)*100; <3 gives <=300; approximate3 straddles 300/400
+X100-A,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,total=1040; shipping unknown and nonnegative; qualifying net >=1000
+X100-B,QUANT,challenge,HAYIR,HAYIR,agrees,total=950; shipping unknown and nonnegative; qualifying net >=1000
+X100-C,QUANT,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,total=1040; shipping unknown and nonnegative; qualifying net >=1000
+X101-A,TIME,challenge,EVET,EVET,agrees,14 <= 15
+X101-B,TIME,challenge,HAYIR,HAYIR,agrees,16 <= 15
+X101-C,TIME,challenge,EVET,EVET,agrees,14 <= 15
+X102-A,TIME,challenge,HAYIR,HAYIR,agrees,62.5 >= 72
+X102-B,TIME,challenge,EVET,EVET,agrees,86.5 >= 72
+X102-C,TIME,challenge,HAYIR,HAYIR,agrees,62.5 >= 72
+X103-A,TIME,challenge,HAYIR,HAYIR,agrees,4 <= 3
+X103-B,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [3.0,4.0] <= 3"
+X103-C,TIME,challenge,HAYIR,HAYIR,agrees,4 <= 3
+X104-A,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X104-B,TIME,challenge,EVET,EVET,agrees,7 <= 8
+X104-C,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X105-A,TIME,challenge,EVET,EVET,agrees,5 <= 6
+X105-B,TIME,challenge,HAYIR,HAYIR,agrees,10 <= 6
+X105-C,TIME,challenge,EVET,EVET,agrees,5 <= 6
+X106-A,TIME,challenge,HAYIR,HAYIR,agrees,7 > 7
+X106-B,TIME,challenge,EVET,EVET,agrees,9 > 7
+X106-C,TIME,challenge,HAYIR,HAYIR,agrees,7 > 7
+X107-A,TIME,challenge,EVET,EVET,agrees,60 <= 60
+X107-B,TIME,challenge,HAYIR,HAYIR,agrees,61 <= 60
+X107-C,TIME,challenge,EVET,EVET,agrees,60 <= 60
+X108-A,TIME,challenge,HAYIR,HAYIR,agrees,235 > 240
+X108-B,TIME,challenge,EVET,EVET,agrees,245 > 240
+X108-C,TIME,challenge,HAYIR,HAYIR,agrees,235 > 240
+X109-A,TIME,challenge,EVET,EVET,agrees,73 <= 90
+X109-B,TIME,challenge,HAYIR,HAYIR,agrees,96 <= 90
+X109-C,TIME,challenge,EVET,EVET,agrees,73 <= 90
+X110-A,TIME,challenge,EVET,EVET,agrees,5 <= 30
+X110-B,TIME,challenge,HAYIR,HAYIR,agrees,33 <= 30
+X110-C,TIME,challenge,EVET,EVET,agrees,5 <= 30
+X111-A,TIME,challenge,HAYIR,HAYIR,agrees,10 <= 9
+X111-B,TIME,challenge,EVET,EVET,agrees,9 <= 9
+X111-C,TIME,challenge,HAYIR,HAYIR,agrees,10 <= 9
+X112-A,TIME,challenge,EVET,EVET,agrees,7 <= 10
+X112-B,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [7.0,14.0] <= 10"
+X112-C,TIME,challenge,EVET,EVET,agrees,7 <= 10
+X113-A,TIME,challenge,EVET,EVET,agrees,"interval [29.0,89.0] <= 90"
+X113-B,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [60.0,119.0] <= 90"
+X113-C,TIME,challenge,EVET,EVET,agrees,"interval [29.0,89.0] <= 90"
+X114-A,TIME,challenge,EVET,EVET,agrees,5.083333333333333 >= 3
+X114-B,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X114-C,TIME,challenge,EVET,EVET,agrees,5.083333333333333 >= 3
+X115-A,TIME,challenge,EVET,EVET,agrees,5 <= 5
+X115-B,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X115-C,TIME,challenge,EVET,EVET,agrees,5 <= 5
+X116-A,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X116-B,TIME,challenge,EVET,EVET,agrees,0 >= 0
+X116-C,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X117-A,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X117-B,TIME,challenge,EVET,EVET,agrees,6 <= 7
+X117-C,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X118-A,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [3.0,6.0] <= 5"
+X118-B,TIME,challenge,EVET,EVET,agrees,"interval [3.0,4.0] <= 5"
+X118-C,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [3.0,6.0] <= 5"
+X119-A,TIME,challenge,HAYIR,HAYIR,agrees,9.5 >= 12
+X119-B,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X119-C,TIME,challenge,HAYIR,HAYIR,agrees,9.5 >= 12
+X120-A,TIME,challenge,HAYIR,HAYIR,agrees,1 >= 3
+X120-B,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [2.0,3.0] >= 3"
+X120-C,TIME,challenge,HAYIR,HAYIR,agrees,1 >= 3
+X121-A,TIME,challenge,HAYIR,HAYIR,agrees,35 >= 45
+X121-B,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X121-C,TIME,challenge,HAYIR,HAYIR,agrees,35 >= 45
+X122-A,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X122-B,TIME,challenge,HAYIR,HAYIR,agrees,20 <= 10
+X122-C,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X123-A,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X123-B,TIME,challenge,HAYIR,HAYIR,agrees,10 <= 5
+X123-C,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X124-A,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X124-B,TIME,challenge,HAYIR,HAYIR,agrees,27 <= 20
+X124-C,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X125-A,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [32.0,90.0] <= 60"
+X125-B,TIME,challenge,HAYIR,HAYIR,agrees,"interval [93.0,152.0] <= 60"
+X125-C,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [32.0,90.0] <= 60"
+X126-A,TIME,challenge,EVET,EVET,agrees,2 <= 2
+X126-B,TIME,challenge,HAYIR,HAYIR,agrees,3 <= 2
+X126-C,TIME,challenge,EVET,EVET,agrees,2 <= 2
+X127-A,TIME,challenge,HAYIR,HAYIR,agrees,3 >= 4
+X127-B,TIME,challenge,EVET,EVET,agrees,4 >= 4
+X127-C,TIME,challenge,HAYIR,HAYIR,agrees,3 >= 4
+X128-A,TIME,challenge,EVET,EVET,agrees,5 >= 3
+X128-B,TIME,challenge,HAYIR,HAYIR,agrees,2 >= 3
+X128-C,TIME,challenge,EVET,EVET,agrees,5 >= 3
+X129-A,TIME,challenge,HAYIR,HAYIR,agrees,4 <= 2
+X129-B,TIME,challenge,EVET,EVET,agrees,2 <= 2
+X129-C,TIME,challenge,HAYIR,HAYIR,agrees,4 <= 2
+X130-A,TIME,challenge,HAYIR,HAYIR,agrees,0 >= 1
+X130-B,TIME,challenge,EVET,EVET,agrees,3 >= 1
+X130-C,TIME,challenge,HAYIR,HAYIR,agrees,0 >= 1
+X131-A,TIME,challenge,EVET,EVET,agrees,6 <= 7
+X131-B,TIME,challenge,HAYIR,HAYIR,agrees,9 <= 7
+X131-C,TIME,challenge,EVET,EVET,agrees,6 <= 7
+X132-A,TIME,challenge,HAYIR,HAYIR,agrees,4 >= 5
+X132-B,TIME,challenge,EVET,EVET,agrees,5 >= 5
+X132-C,TIME,challenge,HAYIR,HAYIR,agrees,4 >= 5
+X133-A,TIME,challenge,EVET,EVET,agrees,4 <= 5
+X133-B,TIME,challenge,HAYIR,HAYIR,agrees,6 <= 5
+X133-C,TIME,challenge,EVET,EVET,agrees,4 <= 5
+X134-A,TIME,challenge,HAYIR,HAYIR,agrees,0 > 0
+X134-B,TIME,challenge,EVET,EVET,agrees,1 > 0
+X134-C,TIME,challenge,HAYIR,HAYIR,agrees,0 > 0
+X135-A,TIME,challenge,EVET,EVET,agrees,1 > 0
+X135-B,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X135-C,TIME,challenge,EVET,EVET,agrees,1 > 0
+X136-A,TIME,challenge,EVET,EVET,agrees,5 >= 3
+X136-B,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X136-C,TIME,challenge,EVET,EVET,agrees,5 >= 3
+X137-A,TIME,challenge,EVET,EVET,agrees,26 <= 30
+X137-B,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X137-C,TIME,challenge,EVET,EVET,agrees,26 <= 30
+X138-A,TIME,challenge,EVET,EVET,agrees,4 <= 5
+X138-B,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [4.0,6.0] <= 5"
+X138-C,TIME,challenge,EVET,EVET,agrees,4 <= 5
+X139-A,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [14.0,21.0] <= 14"
+X139-B,TIME,challenge,EVET,EVET,agrees,"interval [7.0,14.0] <= 14"
+X139-C,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [14.0,21.0] <= 14"
+X140-A,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [62.0,121.0] <= 100"
+X140-B,TIME,challenge,EVET,EVET,agrees,"interval [31.0,91.0] <= 100"
+X140-C,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [62.0,121.0] <= 100"
+X141-A,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X141-B,TIME,challenge,EVET,EVET,agrees,13.0 >= 12
+X141-C,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X142-A,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,5 weekdays; holiday count unknown
+X142-B,TIME,challenge,EVET,EVET,agrees,3 <= 4
+X142-C,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,5 weekdays; holiday count unknown
+X143-A,TIME,challenge,HAYIR,HAYIR,agrees,-4 >= 0
+X143-B,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X143-C,TIME,challenge,HAYIR,HAYIR,agrees,-4 >= 0
+X144-A,TIME,challenge,HAYIR,HAYIR,agrees,0 >= 1
+X144-B,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X144-C,TIME,challenge,HAYIR,HAYIR,agrees,0 >= 1
+X145-A,TIME,challenge,HAYIR,HAYIR,agrees,"interval [32.0,91.0] <= 30"
+X145-B,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [1.0,60.0] <= 30"
+X145-C,TIME,challenge,HAYIR,HAYIR,agrees,"interval [32.0,91.0] <= 30"
+X146-A,TIME,challenge,HAYIR,HAYIR,agrees,-2 > 0
+X146-B,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X146-C,TIME,challenge,HAYIR,HAYIR,agrees,-2 > 0
+X147-A,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X147-B,TIME,challenge,HAYIR,HAYIR,agrees,18 <= 15
+X147-C,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X148-A,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [10.0,15.0] <= 12"
+X148-B,TIME,challenge,HAYIR,HAYIR,agrees,"interval [20.0,25.0] <= 12"
+X148-C,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [10.0,15.0] <= 12"
+X149-A,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X149-B,TIME,challenge,HAYIR,HAYIR,agrees,-30 > 0
+X149-C,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,unknown input
+X150-A,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [10.0,13.0] >= 12"
+X150-B,TIME,challenge,HAYIR,HAYIR,agrees,"interval [10.0,11.5] >= 12"
+X150-C,TIME,challenge,ANLASILMIYOR,ANLASILMIYOR,agrees,"interval [10.0,13.0] >= 12"

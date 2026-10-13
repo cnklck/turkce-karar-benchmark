@@ -1,0 +1,248 @@
+{
+  "priceCapUsd": null,
+  "dispatchAttempts": 95558,
+  "completedAttempts": 95558,
+  "unresolvedAttempts": [],
+  "reportedUsd": 2.374599876000007,
+  "costMissing": 265,
+  "accountingComplete": false,
+  "basis": "Provider-reported cost only; an explicit zero is valid. Missing cost remains unknown. All phases, errors and retries included.",
+  "byModel": {
+    "~typesafe/jev-latest": {
+      "requests": 9991,
+      "failed": 18,
+      "retries": 18,
+      "providerReportedUsd": 0.373798908000003,
+      "costReported": 9973,
+      "costMissing": 18,
+      "inputTokens": 8899974,
+      "outputTokens": 323595,
+      "inputMissing": 18,
+      "outputMissing": 18,
+      "servedModels": [
+        "typesafe/jev-1.13-20260917"
+      ],
+      "providers": [
+        "TypeSafe"
+      ]
+    },
+    "perplexity/pplx-decider-v1.1-27b": {
+      "requests": 7582,
+      "failed": 11,
+      "retries": 10,
+      "providerReportedUsd": 0.07969602000000027,
+      "costReported": 7571,
+      "costMissing": 11,
+      "inputTokens": 3984801,
+      "outputTokens": 7571,
+      "inputMissing": 11,
+      "outputMissing": 11,
+      "servedModels": [
+        "perplexity/pplx-decider-v1.1-27b-20261006"
+      ],
+      "providers": [
+        "Perplexity"
+      ]
+    },
+    "openai/gpt-6-luna-decisions": {
+      "requests": 7594,
+      "failed": 23,
+      "retries": 22,
+      "providerReportedUsd": 0.44359720000000025,
+      "costReported": 7571,
+      "costMissing": 23,
+      "inputTokens": 4435972,
+      "outputTokens": 0,
+      "inputMissing": 23,
+      "outputMissing": 23,
+      "servedModels": [
+        "openai/gpt-6-luna-decisions-20261006"
+      ],
+      "providers": [
+        "OpenAI"
+      ]
+    },
+    "liquid/d1": {
+      "requests": 7588,
+      "failed": 16,
+      "retries": 16,
+      "providerReportedUsd": 0.15737372000000077,
+      "costReported": 7572,
+      "costMissing": 16,
+      "inputTokens": 3934343,
+      "outputTokens": 0,
+      "inputMissing": 16,
+      "outputMissing": 16,
+      "servedModels": [
+        "liquid/d1-20260930"
+      ],
+      "providers": [
+        "Liquid"
+      ]
+    },
+    "cloudflare/clef": {
+      "requests": 7584,
+      "failed": 12,
+      "retries": 12,
+      "providerReportedUsd": 0.2055687780000001,
+      "costReported": 7572,
+      "costMissing": 12,
+      "inputTokens": 4265048,
+      "outputTokens": 0,
+      "inputMissing": 12,
+      "outputMissing": 12,
+      "servedModels": [
+        "cloudflare/clef"
+      ],
+      "providers": [
+        "PrimeIntellect",
+        "Cloudflare"
+      ]
+    },
+    "cloudflare/clef-flash": {
+      "requests": 7598,
+      "failed": 26,
+      "retries": 26,
+      "providerReportedUsd": 0.10440777000000027,
+      "costReported": 7572,
+      "costMissing": 26,
+      "inputTokens": 4265048,
+      "outputTokens": 0,
+      "inputMissing": 26,
+      "outputMissing": 26,
+      "servedModels": [
+        "cloudflare/clef-flash"
+      ],
+      "providers": [
+        "PrimeIntellect",
+        "Cloudflare"
+      ]
+    },
+    "jaredpalmer/kev-4b": {
+      "requests": 7591,
+      "failed": 19,
+      "retries": 19,
+      "providerReportedUsd": 0.14468080200000044,
+      "costReported": 7572,
+      "costMissing": 19,
+      "inputTokens": 3444781,
+      "outputTokens": 312931,
+      "inputMissing": 19,
+      "outputMissing": 19,
+      "servedModels": [
+        "jaredpalmer/kev-4b-20260924"
+      ],
+      "providers": [
+        "SiliconFlow"
+      ]
+    },
+    "togethercomputer/tev1-4b-experimental": {
+      "requests": 7591,
+      "failed": 19,
+      "retries": 19,
+      "providerReportedUsd": 0.16663789799999923,
+      "costReported": 7572,
+      "costMissing": 19,
+      "inputTokens": 3967569,
+      "outputTokens": 15144,
+      "inputMissing": 19,
+      "outputMissing": 19,
+      "servedModels": [
+        "togethercomputer/tev1-4b-experimental-20260923"
+      ],
+      "providers": [
+        "Together"
+      ]
+    },
+    "inception/mercury-decide:free": {
+      "requests": 7584,
+      "failed": 12,
+      "retries": 12,
+      "providerReportedUsd": 0,
+      "costReported": 7572,
+      "costMissing": 12,
+      "inputTokens": 3759055,
+      "outputTokens": 22550,
+      "inputMissing": 12,
+      "outputMissing": 12,
+      "servedModels": [
+        "inception/mercury-decide-20260930"
+      ],
+      "providers": [
+        "Inception"
+      ]
+    },
+    "upstage/solar-decide": {
+      "requests": 7616,
+      "failed": 44,
+      "retries": 44,
+      "providerReportedUsd": 0.32572790000000135,
+      "costReported": 7572,
+      "costMissing": 44,
+      "inputTokens": 6514558,
+      "outputTokens": 7572,
+      "inputMissing": 44,
+      "outputMissing": 44,
+      "servedModels": [
+        "upstage/solar-decide-20260928"
+      ],
+      "providers": [
+        "Upstage"
+      ]
+    },
+    "upstage/solar-decide-flash": {
+      "requests": 7601,
+      "failed": 29,
+      "retries": 29,
+      "providerReportedUsd": 0.32572790000000024,
+      "costReported": 7572,
+      "costMissing": 29,
+      "inputTokens": 6514558,
+      "outputTokens": 7572,
+      "inputMissing": 29,
+      "outputMissing": 29,
+      "servedModels": [
+        "upstage/solar-decide-flash-20261008"
+      ],
+      "providers": [
+        "Upstage"
+      ]
+    },
+    "respan/span-01": {
+      "requests": 4821,
+      "failed": 20,
+      "retries": 20,
+      "providerReportedUsd": 0.0473829800000002,
+      "costReported": 4801,
+      "costMissing": 20,
+      "inputTokens": 2369149,
+      "outputTokens": 0,
+      "inputMissing": 20,
+      "outputMissing": 20,
+      "servedModels": [
+        "respan/span-01-20260925"
+      ],
+      "providers": [
+        "Respan"
+      ]
+    },
+    "respan/span-01-lite": {
+      "requests": 4817,
+      "failed": 16,
+      "retries": 16,
+      "providerReportedUsd": 0,
+      "costReported": 4801,
+      "costMissing": 16,
+      "inputTokens": 2369149,
+      "outputTokens": 0,
+      "inputMissing": 16,
+      "outputMissing": 16,
+      "servedModels": [
+        "respan/span-01-lite-20260925"
+      ],
+      "providers": [
+        "Respan"
+      ]
+    }
+  }
+}

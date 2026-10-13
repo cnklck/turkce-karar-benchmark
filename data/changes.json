@@ -1,0 +1,3898 @@
+{
+  "schema": 1,
+  "parentReviewInputSha256": "96c1495de6ae9751bf90dceac64d134afce0e397c0c00a678522185cc7ab06d1",
+  "keysChanged": 0,
+  "familyIds": [
+    "C011",
+    "C037",
+    "C107",
+    "C109",
+    "C113",
+    "C119",
+    "C120",
+    "C134",
+    "C135",
+    "C136",
+    "C139",
+    "C141",
+    "C142",
+    "C143",
+    "C146",
+    "C147",
+    "C148",
+    "C149",
+    "C153",
+    "C154",
+    "C156",
+    "C157",
+    "C158",
+    "C159",
+    "C160",
+    "C161",
+    "C180",
+    "C194",
+    "D003",
+    "D005",
+    "D022",
+    "D058",
+    "D059",
+    "D060",
+    "D068",
+    "D069",
+    "D070",
+    "D071",
+    "D072",
+    "D074",
+    "D075",
+    "D076",
+    "D077",
+    "D078",
+    "D082",
+    "D099",
+    "X011",
+    "X025",
+    "X035",
+    "X049",
+    "X056",
+    "X057",
+    "X061",
+    "X062",
+    "X068",
+    "X070",
+    "X077",
+    "X090",
+    "X115",
+    "X189",
+    "X237",
+    "X263",
+    "X265",
+    "X266",
+    "X269",
+    "X273",
+    "X274",
+    "X275",
+    "X283",
+    "X291",
+    "X293",
+    "X296",
+    "X298",
+    "X299",
+    "X300",
+    "X313",
+    "X314",
+    "X319",
+    "X320",
+    "X321",
+    "X322",
+    "X324",
+    "X325",
+    "X341",
+    "X343",
+    "X344",
+    "X345",
+    "X346",
+    "X347",
+    "X348",
+    "X350",
+    "X351",
+    "X352",
+    "X353",
+    "X354",
+    "X355",
+    "X356",
+    "X359",
+    "X360",
+    "X361",
+    "X363",
+    "X364",
+    "X368",
+    "X369",
+    "X370",
+    "X371",
+    "X373",
+    "X374",
+    "X375",
+    "X376",
+    "X377",
+    "X378",
+    "X380",
+    "X381",
+    "X382",
+    "X383",
+    "X385",
+    "X386",
+    "X387",
+    "X390",
+    "X391",
+    "X392",
+    "X394",
+    "X396",
+    "X397",
+    "X398",
+    "X399",
+    "X405",
+    "X406",
+    "X420",
+    "X426",
+    "X439",
+    "X449",
+    "X461",
+    "X470",
+    "X487",
+    "X489",
+    "X491"
+  ],
+  "changes": [
+    {
+      "target": "C109",
+      "field": "question",
+      "before": "Müşteri siparişine L beden ürün gönderilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri siparişine L beden ürün gönderilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C109",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri siparişine L beden ürün gönderilmesini istiyor.",
+        "notP": "Müşteri siparişine L beden ürün gönderilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri siparişine L beden ürün gönderilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri siparişine L beden ürün gönderilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C109",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri siparişine L beden ürün gönderilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri siparişine L beden ürün gönderilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri siparişine L beden ürün gönderilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri siparişine L beden ürün gönderilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C113",
+      "field": "question",
+      "before": "Müşteri broşürlerin yeniden basılmasını istiyor mu?",
+      "after": "Bu mesajda müşteri broşürlerin yeniden basılmasını talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C113",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri broşürlerin yeniden basılmasını istiyor.",
+        "notP": "Müşteri broşürlerin yeniden basılmasını istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri broşürlerin yeniden basılmasını talep ediyor.",
+        "notP": "Bu mesajda müşteri broşürlerin yeniden basılmasını talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C113",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri broşürlerin yeniden basılmasını istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri broşürlerin yeniden basılmasını istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri broşürlerin yeniden basılmasını talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri broşürlerin yeniden basılmasını talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C119",
+      "field": "question",
+      "before": "Müşteri mevcut elektrik aboneliğinin kapatılmasını istiyor mu?",
+      "after": "Bu mesajda müşteri mevcut elektrik aboneliğinin kapatılmasını talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C119",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri mevcut elektrik aboneliğinin kapatılmasını istiyor.",
+        "notP": "Müşteri mevcut elektrik aboneliğinin kapatılmasını istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri mevcut elektrik aboneliğinin kapatılmasını talep ediyor.",
+        "notP": "Bu mesajda müşteri mevcut elektrik aboneliğinin kapatılmasını talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C119",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri mevcut elektrik aboneliğinin kapatılmasını istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri mevcut elektrik aboneliğinin kapatılmasını istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri mevcut elektrik aboneliğinin kapatılmasını talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri mevcut elektrik aboneliğinin kapatılmasını talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C120",
+      "field": "question",
+      "before": "Müşteri otopark aboneliğinin iptal edilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri otopark aboneliğinin iptal edilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C120",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri otopark aboneliğinin iptal edilmesini istiyor.",
+        "notP": "Müşteri otopark aboneliğinin iptal edilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri otopark aboneliğinin iptal edilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri otopark aboneliğinin iptal edilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C120",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri otopark aboneliğinin iptal edilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri otopark aboneliğinin iptal edilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri otopark aboneliğinin iptal edilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri otopark aboneliğinin iptal edilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C135",
+      "field": "question",
+      "before": "Müşteri broşürlerin 300 adet basılmasını istiyor mu?",
+      "after": "Bu mesajda müşteri broşürlerin 300 adet basılmasını talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C135",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri broşürlerin 300 adet basılmasını istiyor.",
+        "notP": "Müşteri broşürlerin 300 adet basılmasını istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri broşürlerin 300 adet basılmasını talep ediyor.",
+        "notP": "Bu mesajda müşteri broşürlerin 300 adet basılmasını talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C135",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri broşürlerin 300 adet basılmasını istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri broşürlerin 300 adet basılmasını istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri broşürlerin 300 adet basılmasını talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri broşürlerin 300 adet basılmasını talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C136",
+      "field": "question",
+      "before": "Müşteri biletinin iptal edilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri biletinin iptal edilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C136",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri biletinin iptal edilmesini istiyor.",
+        "notP": "Müşteri biletinin iptal edilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri biletinin iptal edilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri biletinin iptal edilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C136",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri biletinin iptal edilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri biletinin iptal edilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri biletinin iptal edilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri biletinin iptal edilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C139",
+      "field": "question",
+      "before": "Müşteri poliçesine cam kırılması teminatı eklenmesini istiyor mu?",
+      "after": "Bu mesajda müşteri poliçesine cam kırılması teminatı eklenmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C139",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri poliçesine cam kırılması teminatı eklenmesini istiyor.",
+        "notP": "Müşteri poliçesine cam kırılması teminatı eklenmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri poliçesine cam kırılması teminatı eklenmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri poliçesine cam kırılması teminatı eklenmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C139",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri poliçesine cam kırılması teminatı eklenmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri poliçesine cam kırılması teminatı eklenmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri poliçesine cam kırılması teminatı eklenmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri poliçesine cam kırılması teminatı eklenmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C141",
+      "field": "question",
+      "before": "Müşteri doğalgaz sayacının yeniden okunmasını istiyor mu?",
+      "after": "Bu mesajda müşteri doğalgaz sayacının yeniden okunmasını talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C141",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri doğalgaz sayacının yeniden okunmasını istiyor.",
+        "notP": "Müşteri doğalgaz sayacının yeniden okunmasını istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri doğalgaz sayacının yeniden okunmasını talep ediyor.",
+        "notP": "Bu mesajda müşteri doğalgaz sayacının yeniden okunmasını talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C141",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri doğalgaz sayacının yeniden okunmasını istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri doğalgaz sayacının yeniden okunmasını istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri doğalgaz sayacının yeniden okunmasını talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri doğalgaz sayacının yeniden okunmasını talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C142",
+      "field": "question",
+      "before": "Müşteri rezervasyonundaki bagaj hakkının artırılmasını istiyor mu?",
+      "after": "Bu mesajda müşteri rezervasyonundaki bagaj hakkının artırılmasını talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C142",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri rezervasyonundaki bagaj hakkının artırılmasını istiyor.",
+        "notP": "Müşteri rezervasyonundaki bagaj hakkının artırılmasını istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri rezervasyonundaki bagaj hakkının artırılmasını talep ediyor.",
+        "notP": "Bu mesajda müşteri rezervasyonundaki bagaj hakkının artırılmasını talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C142",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri rezervasyonundaki bagaj hakkının artırılmasını istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri rezervasyonundaki bagaj hakkının artırılmasını istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri rezervasyonundaki bagaj hakkının artırılmasını talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri rezervasyonundaki bagaj hakkının artırılmasını talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C143",
+      "field": "question",
+      "before": "Müşteri üyeliğinin dondurulmasını istiyor mu?",
+      "after": "Bu mesajda müşteri üyeliğinin dondurulmasını talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C143",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri üyeliğinin dondurulmasını istiyor.",
+        "notP": "Müşteri üyeliğinin dondurulmasını istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri üyeliğinin dondurulmasını talep ediyor.",
+        "notP": "Bu mesajda müşteri üyeliğinin dondurulmasını talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C143",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri üyeliğinin dondurulmasını istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri üyeliğinin dondurulmasını istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri üyeliğinin dondurulmasını talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri üyeliğinin dondurulmasını talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C146",
+      "field": "question",
+      "before": "Müşteri kargosunun başka bir adrese gönderilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri kargosunun başka bir adrese gönderilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C146",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri kargosunun başka bir adrese gönderilmesini istiyor.",
+        "notP": "Müşteri kargosunun başka bir adrese gönderilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri kargosunun başka bir adrese gönderilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri kargosunun başka bir adrese gönderilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C146",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri kargosunun başka bir adrese gönderilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri kargosunun başka bir adrese gönderilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri kargosunun başka bir adrese gönderilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri kargosunun başka bir adrese gönderilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C147",
+      "field": "question",
+      "before": "Müşteri elektrik faturasındaki adres bilgisinin düzeltilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri elektrik faturasındaki adres bilgisinin düzeltilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C147",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri elektrik faturasındaki adres bilgisinin düzeltilmesini istiyor.",
+        "notP": "Müşteri elektrik faturasındaki adres bilgisinin düzeltilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri elektrik faturasındaki adres bilgisinin düzeltilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri elektrik faturasındaki adres bilgisinin düzeltilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C147",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri elektrik faturasındaki adres bilgisinin düzeltilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri elektrik faturasındaki adres bilgisinin düzeltilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri elektrik faturasındaki adres bilgisinin düzeltilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri elektrik faturasındaki adres bilgisinin düzeltilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C148",
+      "field": "question",
+      "before": "Müşteri poliçesinin yenilenmesini istiyor mu?",
+      "after": "Bu mesajda müşteri poliçesinin yenilenmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C148",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri poliçesinin yenilenmesini istiyor.",
+        "notP": "Müşteri poliçesinin yenilenmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri poliçesinin yenilenmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri poliçesinin yenilenmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C148",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri poliçesinin yenilenmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri poliçesinin yenilenmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri poliçesinin yenilenmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri poliçesinin yenilenmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C149",
+      "field": "question",
+      "before": "Müşteri paltosunun düğmelerinin dikilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri paltosunun düğmelerinin dikilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C149",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri paltosunun düğmelerinin dikilmesini istiyor.",
+        "notP": "Müşteri paltosunun düğmelerinin dikilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri paltosunun düğmelerinin dikilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri paltosunun düğmelerinin dikilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C149",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri paltosunun düğmelerinin dikilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri paltosunun düğmelerinin dikilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri paltosunun düğmelerinin dikilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri paltosunun düğmelerinin dikilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C153",
+      "field": "question",
+      "before": "Müşteri tüketici hakem heyetine başvuracağını söylüyor mu?",
+      "after": "Bu mesaj, verilen kurala göre müşterinin tüketici hakem heyetine başvuru planını içeriyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C153",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri tüketici hakem heyetine başvuracağını söylüyor.",
+        "notP": "Müşteri tüketici hakem heyetine başvuracağını söylemiyor."
+      },
+      "after": {
+        "P": "Bu mesaj, verilen kurala göre müşterinin tüketici hakem heyetine başvuru planını içeriyor.",
+        "notP": "Bu mesaj, verilen kurala göre müşterinin tüketici hakem heyetine başvuru planını içermiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C153",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri tüketici hakem heyetine başvuracağını söylüyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri tüketici hakem heyetine başvuracağını söylemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesaj, verilen kurala göre müşterinin tüketici hakem heyetine başvuru planını içeriyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesaj, verilen kurala göre müşterinin tüketici hakem heyetine başvuru planını içermiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C154",
+      "field": "question",
+      "before": "Müşteri odasının bugün temizlenmesini istiyor mu?",
+      "after": "Bu mesajda müşteri odasının bugün temizlenmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C154",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri odasının bugün temizlenmesini istiyor.",
+        "notP": "Müşteri odasının bugün temizlenmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri odasının bugün temizlenmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri odasının bugün temizlenmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C154",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri odasının bugün temizlenmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri odasının bugün temizlenmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri odasının bugün temizlenmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri odasının bugün temizlenmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C156",
+      "field": "question",
+      "before": "Müşteri kızının öğle uykusu saatinin değiştirilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri kızının öğle uykusu saatinin değiştirilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C156",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri kızının öğle uykusu saatinin değiştirilmesini istiyor.",
+        "notP": "Müşteri kızının öğle uykusu saatinin değiştirilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri kızının öğle uykusu saatinin değiştirilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri kızının öğle uykusu saatinin değiştirilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C156",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri kızının öğle uykusu saatinin değiştirilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri kızının öğle uykusu saatinin değiştirilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri kızının öğle uykusu saatinin değiştirilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri kızının öğle uykusu saatinin değiştirilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C157",
+      "field": "question",
+      "before": "Müşteri depolama alanının artırılmasını istiyor mu?",
+      "after": "Bu mesajda müşteri depolama alanının artırılmasını talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C157",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri depolama alanının artırılmasını istiyor.",
+        "notP": "Müşteri depolama alanının artırılmasını istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri depolama alanının artırılmasını talep ediyor.",
+        "notP": "Bu mesajda müşteri depolama alanının artırılmasını talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C157",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri depolama alanının artırılmasını istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri depolama alanının artırılmasını istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri depolama alanının artırılmasını talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri depolama alanının artırılmasını talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C158",
+      "field": "question",
+      "before": "Müşteri köpeğinin aşı randevusunun ertelenmesini istiyor mu?",
+      "after": "Bu mesajda müşteri köpeğinin aşı randevusunun ertelenmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C158",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri köpeğinin aşı randevusunun ertelenmesini istiyor.",
+        "notP": "Müşteri köpeğinin aşı randevusunun ertelenmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri köpeğinin aşı randevusunun ertelenmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri köpeğinin aşı randevusunun ertelenmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C158",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri köpeğinin aşı randevusunun ertelenmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri köpeğinin aşı randevusunun ertelenmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri köpeğinin aşı randevusunun ertelenmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri köpeğinin aşı randevusunun ertelenmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C159",
+      "field": "question",
+      "before": "Müşteri siparişine ek broşür basılmasını istiyor mu?",
+      "after": "Bu mesajda müşteri siparişine ek broşür basılmasını talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C159",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri siparişine ek broşür basılmasını istiyor.",
+        "notP": "Müşteri siparişine ek broşür basılmasını istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri siparişine ek broşür basılmasını talep ediyor.",
+        "notP": "Bu mesajda müşteri siparişine ek broşür basılmasını talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C159",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri siparişine ek broşür basılmasını istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri siparişine ek broşür basılmasını istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri siparişine ek broşür basılmasını talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri siparişine ek broşür basılmasını talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C160",
+      "field": "question",
+      "before": "Müşteri biletindeki yolcu adının değiştirilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri biletindeki yolcu adının değiştirilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C160",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri biletindeki yolcu adının değiştirilmesini istiyor.",
+        "notP": "Müşteri biletindeki yolcu adının değiştirilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri biletindeki yolcu adının değiştirilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri biletindeki yolcu adının değiştirilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "C160",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri biletindeki yolcu adının değiştirilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri biletindeki yolcu adının değiştirilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri biletindeki yolcu adının değiştirilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri biletindeki yolcu adının değiştirilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D059",
+      "field": "question",
+      "before": "Müşteri siparişinin iptal edilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri siparişinin iptal edilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D059",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri siparişinin iptal edilmesini istiyor.",
+        "notP": "Müşteri siparişinin iptal edilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri siparişinin iptal edilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri siparişinin iptal edilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D059",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri siparişinin iptal edilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri siparişinin iptal edilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri siparişinin iptal edilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri siparişinin iptal edilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D060",
+      "field": "question",
+      "before": "Müşteri siparişinin iptal edilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri siparişinin iptal edilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D060",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri siparişinin iptal edilmesini istiyor.",
+        "notP": "Müşteri siparişinin iptal edilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri siparişinin iptal edilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri siparişinin iptal edilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D060",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri siparişinin iptal edilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri siparişinin iptal edilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri siparişinin iptal edilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri siparişinin iptal edilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D068",
+      "field": "question",
+      "before": "Müşteri aboneliğinin iptal edilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri aboneliğinin iptal edilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D068",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri aboneliğinin iptal edilmesini istiyor.",
+        "notP": "Müşteri aboneliğinin iptal edilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri aboneliğinin iptal edilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri aboneliğinin iptal edilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D068",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri aboneliğinin iptal edilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri aboneliğinin iptal edilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri aboneliğinin iptal edilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri aboneliğinin iptal edilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D069",
+      "field": "question",
+      "before": "Müşteri ürünün değiştirilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri ürünün değiştirilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D069",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri ürünün değiştirilmesini istiyor.",
+        "notP": "Müşteri ürünün değiştirilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri ürünün değiştirilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri ürünün değiştirilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D069",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri ürünün değiştirilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri ürünün değiştirilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri ürünün değiştirilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri ürünün değiştirilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D070",
+      "field": "question",
+      "before": "Müşteri teknisyenin cumartesi gelmesini istiyor mu?",
+      "after": "Bu mesajda müşteri teknisyenin cumartesi gelmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D070",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri teknisyenin cumartesi gelmesini istiyor.",
+        "notP": "Müşteri teknisyenin cumartesi gelmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri teknisyenin cumartesi gelmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri teknisyenin cumartesi gelmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D070",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri teknisyenin cumartesi gelmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri teknisyenin cumartesi gelmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri teknisyenin cumartesi gelmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri teknisyenin cumartesi gelmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D071",
+      "field": "question",
+      "before": "Müşteri geçen ayın faturasının e-posta adresine gönderilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri geçen ayın faturasının e-posta adresine gönderilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D071",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri geçen ayın faturasının e-posta adresine gönderilmesini istiyor.",
+        "notP": "Müşteri geçen ayın faturasının e-posta adresine gönderilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri geçen ayın faturasının e-posta adresine gönderilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri geçen ayın faturasının e-posta adresine gönderilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D071",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri geçen ayın faturasının e-posta adresine gönderilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri geçen ayın faturasının e-posta adresine gönderilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri geçen ayın faturasının e-posta adresine gönderilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri geçen ayın faturasının e-posta adresine gönderilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D072",
+      "field": "question",
+      "before": "Müşteri telefonla geri aranmayı istiyor mu?",
+      "after": "Bu mesajda müşteri telefonla geri aranmayı talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D072",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri telefonla geri aranmayı istiyor.",
+        "notP": "Müşteri telefonla geri aranmayı istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri telefonla geri aranmayı talep ediyor.",
+        "notP": "Bu mesajda müşteri telefonla geri aranmayı talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D072",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri telefonla geri aranmayı istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri telefonla geri aranmayı istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri telefonla geri aranmayı talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri telefonla geri aranmayı talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D074",
+      "field": "question",
+      "before": "Müşteri hesabının kapatılmasını istiyor mu?",
+      "after": "Bu mesajda müşteri hesabının kapatılmasını talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D074",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri hesabının kapatılmasını istiyor.",
+        "notP": "Müşteri hesabının kapatılmasını istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri hesabının kapatılmasını talep ediyor.",
+        "notP": "Bu mesajda müşteri hesabının kapatılmasını talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D074",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri hesabının kapatılmasını istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri hesabının kapatılmasını istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri hesabının kapatılmasını talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri hesabının kapatılmasını talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D075",
+      "field": "question",
+      "before": "Müşteri siparişine hediye paketi yapılmasını istiyor mu?",
+      "after": "Bu mesajda müşteri siparişine hediye paketi yapılmasını talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D075",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri siparişine hediye paketi yapılmasını istiyor.",
+        "notP": "Müşteri siparişine hediye paketi yapılmasını istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri siparişine hediye paketi yapılmasını talep ediyor.",
+        "notP": "Bu mesajda müşteri siparişine hediye paketi yapılmasını talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D075",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri siparişine hediye paketi yapılmasını istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri siparişine hediye paketi yapılmasını istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri siparişine hediye paketi yapılmasını talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri siparişine hediye paketi yapılmasını talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D076",
+      "field": "question",
+      "before": "Müşteri teslimat saatinin değiştirilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri teslimat saatinin değiştirilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D076",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri teslimat saatinin değiştirilmesini istiyor.",
+        "notP": "Müşteri teslimat saatinin değiştirilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri teslimat saatinin değiştirilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri teslimat saatinin değiştirilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D076",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri teslimat saatinin değiştirilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri teslimat saatinin değiştirilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri teslimat saatinin değiştirilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri teslimat saatinin değiştirilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D077",
+      "field": "question",
+      "before": "Müşteri ödediği kargo ücretinin iade edilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri ödediği kargo ücretinin iade edilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D077",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri ödediği kargo ücretinin iade edilmesini istiyor.",
+        "notP": "Müşteri ödediği kargo ücretinin iade edilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri ödediği kargo ücretinin iade edilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri ödediği kargo ücretinin iade edilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D077",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri ödediği kargo ücretinin iade edilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri ödediği kargo ücretinin iade edilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri ödediği kargo ücretinin iade edilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri ödediği kargo ücretinin iade edilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D078",
+      "field": "question",
+      "before": "Müşteri siparişinin iptal edilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri siparişinin iptal edilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D078",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri siparişinin iptal edilmesini istiyor.",
+        "notP": "Müşteri siparişinin iptal edilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri siparişinin iptal edilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri siparişinin iptal edilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "D078",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri siparişinin iptal edilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri siparişinin iptal edilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri siparişinin iptal edilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri siparişinin iptal edilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X265",
+      "field": "question",
+      "before": "Müşteri aboneliğinin iptal edilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri aboneliğinin iptal edilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X265",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri aboneliğinin iptal edilmesini istiyor.",
+        "notP": "Müşteri aboneliğinin iptal edilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri aboneliğinin iptal edilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri aboneliğinin iptal edilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X265",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri aboneliğinin iptal edilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri aboneliğinin iptal edilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri aboneliğinin iptal edilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri aboneliğinin iptal edilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X269",
+      "field": "question",
+      "before": "Müşteri stokta olmayan ürünün yerine benzerinin gönderilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri stokta olmayan ürünün yerine benzerinin gönderilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X269",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri stokta olmayan ürünün yerine benzerinin gönderilmesini istiyor.",
+        "notP": "Müşteri stokta olmayan ürünün yerine benzerinin gönderilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri stokta olmayan ürünün yerine benzerinin gönderilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri stokta olmayan ürünün yerine benzerinin gönderilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X269",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri stokta olmayan ürünün yerine benzerinin gönderilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri stokta olmayan ürünün yerine benzerinin gönderilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri stokta olmayan ürünün yerine benzerinin gönderilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri stokta olmayan ürünün yerine benzerinin gönderilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X273",
+      "field": "question",
+      "before": "Müşteri odasının değiştirilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri odasının değiştirilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X273",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri odasının değiştirilmesini istiyor.",
+        "notP": "Müşteri odasının değiştirilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri odasının değiştirilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri odasının değiştirilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X273",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri odasının değiştirilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri odasının değiştirilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri odasının değiştirilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri odasının değiştirilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X274",
+      "field": "question",
+      "before": "Müşteri EFT işleminin iptal edilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri EFT işleminin iptal edilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X274",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri EFT işleminin iptal edilmesini istiyor.",
+        "notP": "Müşteri EFT işleminin iptal edilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri EFT işleminin iptal edilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri EFT işleminin iptal edilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X274",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri EFT işleminin iptal edilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri EFT işleminin iptal edilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri EFT işleminin iptal edilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri EFT işleminin iptal edilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X275",
+      "field": "question",
+      "before": "Müşteri direksiyon sınavının ertelenmesini istiyor mu?",
+      "after": "Bu mesajda müşteri direksiyon sınavının ertelenmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X275",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri direksiyon sınavının ertelenmesini istiyor.",
+        "notP": "Müşteri direksiyon sınavının ertelenmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri direksiyon sınavının ertelenmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri direksiyon sınavının ertelenmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X275",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri direksiyon sınavının ertelenmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri direksiyon sınavının ertelenmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri direksiyon sınavının ertelenmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri direksiyon sınavının ertelenmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X291",
+      "field": "question",
+      "before": "Müşteri konut kredisi başvurusunun iptal edilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri konut kredisi başvurusunun iptal edilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X291",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri konut kredisi başvurusunun iptal edilmesini istiyor.",
+        "notP": "Müşteri konut kredisi başvurusunun iptal edilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri konut kredisi başvurusunun iptal edilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri konut kredisi başvurusunun iptal edilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X291",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri konut kredisi başvurusunun iptal edilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri konut kredisi başvurusunun iptal edilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri konut kredisi başvurusunun iptal edilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri konut kredisi başvurusunun iptal edilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X298",
+      "field": "question",
+      "before": "Müşteri muayene randevusunun öne alınmasını istiyor mu?",
+      "after": "Bu mesajda müşteri muayene randevusunun öne alınmasını talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X298",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri muayene randevusunun öne alınmasını istiyor.",
+        "notP": "Müşteri muayene randevusunun öne alınmasını istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri muayene randevusunun öne alınmasını talep ediyor.",
+        "notP": "Bu mesajda müşteri muayene randevusunun öne alınmasını talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X298",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri muayene randevusunun öne alınmasını istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri muayene randevusunun öne alınmasını istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri muayene randevusunun öne alınmasını talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri muayene randevusunun öne alınmasını talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X299",
+      "field": "question",
+      "before": "Müşteri biletlerin iade edilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri biletlerin iade edilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X299",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri biletlerin iade edilmesini istiyor.",
+        "notP": "Müşteri biletlerin iade edilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri biletlerin iade edilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri biletlerin iade edilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X299",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri biletlerin iade edilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri biletlerin iade edilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri biletlerin iade edilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri biletlerin iade edilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X300",
+      "field": "question",
+      "before": "Müşteri paketin şubede bekletilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri paketin şubede bekletilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X300",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri paketin şubede bekletilmesini istiyor.",
+        "notP": "Müşteri paketin şubede bekletilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri paketin şubede bekletilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri paketin şubede bekletilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X300",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri paketin şubede bekletilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri paketin şubede bekletilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri paketin şubede bekletilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri paketin şubede bekletilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X319",
+      "field": "question",
+      "before": "Müşteri kart limitinin artırılmasını istiyor mu?",
+      "after": "Bu mesajda müşteri kart limitinin artırılmasını talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X319",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri kart limitinin artırılmasını istiyor.",
+        "notP": "Müşteri kart limitinin artırılmasını istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri kart limitinin artırılmasını talep ediyor.",
+        "notP": "Bu mesajda müşteri kart limitinin artırılmasını talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X319",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri kart limitinin artırılmasını istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri kart limitinin artırılmasını istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri kart limitinin artırılmasını talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri kart limitinin artırılmasını talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X320",
+      "field": "question",
+      "before": "Müşteri internet hattının yeni adrese taşınmasını istiyor mu?",
+      "after": "Bu mesajda müşteri internet hattının yeni adrese taşınmasını talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X320",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri internet hattının yeni adrese taşınmasını istiyor.",
+        "notP": "Müşteri internet hattının yeni adrese taşınmasını istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri internet hattının yeni adrese taşınmasını talep ediyor.",
+        "notP": "Bu mesajda müşteri internet hattının yeni adrese taşınmasını talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X320",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri internet hattının yeni adrese taşınmasını istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri internet hattının yeni adrese taşınmasını istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri internet hattının yeni adrese taşınmasını talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri internet hattının yeni adrese taşınmasını talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X321",
+      "field": "question",
+      "before": "Müşteri temizlik ekibinin sabah gelmesini istiyor mu?",
+      "after": "Bu mesajda müşteri temizlik ekibinin sabah gelmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X321",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri temizlik ekibinin sabah gelmesini istiyor.",
+        "notP": "Müşteri temizlik ekibinin sabah gelmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri temizlik ekibinin sabah gelmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri temizlik ekibinin sabah gelmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X321",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri temizlik ekibinin sabah gelmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri temizlik ekibinin sabah gelmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri temizlik ekibinin sabah gelmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri temizlik ekibinin sabah gelmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X322",
+      "field": "question",
+      "before": "Müşteri otelden geç çıkış yapmak istiyor mu?",
+      "after": "Bu mesajda müşteri otelden geç çıkış yapmayı talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X322",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri otelden geç çıkış yapmak istiyor.",
+        "notP": "Müşteri otelden geç çıkış yapmak istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri otelden geç çıkış yapmayı talep ediyor.",
+        "notP": "Bu mesajda müşteri otelden geç çıkış yapmayı talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X322",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri otelden geç çıkış yapmak istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri otelden geç çıkış yapmak istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri otelden geç çıkış yapmayı talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri otelden geç çıkış yapmayı talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X324",
+      "field": "question",
+      "before": "Müşteri dolap teslimatının ertelenmesini istiyor mu?",
+      "after": "Bu mesajda müşteri dolap teslimatının ertelenmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X324",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri dolap teslimatının ertelenmesini istiyor.",
+        "notP": "Müşteri dolap teslimatının ertelenmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri dolap teslimatının ertelenmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri dolap teslimatının ertelenmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X324",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri dolap teslimatının ertelenmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri dolap teslimatının ertelenmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri dolap teslimatının ertelenmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri dolap teslimatının ertelenmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X325",
+      "field": "question",
+      "before": "Müşteri lisansının otomatik yenilenmesini istiyor mu?",
+      "after": "Bu mesajda müşteri lisansının otomatik yenilenmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X325",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri lisansının otomatik yenilenmesini istiyor.",
+        "notP": "Müşteri lisansının otomatik yenilenmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri lisansının otomatik yenilenmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri lisansının otomatik yenilenmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X325",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri lisansının otomatik yenilenmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri lisansının otomatik yenilenmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri lisansının otomatik yenilenmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri lisansının otomatik yenilenmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X343",
+      "field": "question",
+      "before": "Müşteri otomatik ödeme talimatının devam etmesini istiyor mu?",
+      "after": "Bu mesajda müşteri otomatik ödeme talimatının devam etmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X343",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri otomatik ödeme talimatının devam etmesini istiyor.",
+        "notP": "Müşteri otomatik ödeme talimatının devam etmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri otomatik ödeme talimatının devam etmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri otomatik ödeme talimatının devam etmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X343",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri otomatik ödeme talimatının devam etmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri otomatik ödeme talimatının devam etmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri otomatik ödeme talimatının devam etmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri otomatik ödeme talimatının devam etmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X344",
+      "field": "question",
+      "before": "Müşteri kulaklığın servise gönderilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri kulaklığın servise gönderilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X344",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri kulaklığın servise gönderilmesini istiyor.",
+        "notP": "Müşteri kulaklığın servise gönderilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri kulaklığın servise gönderilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri kulaklığın servise gönderilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X344",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri kulaklığın servise gönderilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri kulaklığın servise gönderilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri kulaklığın servise gönderilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri kulaklığın servise gönderilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X345",
+      "field": "question",
+      "before": "Müşteri akşam grubuna geçmek istiyor mu?",
+      "after": "Bu mesajda müşteri akşam grubuna geçmeyi talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X345",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri akşam grubuna geçmek istiyor.",
+        "notP": "Müşteri akşam grubuna geçmek istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri akşam grubuna geçmeyi talep ediyor.",
+        "notP": "Bu mesajda müşteri akşam grubuna geçmeyi talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X345",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri akşam grubuna geçmek istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri akşam grubuna geçmek istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri akşam grubuna geçmeyi talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri akşam grubuna geçmeyi talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X346",
+      "field": "question",
+      "before": "Müşteri hasar dosyasının kapatılmasını istiyor mu?",
+      "after": "Bu mesajda müşteri hasar dosyasının kapatılmasını talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X346",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri hasar dosyasının kapatılmasını istiyor.",
+        "notP": "Müşteri hasar dosyasının kapatılmasını istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri hasar dosyasının kapatılmasını talep ediyor.",
+        "notP": "Bu mesajda müşteri hasar dosyasının kapatılmasını talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X346",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri hasar dosyasının kapatılmasını istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri hasar dosyasının kapatılmasını istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri hasar dosyasının kapatılmasını talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri hasar dosyasının kapatılmasını talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X347",
+      "field": "question",
+      "before": "Müşteri hesabının silinmesini istiyor mu?",
+      "after": "Bu mesajda müşteri hesabının silinmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X347",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri hesabının silinmesini istiyor.",
+        "notP": "Müşteri hesabının silinmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri hesabının silinmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri hesabının silinmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X347",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri hesabının silinmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri hesabının silinmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri hesabının silinmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri hesabının silinmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X348",
+      "field": "question",
+      "before": "Müşteri siparişine deterjan eklenmesini istiyor mu?",
+      "after": "Bu mesajda müşteri siparişine deterjan eklenmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X348",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri siparişine deterjan eklenmesini istiyor.",
+        "notP": "Müşteri siparişine deterjan eklenmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri siparişine deterjan eklenmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri siparişine deterjan eklenmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X348",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri siparişine deterjan eklenmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri siparişine deterjan eklenmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri siparişine deterjan eklenmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri siparişine deterjan eklenmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X350",
+      "field": "question",
+      "before": "Müşteri mama aboneliğinin bir ay ertelenmesini istiyor mu?",
+      "after": "Bu mesajda müşteri mama aboneliğinin bir ay ertelenmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X350",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri mama aboneliğinin bir ay ertelenmesini istiyor.",
+        "notP": "Müşteri mama aboneliğinin bir ay ertelenmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri mama aboneliğinin bir ay ertelenmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri mama aboneliğinin bir ay ertelenmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X350",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri mama aboneliğinin bir ay ertelenmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri mama aboneliğinin bir ay ertelenmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri mama aboneliğinin bir ay ertelenmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri mama aboneliğinin bir ay ertelenmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X351",
+      "field": "question",
+      "before": "Müşteri montajın cumartesi yapılmasını istiyor mu?",
+      "after": "Bu mesajda müşteri montajın cumartesi yapılmasını talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X351",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri montajın cumartesi yapılmasını istiyor.",
+        "notP": "Müşteri montajın cumartesi yapılmasını istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri montajın cumartesi yapılmasını talep ediyor.",
+        "notP": "Bu mesajda müşteri montajın cumartesi yapılmasını talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X351",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri montajın cumartesi yapılmasını istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri montajın cumartesi yapılmasını istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri montajın cumartesi yapılmasını talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri montajın cumartesi yapılmasını talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X352",
+      "field": "question",
+      "before": "Müşteri bilet tarihinin değiştirilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri bilet tarihinin değiştirilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X352",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri bilet tarihinin değiştirilmesini istiyor.",
+        "notP": "Müşteri bilet tarihinin değiştirilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri bilet tarihinin değiştirilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri bilet tarihinin değiştirilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X352",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri bilet tarihinin değiştirilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri bilet tarihinin değiştirilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri bilet tarihinin değiştirilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri bilet tarihinin değiştirilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X353",
+      "field": "question",
+      "before": "Müşteri oda değişikliği istiyor mu?",
+      "after": "Bu mesajda müşteri oda değişikliği talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X353",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri oda değişikliği istiyor.",
+        "notP": "Müşteri oda değişikliği istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri oda değişikliği talep ediyor.",
+        "notP": "Bu mesajda müşteri oda değişikliği talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X353",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri oda değişikliği istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri oda değişikliği istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri oda değişikliği talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri oda değişikliği talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X354",
+      "field": "question",
+      "before": "Müşteri rezervasyonunun iptal edilmesini istiyor mu?",
+      "after": "Bu mesaj, verilen kurala göre müşterinin rezervasyonunun iptal edilmesine ilişkin talebini içeriyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X354",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri rezervasyonunun iptal edilmesini istiyor.",
+        "notP": "Müşteri rezervasyonunun iptal edilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesaj, verilen kurala göre müşterinin rezervasyonunun iptal edilmesine ilişkin talebini içeriyor.",
+        "notP": "Bu mesaj, verilen kurala göre müşterinin rezervasyonunun iptal edilmesine ilişkin talebini içermiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X354",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri rezervasyonunun iptal edilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri rezervasyonunun iptal edilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesaj, verilen kurala göre müşterinin rezervasyonunun iptal edilmesine ilişkin talebini içeriyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesaj, verilen kurala göre müşterinin rezervasyonunun iptal edilmesine ilişkin talebini içermiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X355",
+      "field": "question",
+      "before": "Müşteri klima montaj randevusunun ertelenmesini istiyor mu?",
+      "after": "Bu mesajda müşteri klima montaj randevusunun ertelenmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X355",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri klima montaj randevusunun ertelenmesini istiyor.",
+        "notP": "Müşteri klima montaj randevusunun ertelenmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri klima montaj randevusunun ertelenmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri klima montaj randevusunun ertelenmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X355",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri klima montaj randevusunun ertelenmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri klima montaj randevusunun ertelenmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri klima montaj randevusunun ertelenmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri klima montaj randevusunun ertelenmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X356",
+      "field": "question",
+      "before": "Müşteri kremin yeniden gönderilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri kremin yeniden gönderilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X356",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri kremin yeniden gönderilmesini istiyor.",
+        "notP": "Müşteri kremin yeniden gönderilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri kremin yeniden gönderilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri kremin yeniden gönderilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X356",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri kremin yeniden gönderilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri kremin yeniden gönderilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri kremin yeniden gönderilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri kremin yeniden gönderilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X359",
+      "field": "question",
+      "before": "Müşteri su sayacının değiştirilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri su sayacının değiştirilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X359",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri su sayacının değiştirilmesini istiyor.",
+        "notP": "Müşteri su sayacının değiştirilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri su sayacının değiştirilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri su sayacının değiştirilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X359",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri su sayacının değiştirilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri su sayacının değiştirilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri su sayacının değiştirilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri su sayacının değiştirilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X360",
+      "field": "question",
+      "before": "Müşteri kurs kaydının dondurulmasını istiyor mu?",
+      "after": "Bu mesajda müşteri kurs kaydının dondurulmasını talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X360",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri kurs kaydının dondurulmasını istiyor.",
+        "notP": "Müşteri kurs kaydının dondurulmasını istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri kurs kaydının dondurulmasını talep ediyor.",
+        "notP": "Bu mesajda müşteri kurs kaydının dondurulmasını talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X360",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri kurs kaydının dondurulmasını istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri kurs kaydının dondurulmasını istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri kurs kaydının dondurulmasını talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri kurs kaydının dondurulmasını talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X361",
+      "field": "question",
+      "before": "Müşteri mama siparişinin bu hafta kargoya verilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri mama siparişinin bu hafta kargoya verilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X361",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri mama siparişinin bu hafta kargoya verilmesini istiyor.",
+        "notP": "Müşteri mama siparişinin bu hafta kargoya verilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri mama siparişinin bu hafta kargoya verilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri mama siparişinin bu hafta kargoya verilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X361",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri mama siparişinin bu hafta kargoya verilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri mama siparişinin bu hafta kargoya verilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri mama siparişinin bu hafta kargoya verilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri mama siparişinin bu hafta kargoya verilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X363",
+      "field": "question",
+      "before": "Müşteri eksik gelen ürünün yeniden gönderilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri eksik gelen ürünün yeniden gönderilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X363",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri eksik gelen ürünün yeniden gönderilmesini istiyor.",
+        "notP": "Müşteri eksik gelen ürünün yeniden gönderilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri eksik gelen ürünün yeniden gönderilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri eksik gelen ürünün yeniden gönderilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X363",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri eksik gelen ürünün yeniden gönderilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri eksik gelen ürünün yeniden gönderilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri eksik gelen ürünün yeniden gönderilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri eksik gelen ürünün yeniden gönderilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X364",
+      "field": "question",
+      "before": "Müşteri kitabın değiştirilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri kitabın değiştirilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X364",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri kitabın değiştirilmesini istiyor.",
+        "notP": "Müşteri kitabın değiştirilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri kitabın değiştirilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri kitabın değiştirilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X364",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri kitabın değiştirilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri kitabın değiştirilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri kitabın değiştirilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri kitabın değiştirilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X368",
+      "field": "question",
+      "before": "Müşteri buketin yerine saksı çiçeği gönderilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri buketin yerine saksı çiçeği gönderilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X368",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri buketin yerine saksı çiçeği gönderilmesini istiyor.",
+        "notP": "Müşteri buketin yerine saksı çiçeği gönderilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri buketin yerine saksı çiçeği gönderilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri buketin yerine saksı çiçeği gönderilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X368",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri buketin yerine saksı çiçeği gönderilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri buketin yerine saksı çiçeği gönderilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri buketin yerine saksı çiçeği gönderilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri buketin yerine saksı çiçeği gönderilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X369",
+      "field": "question",
+      "before": "Müşteri tesisatçının bugün gelmesini istiyor mu?",
+      "after": "Bu mesajda müşteri tesisatçının bugün gelmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X369",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri tesisatçının bugün gelmesini istiyor.",
+        "notP": "Müşteri tesisatçının bugün gelmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri tesisatçının bugün gelmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri tesisatçının bugün gelmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X369",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri tesisatçının bugün gelmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri tesisatçının bugün gelmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri tesisatçının bugün gelmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri tesisatçının bugün gelmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X370",
+      "field": "question",
+      "before": "Müşteri nakliye tarihinin öne alınmasını istiyor mu?",
+      "after": "Bu mesajda müşteri nakliye tarihinin öne alınmasını talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X370",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri nakliye tarihinin öne alınmasını istiyor.",
+        "notP": "Müşteri nakliye tarihinin öne alınmasını istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri nakliye tarihinin öne alınmasını talep ediyor.",
+        "notP": "Bu mesajda müşteri nakliye tarihinin öne alınmasını talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X370",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri nakliye tarihinin öne alınmasını istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri nakliye tarihinin öne alınmasını istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri nakliye tarihinin öne alınmasını talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri nakliye tarihinin öne alınmasını talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X371",
+      "field": "question",
+      "before": "Müşteri kampanya fiyatından işlem yapılmasını istiyor mu?",
+      "after": "Bu mesajda müşteri kampanya fiyatından işlem yapılmasını talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X371",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri kampanya fiyatından işlem yapılmasını istiyor.",
+        "notP": "Müşteri kampanya fiyatından işlem yapılmasını istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri kampanya fiyatından işlem yapılmasını talep ediyor.",
+        "notP": "Bu mesajda müşteri kampanya fiyatından işlem yapılmasını talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X371",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri kampanya fiyatından işlem yapılmasını istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri kampanya fiyatından işlem yapılmasını istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri kampanya fiyatından işlem yapılmasını talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri kampanya fiyatından işlem yapılmasını talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X373",
+      "field": "question",
+      "before": "Müşteri ürünün başka bir bedenle değiştirilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri ürünün başka bir bedenle değiştirilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X373",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri ürünün başka bir bedenle değiştirilmesini istiyor.",
+        "notP": "Müşteri ürünün başka bir bedenle değiştirilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri ürünün başka bir bedenle değiştirilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri ürünün başka bir bedenle değiştirilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X373",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri ürünün başka bir bedenle değiştirilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri ürünün başka bir bedenle değiştirilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri ürünün başka bir bedenle değiştirilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri ürünün başka bir bedenle değiştirilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X374",
+      "field": "question",
+      "before": "Müşteri halıdaki lekenin çıkarılması için özel işlem yapılmasını istiyor mu?",
+      "after": "Bu mesajda müşteri halıdaki lekenin çıkarılması için özel işlem yapılmasını talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X374",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri halıdaki lekenin çıkarılması için özel işlem yapılmasını istiyor.",
+        "notP": "Müşteri halıdaki lekenin çıkarılması için özel işlem yapılmasını istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri halıdaki lekenin çıkarılması için özel işlem yapılmasını talep ediyor.",
+        "notP": "Bu mesajda müşteri halıdaki lekenin çıkarılması için özel işlem yapılmasını talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X374",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri halıdaki lekenin çıkarılması için özel işlem yapılmasını istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri halıdaki lekenin çıkarılması için özel işlem yapılmasını istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri halıdaki lekenin çıkarılması için özel işlem yapılmasını talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri halıdaki lekenin çıkarılması için özel işlem yapılmasını talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X375",
+      "field": "question",
+      "before": "Müşteri otopark aboneliğinin yenilenmesini istiyor mu?",
+      "after": "Bu mesajda müşteri otopark aboneliğinin yenilenmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X375",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri otopark aboneliğinin yenilenmesini istiyor.",
+        "notP": "Müşteri otopark aboneliğinin yenilenmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri otopark aboneliğinin yenilenmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri otopark aboneliğinin yenilenmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X375",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri otopark aboneliğinin yenilenmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri otopark aboneliğinin yenilenmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri otopark aboneliğinin yenilenmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri otopark aboneliğinin yenilenmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X376",
+      "field": "question",
+      "before": "Müşteri kulaklığın yenisiyle değiştirilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri kulaklığın yenisiyle değiştirilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X376",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri kulaklığın yenisiyle değiştirilmesini istiyor.",
+        "notP": "Müşteri kulaklığın yenisiyle değiştirilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri kulaklığın yenisiyle değiştirilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri kulaklığın yenisiyle değiştirilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X376",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri kulaklığın yenisiyle değiştirilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri kulaklığın yenisiyle değiştirilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri kulaklığın yenisiyle değiştirilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri kulaklığın yenisiyle değiştirilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X377",
+      "field": "question",
+      "before": "Müşteri kuryenin kapı zilini çalmasını istiyor mu?",
+      "after": "Bu mesajda müşteri kuryenin kapı zilini çalmasını talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X377",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri kuryenin kapı zilini çalmasını istiyor.",
+        "notP": "Müşteri kuryenin kapı zilini çalmasını istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri kuryenin kapı zilini çalmasını talep ediyor.",
+        "notP": "Bu mesajda müşteri kuryenin kapı zilini çalmasını talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X377",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri kuryenin kapı zilini çalmasını istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri kuryenin kapı zilini çalmasını istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri kuryenin kapı zilini çalmasını talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri kuryenin kapı zilini çalmasını talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X378",
+      "field": "question",
+      "before": "Müşteri poliçe kapsamının yazılı olarak gönderilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri poliçe kapsamının yazılı olarak gönderilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X378",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri poliçe kapsamının yazılı olarak gönderilmesini istiyor.",
+        "notP": "Müşteri poliçe kapsamının yazılı olarak gönderilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri poliçe kapsamının yazılı olarak gönderilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri poliçe kapsamının yazılı olarak gönderilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X378",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri poliçe kapsamının yazılı olarak gönderilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri poliçe kapsamının yazılı olarak gönderilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri poliçe kapsamının yazılı olarak gönderilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri poliçe kapsamının yazılı olarak gönderilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X380",
+      "field": "question",
+      "before": "Müşteri hukuki yola başvuracağını söylüyor mu?",
+      "after": "Bu mesaj, verilen kurala göre müşterinin hukuki yola başvuru planını içeriyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X380",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri hukuki yola başvuracağını söylüyor.",
+        "notP": "Müşteri hukuki yola başvuracağını söylemiyor."
+      },
+      "after": {
+        "P": "Bu mesaj, verilen kurala göre müşterinin hukuki yola başvuru planını içeriyor.",
+        "notP": "Bu mesaj, verilen kurala göre müşterinin hukuki yola başvuru planını içermiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X380",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri hukuki yola başvuracağını söylüyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri hukuki yola başvuracağını söylemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesaj, verilen kurala göre müşterinin hukuki yola başvuru planını içeriyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesaj, verilen kurala göre müşterinin hukuki yola başvuru planını içermiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X381",
+      "field": "question",
+      "before": "Müşteri temizlik hizmetinin haftalık yapılmasını istiyor mu?",
+      "after": "Bu mesajda müşteri temizlik hizmetinin haftalık yapılmasını talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X381",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri temizlik hizmetinin haftalık yapılmasını istiyor.",
+        "notP": "Müşteri temizlik hizmetinin haftalık yapılmasını istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri temizlik hizmetinin haftalık yapılmasını talep ediyor.",
+        "notP": "Bu mesajda müşteri temizlik hizmetinin haftalık yapılmasını talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X381",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri temizlik hizmetinin haftalık yapılmasını istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri temizlik hizmetinin haftalık yapılmasını istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri temizlik hizmetinin haftalık yapılmasını talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri temizlik hizmetinin haftalık yapılmasını talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X382",
+      "field": "question",
+      "before": "Müşteri hesabından çekilen bir ücretin iade edilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri hesabından çekilen bir ücretin iade edilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X382",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri hesabından çekilen bir ücretin iade edilmesini istiyor.",
+        "notP": "Müşteri hesabından çekilen bir ücretin iade edilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri hesabından çekilen bir ücretin iade edilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri hesabından çekilen bir ücretin iade edilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X382",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri hesabından çekilen bir ücretin iade edilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri hesabından çekilen bir ücretin iade edilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri hesabından çekilen bir ücretin iade edilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri hesabından çekilen bir ücretin iade edilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X383",
+      "field": "question",
+      "before": "Müşteri tarifesinin değiştirilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri tarifesinin değiştirilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X383",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri tarifesinin değiştirilmesini istiyor.",
+        "notP": "Müşteri tarifesinin değiştirilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri tarifesinin değiştirilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri tarifesinin değiştirilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X383",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri tarifesinin değiştirilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri tarifesinin değiştirilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri tarifesinin değiştirilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri tarifesinin değiştirilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X385",
+      "field": "question",
+      "before": "Müşteri kargosunun şubede bekletilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri kargosunun şubede bekletilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X385",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri kargosunun şubede bekletilmesini istiyor.",
+        "notP": "Müşteri kargosunun şubede bekletilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri kargosunun şubede bekletilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri kargosunun şubede bekletilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X385",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri kargosunun şubede bekletilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri kargosunun şubede bekletilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri kargosunun şubede bekletilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri kargosunun şubede bekletilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X386",
+      "field": "question",
+      "before": "Müşteri randevusunun yarına alınmasını istiyor mu?",
+      "after": "Bu mesajda müşteri randevusunun yarına alınmasını talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X386",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri randevusunun yarına alınmasını istiyor.",
+        "notP": "Müşteri randevusunun yarına alınmasını istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri randevusunun yarına alınmasını talep ediyor.",
+        "notP": "Bu mesajda müşteri randevusunun yarına alınmasını talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X386",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri randevusunun yarına alınmasını istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri randevusunun yarına alınmasını istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri randevusunun yarına alınmasını talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri randevusunun yarına alınmasını talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X387",
+      "field": "question",
+      "before": "Müşteri kalan haftaların ücretinin iade edilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri kalan haftaların ücretinin iade edilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X387",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri kalan haftaların ücretinin iade edilmesini istiyor.",
+        "notP": "Müşteri kalan haftaların ücretinin iade edilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri kalan haftaların ücretinin iade edilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri kalan haftaların ücretinin iade edilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X387",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri kalan haftaların ücretinin iade edilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri kalan haftaların ücretinin iade edilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri kalan haftaların ücretinin iade edilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri kalan haftaların ücretinin iade edilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X390",
+      "field": "question",
+      "before": "Müşteri lastik değişim randevusunun cumartesiye alınmasını istiyor mu?",
+      "after": "Bu mesajda müşteri lastik değişim randevusunun cumartesiye alınmasını talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X390",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri lastik değişim randevusunun cumartesiye alınmasını istiyor.",
+        "notP": "Müşteri lastik değişim randevusunun cumartesiye alınmasını istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri lastik değişim randevusunun cumartesiye alınmasını talep ediyor.",
+        "notP": "Bu mesajda müşteri lastik değişim randevusunun cumartesiye alınmasını talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X390",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri lastik değişim randevusunun cumartesiye alınmasını istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri lastik değişim randevusunun cumartesiye alınmasını istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri lastik değişim randevusunun cumartesiye alınmasını talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri lastik değişim randevusunun cumartesiye alınmasını talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X391",
+      "field": "question",
+      "before": "Müşteri gözlük camlarının yeniden yapılmasını istiyor mu?",
+      "after": "Bu mesajda müşteri gözlük camlarının yeniden yapılmasını talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X391",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri gözlük camlarının yeniden yapılmasını istiyor.",
+        "notP": "Müşteri gözlük camlarının yeniden yapılmasını istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri gözlük camlarının yeniden yapılmasını talep ediyor.",
+        "notP": "Bu mesajda müşteri gözlük camlarının yeniden yapılmasını talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X391",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri gözlük camlarının yeniden yapılmasını istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri gözlük camlarının yeniden yapılmasını istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri gözlük camlarının yeniden yapılmasını talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri gözlük camlarının yeniden yapılmasını talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X392",
+      "field": "question",
+      "before": "Müşteri pantolonun paçasının kısaltılmasını istiyor mu?",
+      "after": "Bu mesajda müşteri pantolonun paçasının kısaltılmasını talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X392",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri pantolonun paçasının kısaltılmasını istiyor.",
+        "notP": "Müşteri pantolonun paçasının kısaltılmasını istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri pantolonun paçasının kısaltılmasını talep ediyor.",
+        "notP": "Bu mesajda müşteri pantolonun paçasının kısaltılmasını talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X392",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri pantolonun paçasının kısaltılmasını istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri pantolonun paçasının kısaltılmasını istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri pantolonun paçasının kısaltılmasını talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri pantolonun paçasının kısaltılmasını talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X394",
+      "field": "question",
+      "before": "Müşteri otomatik yenilemenin kapatılmasını istiyor mu?",
+      "after": "Bu mesajda müşteri otomatik yenilemenin kapatılmasını talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X394",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri otomatik yenilemenin kapatılmasını istiyor.",
+        "notP": "Müşteri otomatik yenilemenin kapatılmasını istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri otomatik yenilemenin kapatılmasını talep ediyor.",
+        "notP": "Bu mesajda müşteri otomatik yenilemenin kapatılmasını talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X394",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri otomatik yenilemenin kapatılmasını istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri otomatik yenilemenin kapatılmasını istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri otomatik yenilemenin kapatılmasını talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri otomatik yenilemenin kapatılmasını talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X396",
+      "field": "question",
+      "before": "Müşteri oyuncak setinin yenisiyle değiştirilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri oyuncak setinin yenisiyle değiştirilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X396",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri oyuncak setinin yenisiyle değiştirilmesini istiyor.",
+        "notP": "Müşteri oyuncak setinin yenisiyle değiştirilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri oyuncak setinin yenisiyle değiştirilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri oyuncak setinin yenisiyle değiştirilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X396",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri oyuncak setinin yenisiyle değiştirilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri oyuncak setinin yenisiyle değiştirilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri oyuncak setinin yenisiyle değiştirilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri oyuncak setinin yenisiyle değiştirilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X397",
+      "field": "question",
+      "before": "Müşteri biletinin öğleden sonraki bir sefere çevrilmesini istiyor mu?",
+      "after": "Bu mesajda müşteri biletinin öğleden sonraki bir sefere çevrilmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X397",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri biletinin öğleden sonraki bir sefere çevrilmesini istiyor.",
+        "notP": "Müşteri biletinin öğleden sonraki bir sefere çevrilmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri biletinin öğleden sonraki bir sefere çevrilmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri biletinin öğleden sonraki bir sefere çevrilmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X397",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri biletinin öğleden sonraki bir sefere çevrilmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri biletinin öğleden sonraki bir sefere çevrilmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri biletinin öğleden sonraki bir sefere çevrilmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri biletinin öğleden sonraki bir sefere çevrilmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X398",
+      "field": "question",
+      "before": "Müşteri albümün yeniden basılmasını istiyor mu?",
+      "after": "Bu mesajda müşteri albümün yeniden basılmasını talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X398",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri albümün yeniden basılmasını istiyor.",
+        "notP": "Müşteri albümün yeniden basılmasını istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri albümün yeniden basılmasını talep ediyor.",
+        "notP": "Bu mesajda müşteri albümün yeniden basılmasını talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X398",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri albümün yeniden basılmasını istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri albümün yeniden basılmasını istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri albümün yeniden basılmasını talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri albümün yeniden basılmasını talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X399",
+      "field": "question",
+      "before": "Müşteri dijital dergi aboneliğinin yenilenmesini istiyor mu?",
+      "after": "Bu mesajda müşteri dijital dergi aboneliğinin yenilenmesini talep ediyor mu?",
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X399",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteri dijital dergi aboneliğinin yenilenmesini istiyor.",
+        "notP": "Müşteri dijital dergi aboneliğinin yenilenmesini istemiyor."
+      },
+      "after": {
+        "P": "Bu mesajda müşteri dijital dergi aboneliğinin yenilenmesini talep ediyor.",
+        "notP": "Bu mesajda müşteri dijital dergi aboneliğinin yenilenmesini talep etmiyor."
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X399",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri dijital dergi aboneliğinin yenilenmesini istiyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteri dijital dergi aboneliğinin yenilenmesini istemiyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri dijital dergi aboneliğinin yenilenmesini talep ediyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Bu mesajda müşteri dijital dergi aboneliğinin yenilenmesini talep etmiyor.»"
+      },
+      "reason": "T1 wording: ask about a valid request/qualified plan in this message"
+    },
+    {
+      "target": "X011-B",
+      "field": "message",
+      "before": "Taşınma dün bitti ve nakliyeciler kolilerin hepsini yeni eve çıkardı. Kolilerden ilkini az önce açtım, içindeki tabaklar kırık çıktı; ayrıca dolabın kapağında bir çizik gördüm.",
+      "after": "Taşınma dün bitti ve nakliyeciler kolilerin hepsini yeni eve çıkardı. Taşınma sırasında tabaklarım kırıldı; kolilerden ilkini az önce açınca kırık tabakları gördüm; ayrıca dolabın kapağında bir çizik gördüm.",
+      "reason": "LANG-01: directly date the breakage to the move"
+    },
+    {
+      "target": "X025-B",
+      "field": "message",
+      "before": "Geçen salı dijital yayın platformuna abone olmak için hesap açtım ama ne gelen kutumda ne de spam klasöründe doğrulama e-postası yok; telefonumdaki SMS koduyla devam ettim. Şimdi aboneliğim askıda görünüyor.",
+      "after": "Geçen salı dijital yayın platformuna abone olmak için hesap açtım ama doğrulama e-postası hesabıma henüz gelmedi; ne gelen kutumda ne de spam klasöründe var; telefonumdaki SMS koduyla devam ettim. Şimdi aboneliğim askıda görünüyor.",
+      "reason": "LANG-02: assert non-arrival, rather than folder absence"
+    },
+    {
+      "target": "X049-B",
+      "field": "message",
+      "before": "Sigorta şirketi poliçe belgesini posta yoluyla gönderdiğini söylüyor, ben ise posta kutuma baktım, poliçe belgesi yok. Telefonda da yeterince açık bir bilgi alamadım; kayıtlı adresim hiç değişmedi.",
+      "after": "Sigorta şirketi poliçe belgesini posta yoluyla gönderdiğini söylüyor, poliçe belgesi henüz elime ulaşmadı; posta kutuma da baktım, orada yok. Telefonda da yeterince açık bir bilgi alamadım; kayıtlı adresim hiç değişmedi.",
+      "reason": "LANG-02: assert non-receipt"
+    },
+    {
+      "target": "D058-C",
+      "field": "message",
+      "before": "Aynı tutar hesabımdan iki defa tahsil edildi; hesap ekstremde iki ayrı satırda yer alıyor.",
+      "after": "Aynı ödemeye ilişkin tutar hesabımdan iki defa tahsil edildi; hesap ekstremde bu tek ödemeye ait iki ayrı çekim satırı var.",
+      "reason": "LANG-03: identify one duplicated payment"
+    },
+    {
+      "target": "X035-B",
+      "field": "message",
+      "before": "Cumartesi akşamı konseri için altı kişilik arkadaş grubumuzdaki herkes bilet alamadı, sistem sürekli hata verdi. Ben de alamayanlardan biriyim, bu yüzden ek kontenjan olup olmadığını soruyorum.",
+      "after": "Cumartesi akşamı konseri için altı kişilik arkadaş grubumuzdaki en az bir kişi bilet alamadı; diğerlerinin alıp almadığını bilmiyorum, sistem sürekli hata verdi. Ben de alamayanlardan biriyim, bu yüzden ek kontenjan olup olmadığını soruyorum.",
+      "reason": "LANG-04: resolve not-all versus none scope"
+    },
+    {
+      "target": "D003-B",
+      "field": "message",
+      "before": "Kendini banka görevlisi olarak tanıtan kişiye telefonuma gelen kodu söylemedim, buna rağmen kartımdan 2.400 TL çekildi.",
+      "after": "Kendini banka görevlisi olarak tanıtan kişiye telefonuma gelen kodu söylemedim, buna rağmen kartımdan 2.400 TL çekildi. Kodu başka hiç kimseye de söylemedim.",
+      "reason": "LANG-05: close the recipient scope"
+    },
+    {
+      "target": "D005-C",
+      "field": "message",
+      "before": "Bu ayın faturasına baktım, ek paketle ilgili herhangi bir ücret görünmüyor. Paketin kapatıldığını yine de yazılı olarak teyit etmenizi rica ediyorum.",
+      "after": "Bu ayın faturasını kontrol ettim; faturada ek paket ücreti yok. Paketin kapatıldığını yine de yazılı olarak teyit etmenizi rica ediyorum.",
+      "reason": "LANG-06: make the writer invoice observation direct"
+    },
+    {
+      "target": "C120-B",
+      "field": "message",
+      "before": "Otopark ücreti artarsa aboneliği iptal edin, şimdilik yalnızca bilgi almak istiyorum.",
+      "after": "Otopark ücreti artarsa aboneliği iptal edin; ayrıca mevcut ücret hakkında bilgi almak istiyorum.",
+      "reason": "LANG-07 / UR-S01: retain the conditional request without an ambiguous withdrawal"
+    },
+    {
+      "target": "X237",
+      "field": "question",
+      "before": "Terzi pantolonun paçasını kısalttı mı?",
+      "after": "Pantolonun paçası kısaltıldı mı?",
+      "reason": "LANG-08: ask about the asserted result, not an unnamed individual tailor"
+    },
+    {
+      "target": "X237",
+      "field": "predicates",
+      "before": {
+        "P": "Terzi pantolonun paçasını kısalttı.",
+        "notP": "Terzi pantolonun paçasını kısaltmadı."
+      },
+      "after": {
+        "P": "Pantolonun paçası kısaltıldı.",
+        "notP": "Pantolonun paçası kısaltılmadı."
+      },
+      "reason": "LANG-08: ask about the asserted result, not an unnamed individual tailor"
+    },
+    {
+      "target": "X237",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Terzi pantolonun paçasını kısalttı.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Terzi pantolonun paçasını kısaltmadı.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Pantolonun paçası kısaltıldı.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Pantolonun paçası kısaltılmadı.»"
+      },
+      "reason": "LANG-08: ask about the asserted result, not an unnamed individual tailor"
+    },
+    {
+      "target": "X263-A",
+      "field": "message",
+      "before": "Cilt bakım setini dün sipariş ettim, iptal etmeyi düşündüm ama kargo yola çıkmış görününce vazgeçtim. Setteki serumun içeriğini sormak istiyorum; doktorum galiba retinol olmasın dedi, hamileler kullanabilir mi?",
+      "after": "Cilt bakım setini dün sipariş ettim, iptal etmeyi düşündüm ama kargo yola çıkmış görününce vazgeçtim. Setteki serumun içeriğini sormak istiyorum; doktorum galiba retinol olmasın dedi, hamileler kullanabilir mi? Sipariş iptal edilmedi, hâlâ aktif.",
+      "reason": "LANG-09: assert the passive cancellation outcome"
+    },
+    {
+      "target": "X283-A",
+      "field": "message",
+      "before": "Oğlumu yaz dönemi yüzme kursuna yazdırmayı düşünüyordum ama vazgeçtim, çünkü ders ücreti sekiz yüz elli lira oldu. Kızım ise geçen yıldan kayıtlı ve devam ediyor. Ders saatlerini yine de öğrenebilir miyim?",
+      "after": "Oğlumu yaz dönemi yüzme kursuna yazdırmayı düşünüyordum ama vazgeçtim, çünkü ders ücreti sekiz yüz elli lira oldu. Kızım ise geçen yıldan kayıtlı ve devam ediyor. Ders saatlerini yine de öğrenebilir miyim? Oğlum yaz dönemi yüzme kursuna kaydedilmedi.",
+      "reason": "LANG-09: assert the passive enrollment outcome"
+    },
+    {
+      "target": "X263-C",
+      "field": "message",
+      "before": "Hamileler serumu kullanabilir mi? Doktorum galiba retinol içermesin dedi, o yüzden setin içeriğini sormak istiyorum. Siparişi dün verdim; kargo yola çıkmış görününce iptal etme düşüncemden vazgeçtim.",
+      "after": "Hamileler serumu kullanabilir mi? Doktorum galiba retinol içermesin dedi, o yüzden setin içeriğini sormak istiyorum. Siparişi dün verdim; kargo yola çıkmış görününce iptal etme düşüncemden vazgeçtim. Sipariş iptal edilmedi, hâlâ aktif.",
+      "reason": "LANG-09: assert the passive cancellation outcome"
+    },
+    {
+      "target": "X283-C",
+      "field": "message",
+      "before": "Ders ücretini, yani sekiz yüz elli lirayı görünce oğlumu yaz dönemi için yüzme kursuna yazdırmaktan caydım; kızım geçen yıldan beri kursa gidiyor. Ders saatlerini yine de öğrenebilir miyim?",
+      "after": "Ders ücretini, yani sekiz yüz elli lirayı görünce oğlumu yaz dönemi için yüzme kursuna yazdırmaktan caydım; kızım geçen yıldan beri kursa gidiyor. Ders saatlerini yine de öğrenebilir miyim? Oğlum yaz dönemi yüzme kursuna kaydedilmedi.",
+      "reason": "LANG-09: assert the passive enrollment outcome"
+    },
+    {
+      "target": "X296-A",
+      "field": "message",
+      "before": "Nişanlımla haziran için düğün salonuna bakmıştık. Kaporanın otuz bin lirasını sözleşme gününde ödedim. Sözleşmeyi nişanlım imzaladı. Salon kiralama sözleşmesinin bir kopyasını bana da e-posta ile gönderir misiniz?",
+      "after": "Nişanlımla haziran için düğün salonuna bakmıştık. Toplam otuz bin liralık kaporanın tamamını sözleşme gününde ödedim. Sözleşmeyi nişanlım imzaladı. Salon kiralama sözleşmesinin bir kopyasını bana da e-posta ile gönderir misiniz?",
+      "reason": "LANG-10: state full deposit payment"
+    },
+    {
+      "target": "X296-C",
+      "field": "message",
+      "before": "Haziran düğünü için nişanlımla salona gitmiştik; sözleşmeye imzayı o attı, otuz bin liralık kaporayı ise sözleşme günü ben yatırdım. Sözleşmenin bir kopyasını bana da e-postayla yollar mısınız?",
+      "after": "Haziran düğünü için nişanlımla salona gitmiştik; sözleşmeye imzayı o attı, toplam otuz bin liralık kaporanın tamamını ise sözleşme günü ben yatırdım. Sözleşmenin bir kopyasını bana da e-postayla yollar mısınız?",
+      "reason": "LANG-10: preserve full payment scope"
+    },
+    {
+      "target": "C107-B",
+      "field": "message",
+      "before": "Aracı teslim almadan önce sözleşmeyi imzalamadım; teslim fotoğraflarının bana gönderilmesini rica ediyorum.",
+      "after": "Sözleşmeyi henüz hiç imzalamadım; teslim fotoğraflarının bana gönderilmesini rica ediyorum.",
+      "reason": "LANG-11: deny signing up to message time"
+    },
+    {
+      "target": "X293-B",
+      "field": "message",
+      "before": "Albüm baskısı için onay formunu imzalamam gerekiyordu, dün akşam imzalamadım, scan edip mail de atmadım. Kapak rengi olarak bordo seçtim, iç sayfa sayısını ise iki yüz yirmiye çıkarmak istiyorum. Bunun fiyat farkı ne olur?",
+      "after": "Albüm baskısı için onay formunu imzalamam gerekiyordu, onay formunu henüz hiç imzalamadım, scan edip mail de atmadım. Kapak rengi olarak bordo seçtim, iç sayfa sayısını ise iki yüz yirmiye çıkarmak istiyorum. Bunun fiyat farkı ne olur?",
+      "reason": "LANG-11: deny signing up to message time"
+    },
+    {
+      "target": "X266-A",
+      "field": "message",
+      "before": "Kapadokya turu için iki kişilik rezervasyonumuz var; bin beş yüz lira kaporayı bu sabah yatırdım. Arkadaşımın payını henüz yatırmamış. Tur tarihini bir hafta ileri almak mümkün mü?",
+      "after": "Kapadokya turu için iki kişilik rezervasyonumuz var; bin beş yüz lira kaporayı bu sabah yatırdım. Arkadaşım kendi payını henüz yatırmamış. Tur tarihini bir hafta ileri almak mümkün mü?",
+      "reason": "LANG-12: correct the ancillary subject"
+    },
+    {
+      "target": "X266-B",
+      "field": "message",
+      "before": "Kapadokya turu için iki kişilik rezervasyonumuz var; bin beş yüz lira kaporayı bu sabah az kalsın yatırıyordum. Arkadaşımın payını henüz yatırmamış. Tur tarihini bir hafta ileri almak mümkün mü?",
+      "after": "Kapadokya turu için iki kişilik rezervasyonumuz var; bin beş yüz lira kaporayı bu sabah az kalsın yatırıyordum. Arkadaşım kendi payını henüz yatırmamış. Tur tarihini bir hafta ileri almak mümkün mü?",
+      "reason": "LANG-12: correct the ancillary subject"
+    },
+    {
+      "target": "C011-B",
+      "field": "message",
+      "before": "Dün İngilizce kursuna sınıftaki öğrencilerin hepsi gelmedi; ders saatinin değişmesini istiyoruz.",
+      "after": "Sınıftaki öğrencilerden en az biri dün İngilizce kursuna gelmedi; ders saatinin değişmesini istiyoruz.",
+      "reason": "LANG-13: use explicit not-all wording in Core"
+    },
+    {
+      "target": "X273-C",
+      "field": "message",
+      "before": "Bavullarımı yukarı çıkarmadan söylüyorum: rezervasyonumda deniz manzaralı oda yazıyor, sanırım otoparka bakan bir oda verdiler. Gecelik ücret bin dört yüz lira. Manzara gerçekten yoksa odamın değiştirilmesi mümkün mü?",
+      "after": "Bavullarımı yukarı çıkarmadan söylüyorum: rezervasyonumda deniz manzaralı oda yazıyor, sanırım otoparka bakan bir oda verdiler. Gecelik ücret bin dört yüz lira. Manzara gerçekten yoksa odamın değiştirilmesini rica ediyorum.",
+      "reason": "LANG-14: use the visible conditional-request form"
+    },
+    {
+      "target": "D099-B",
+      "field": "message",
+      "before": "Sepetimde 2 kitap ve 2 defter var, ama kampanya indirimi uygulanmadı.",
+      "after": "Sepetimde yalnızca 2 kitap ve 2 defter var; başka ürün yok, ama kampanya indirimi uygulanmadı.",
+      "reason": "AS01: close the basket"
+    },
+    {
+      "target": "C194-A",
+      "field": "message",
+      "before": "Dairemizde eşimin ve benim birer aracımız var; otopark kartı çıkarmak istiyorum.",
+      "after": "Dairemizde eşimin ve benim birer aracımız var; otopark kartı çıkarmak istiyorum. Dairemizde toplam iki araç var.",
+      "reason": "AS02: close the apartment vehicle count"
+    },
+    {
+      "target": "C194-C",
+      "field": "message",
+      "before": "Otopark kartı çıkarmak istiyorum; dairemizde eşimle ikimizin de birer aracı var.",
+      "after": "Otopark kartı çıkarmak istiyorum; dairemizde eşimle ikimizin de birer aracı var. Dairemizde toplam iki araç var.",
+      "reason": "AS02: close the apartment vehicle count"
+    },
+    {
+      "target": "X439-A",
+      "field": "message",
+      "before": "Annemle kayınvalideme birer buket yolladım; çiçekçi ilkine papatya, ötekine gül koydu, ikisini aynı kuryeyle gönderdi. Siparişin toplamı iki yüz seksen liraydı ve teslimat saati öğleden sonra üç olarak belirlenmişti.",
+      "after": "Annemle kayınvalideme birer buket yolladım; çiçekçi annemin buketine papatya, kayınvalidemin buketine gül koydu, ikisini aynı kuryeyle gönderdi. Siparişin toplamı iki yüz seksen liraydı ve teslimat saati öğleden sonra üç olarak belirlenmişti.",
+      "reason": "AS03: name bouquet recipients"
+    },
+    {
+      "target": "X439-B",
+      "field": "message",
+      "before": "Annemle kayınvalideme birer buket yolladım; çiçekçi ilkine gül, ötekine papatya koydu, ikisini aynı kuryeyle gönderdi. Siparişin toplamı iki yüz seksen liraydı ve teslimat saati öğleden sonra üç olarak belirlenmişti.",
+      "after": "Annemle kayınvalideme birer buket yolladım; çiçekçi annemin buketine gül, kayınvalidemin buketine papatya koydu, ikisini aynı kuryeyle gönderdi. Siparişin toplamı iki yüz seksen liraydı ve teslimat saati öğleden sonra üç olarak belirlenmişti.",
+      "reason": "AS03: name bouquet recipients"
+    },
+    {
+      "target": "X439-A",
+      "field": "message",
+      "before": "Annemle kayınvalideme birer buket yolladım; çiçekçi annemin buketine papatya, kayınvalidemin buketine gül koydu, ikisini aynı kuryeyle gönderdi. Siparişin toplamı iki yüz seksen liraydı ve teslimat saati öğleden sonra üç olarak belirlenmişti.",
+      "after": "Annemle kayınvalideme birer buket yolladım; çiçekçi annemin buketine papatya, kayınvalidemin buketine gül koydu, ikisini aynı kuryeyle gönderdi. Siparişin toplamı iki yüz seksen liraydı ve teslimat saati öğleden sonra üç olarak belirlenmişti. Annemin buketine gül konulmadı.",
+      "reason": "AS03: explicitly exclude roses"
+    },
+    {
+      "target": "X439-C",
+      "field": "message",
+      "before": "Çiçekler öğleden sonra üçte teslim edilecekti ve siparişin toplamı iki yüz seksen liraydı, kart notunu da yazdırdım. Çiçekçi ikisini aynı kuryeyle gönderdi. Annemin buketine papatya, kayınvalidemin buketine gül koydu.",
+      "after": "Çiçekler öğleden sonra üçte teslim edilecekti ve siparişin toplamı iki yüz seksen liraydı, kart notunu da yazdırdım. Çiçekçi ikisini aynı kuryeyle gönderdi. Annemin buketine papatya, kayınvalidemin buketine gül koydu. Annemin buketine gül konulmadı.",
+      "reason": "AS03: explicitly exclude roses"
+    },
+    {
+      "target": "X487-A",
+      "field": "message",
+      "before": "Sepetimde terlik ve şapka var, bir de kendiliğinden eklenen hediye güneş kremi. Kupon kodunu girince hata veriyor, neden olduğunu anlamadım. Sepet toplamı 780 TL, kuponun bugün bitmesine az kaldı.",
+      "after": "Sepetimde yalnızca terlik, şapka ve kendiliğinden eklenen hediye güneş kremi var; başka ürün yok. Kupon kodunu girince hata veriyor, neden olduğunu anlamadım. Sepet toplamı 780 TL, kuponun bugün bitmesine az kaldı.",
+      "reason": "AS04: close the paid/gift basket"
+    },
+    {
+      "target": "X487-C",
+      "field": "message",
+      "before": "Kuponun bugün bitmesine az kaldı ve kodu girince hata veriyor, nedenini anlamadım. Sepet toplamı 780 TL; içinde terlik ile şapka, bir de kendiliğinden eklenen hediye güneş kremi var.",
+      "after": "Kuponun bugün bitmesine az kaldı ve kodu girince hata veriyor, nedenini anlamadım. Sepet toplamı 780 TL; içinde yalnızca terlik, şapka ve kendiliğinden eklenen hediye güneş kremi var; başka ürün yok.",
+      "reason": "AS04: close the paid/gift basket"
+    },
+    {
+      "target": "X491-A",
+      "field": "message",
+      "before": "Yatak odası takımı siparişimde sırayla yatak, komodin, gardırop, şifonyer ve ayna var; bu beş parçanın listedeki ilk dördü dün teslim edildi. Montajcıyı çağırdım ama hepsi gelmeden başlamayacağını söyledi. Kurye fatura kesilince arayacağını belirtti.",
+      "after": "Yatak odası takımı siparişimde sırayla yatak, komodin, gardırop, şifonyer ve ayna var; bu beş parçanın yalnızca listedeki ilk dördü dün teslim edildi. Montajcıyı çağırdım ama hepsi gelmeden başlamayacağını söyledi. Kurye fatura kesilince arayacağını belirtti.",
+      "reason": "AS05: exclude delivery of the fifth listed item"
+    },
+    {
+      "target": "X470",
+      "field": "rule",
+      "before": "Her yolcu için 1 parça bagaj ücretsizdir; fazla her parça için ek ücret alınır. Çocuk arabası bagaj parçası sayılmaz.",
+      "after": "Her yolcu için 1 parça bagaj ücretsizdir; fazla her parça için ek ücret alınır. Çocuk arabası bagaj parçası sayılmaz. Aynı rezervasyondaki yolcuların ücretsiz bagaj hakları birleştirilebilir; toplam parça sayısı toplam yolcu sayısıyla karşılaştırılır.",
+      "reason": "AS06: make allowance pooling explicit"
+    },
+    {
+      "target": "X470-A",
+      "field": "message",
+      "before": "Check-in'de iki kişi için bir bavul, bir valiz ve bir çocuk arabası teslim ettik. Kuyruk çok uzundu, uçuşa da az kalmıştı. Yine de görevli ek bagaj ücreti istedi, itiraz etmek istiyorum.",
+      "after": "Check-in'de aynı rezervasyondaki iki kişi için yalnızca bir bavul, bir valiz ve bir çocuk arabası teslim ettik; başka bagajımız yok. Kuyruk çok uzundu, uçuşa da az kalmıştı. Yine de görevli ek bagaj ücreti istedi, itiraz etmek istiyorum.",
+      "reason": "AS06: close baggage and establish the pooled reservation"
+    },
+    {
+      "target": "X470-B",
+      "field": "message",
+      "before": "Check-in'de iki kişi için bir bavul, iki valiz ve bir çocuk arabası teslim ettik. Kuyruk çok uzundu, uçuşa da az kalmıştı. Yine de görevli ek bagaj ücreti istedi, itiraz etmek istiyorum.",
+      "after": "Check-in'de aynı rezervasyondaki iki kişi için yalnızca bir bavul, iki valiz ve bir çocuk arabası teslim ettik; başka bagajımız yok. Kuyruk çok uzundu, uçuşa da az kalmıştı. Yine de görevli ek bagaj ücreti istedi, itiraz etmek istiyorum.",
+      "reason": "AS06: establish the same pooled reservation in the contrast"
+    },
+    {
+      "target": "X470-C",
+      "field": "message",
+      "before": "Görevli ek bagaj ücreti istedi, itiraz etmek istiyorum; oysa iki yolcu için yalnızca bir bavul ve bir valiz verdik, bir de çocuk arabası. Kuyruk çok uzundu, uçuşa da az kalmıştı.",
+      "after": "Görevli ek bagaj ücreti istedi, itiraz etmek istiyorum; oysa aynı rezervasyondaki iki yolcu için yalnızca bir bavul ve bir valiz verdik, bir de çocuk arabası; başka bagajımız yok. Kuyruk çok uzundu, uçuşa da az kalmıştı.",
+      "reason": "AS06: establish the same pooled reservation in the rewording"
+    },
+    {
+      "target": "X461-A",
+      "field": "message",
+      "before": "Üç çocuğum var: büyük oğlum geçen yıl mezun oldu, ortanca kızım şu an kayıtlı, en küçüğü ise henüz kreşe başlamadı. Kardeş indirimi uygulanmadı, nedenini öğrenmek istiyorum. Aidatı her ay zamanında yatırıyorum.",
+      "after": "Üç çocuğum var: büyük oğlum geçen yıl mezun oldu, bu dönem kreşe kayıtlı olan yalnızca ortanca kızım, en küçüğü henüz kayıtlı değil. Kardeş indirimi uygulanmadı, nedenini öğrenmek istiyorum. Aidatı her ay zamanında yatırıyorum.",
+      "reason": "AS07: distinguish enrollment from starting attendance"
+    },
+    {
+      "target": "X461-B",
+      "field": "message",
+      "before": "Üç çocuğum var: büyük oğlum geçen yıl mezun oldu, ortanca kızım şu an kayıtlı, en küçüğü ise bu dönem kreşe başladı. Kardeş indirimi uygulanmadı, nedenini öğrenmek istiyorum. Aidatı her ay zamanında yatırıyorum.",
+      "after": "Üç çocuğum var: büyük oğlum geçen yıl mezun oldu, ortanca kızım ve en küçük çocuğum bu dönem aynı kreşe kayıtlı. Kardeş indirimi uygulanmadı, nedenini öğrenmek istiyorum. Aidatı her ay zamanında yatırıyorum.",
+      "reason": "AS07: explicitly establish two enrollments"
+    },
+    {
+      "target": "X461-C",
+      "field": "message",
+      "before": "Kardeş indiriminin neden uygulanmadığını öğrenmek istiyorum, aidatı hep zamanında yatırıyorum. Üç çocuğumuz var; büyüğü geçen yıl kreşten mezun oldu, küçüğü henüz başlamadı, şu an kreşe giden yalnızca ortancası.",
+      "after": "Kardeş indiriminin neden uygulanmadığını öğrenmek istiyorum, aidatı hep zamanında yatırıyorum. Üç çocuğumuz var; büyüğü geçen yıl kreşten mezun oldu, bu dönem kreşe kayıtlı olan yalnızca ortancası, en küçüğü henüz kayıtlı değil.",
+      "reason": "AS07: preserve the enrollment count"
+    },
+    {
+      "target": "D082-A",
+      "field": "message",
+      "before": "Paket gelmeyince annem kardeşimi aradı, o da hemen kuryeyi aradı.",
+      "after": "Paket gelmeyince annem kardeşimi aradı, kardeşim de hemen kuryeyi aradı.",
+      "reason": "AS08: disambiguate the caller"
+    },
+    {
+      "target": "D082-B",
+      "field": "message",
+      "before": "Paket gelmeyince annem kardeşimi aradı, sonra da hemen kuryeyi aradı.",
+      "after": "Paket gelmeyince annem kardeşimi aradı, sonra annem hemen kuryeyi aradı.",
+      "reason": "AS08: disambiguate the contrast caller"
+    },
+    {
+      "target": "X405-A",
+      "field": "message",
+      "before": "Teknisyen yine gelmedi abi. Ağabeyimi aradım, o da kuzenimi çağırdı; o gelip modemi taktı, ben de faturadaki kurulum ücretine itiraz ettim. Bu ay üçüncü kez arıza kaydı açmak zorunda kaldım.",
+      "after": "Teknisyen yine gelmedi abi. Ağabeyimi aradım, o da kuzenimi çağırdı; kuzenim gelip modemi taktı, ben de faturadaki kurulum ücretine itiraz ettim. Bu ay üçüncü kez arıza kaydı açmak zorunda kaldım.",
+      "reason": "AS08: disambiguate the installer"
+    },
+    {
+      "target": "X420-A",
+      "field": "message",
+      "before": "Dün akşamdan beri mutfaktaki musluktan su damlıyordu ve bu yüzden hiç uyuyamadık. Bugün gelen tesisatçı sorunu dinleyip çırağını çağırdı; o da gelip vanayı değiştirdi, ben de su sayacına baktım.",
+      "after": "Dün akşamdan beri mutfaktaki musluktan su damlıyordu ve bu yüzden hiç uyuyamadık. Bugün gelen tesisatçı sorunu dinleyip çırağını çağırdı; çırak da gelip vanayı değiştirdi, ben de su sayacına baktım.",
+      "reason": "AS08: disambiguate the changer"
+    },
+    {
+      "target": "X426-A",
+      "field": "message",
+      "before": "Akşam yemeği için pizzayı ben, tatlıyı eşim, içecekleri arkadaşım sipariş verdi; üç sipariş aynı kuryeyle, toplam iki yüz seksen liraya geldi. Kurye kapıda beş dakika bekledi, ödemeyi kartla yaptık.",
+      "after": "Akşam yemeği için pizza siparişini ben, tatlı siparişini eşim, içecek siparişini arkadaşım verdi; üç sipariş aynı kuryeyle, toplam iki yüz seksen liraya geldi. Kurye kapıda beş dakika bekledi, ödemeyi kartla yaptık.",
+      "reason": "AS09: make the gapped verb refer to ordering"
+    },
+    {
+      "target": "X426-B",
+      "field": "message",
+      "before": "Akşam yemeği için pizzayı eşim, tatlıyı ben, içecekleri arkadaşım sipariş verdi; üç sipariş aynı kuryeyle, toplam iki yüz seksen liraya geldi. Kurye kapıda beş dakika bekledi, ödemeyi kartla yaptık.",
+      "after": "Akşam yemeği için pizza siparişini eşim, tatlı siparişini ben, içecek siparişini arkadaşım verdi; üç sipariş aynı kuryeyle, toplam iki yüz seksen liraya geldi. Kurye kapıda beş dakika bekledi, ödemeyi kartla yaptık.",
+      "reason": "AS09: preserve ordering in the contrast"
+    },
+    {
+      "target": "X426-C",
+      "field": "message",
+      "before": "Ödemeyi kartla yaptık ve kurye kapıda beş dakika bekledi. Üç sipariş aynı kuryeyle, toplam iki yüz seksen liraya geldi. Pizzayı ben verdim; tatlıyı eşim, içecekleri arkadaşım.",
+      "after": "Ödemeyi kartla yaptık ve kurye kapıda beş dakika bekledi. Üç sipariş aynı kuryeyle, toplam iki yüz seksen liraya geldi. Pizza siparişini ben verdim; tatlı siparişini eşim, içecek siparişini arkadaşım verdi.",
+      "reason": "AS09: distinguish giving an object from placing its order"
+    },
+    {
+      "target": "X449-B",
+      "field": "message",
+      "before": "Kozmetik siparişimde ruj, fondöten ve maskara vardı; rengi uymadığı için kullanılamaz durumda olan bunların ilkiydi. Diğer ikisini beğendim, kargo da zamanında geldi. Siparişin toplamı yüz doksan lira tuttu ve sepette indirim kodu kullanıldı.",
+      "after": "Kozmetik siparişimde ruj, fondöten ve maskara vardı; rengi uymadığı için kullanılamayan rujdu. Fondöten ve maskara kullanılabilir durumda; diğer ikisini beğendim, kargo da zamanında geldi. Siparişin toplamı yüz doksan lira tuttu ve sepette indirim kodu kullanıldı.",
+      "reason": "AS10: usability must be asserted, not inferred from liking"
+    },
+    {
+      "target": "X449-C",
+      "field": "message",
+      "before": "Sipariş yüz doksan lira tuttu, indirim kodu da kullanıldı. Kargo zamanında geldi. Ruj, fondöten ve maskaradan yalnızca birinin rengi uymadığı için kullanılamaz durumda; diğer ikisini beğendim.",
+      "after": "Sipariş yüz doksan lira tuttu, indirim kodu da kullanıldı. Kargo zamanında geldi. Ruj, fondöten ve maskaradan yalnızca biri, rengi uymadığı için kullanılamaz durumda; diğer ikisini beğendim.",
+      "reason": "AS10: repair agreement without resolving which product is unusable"
+    },
+    {
+      "target": "C161-B",
+      "field": "message",
+      "before": "Montu kardeşim, kazağı ben kuru temizlemeye bıraktı; fişleri ikimiz de kaybettik.",
+      "after": "Montu kardeşim, kazağı ben kuru temizlemeye bıraktım; fişleri ikimiz de kaybettik.",
+      "reason": "AS11: repair person agreement"
+    },
+    {
+      "target": "C180",
+      "field": "question",
+      "before": "Koltuk hâlâ kokuyor mu?",
+      "after": "Koltuk şu anda kokuyor mu?",
+      "reason": "AS12: exact current-state opposites"
+    },
+    {
+      "target": "C180",
+      "field": "predicates",
+      "before": {
+        "P": "Koltuk hâlâ kokuyor.",
+        "notP": "Koltuk artık kokmuyor."
+      },
+      "after": {
+        "P": "Koltuk şu anda kokuyor.",
+        "notP": "Koltuk şu anda kokmuyor."
+      },
+      "reason": "AS12: exact current-state opposites"
+    },
+    {
+      "target": "C180",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Koltuk hâlâ kokuyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Koltuk artık kokmuyor.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Koltuk şu anda kokuyor.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Koltuk şu anda kokmuyor.»"
+      },
+      "reason": "AS12: exact current-state opposites"
+    },
+    {
+      "target": "X406",
+      "field": "question",
+      "before": "Müşterinin dairesinde elektrik hâlâ kesik mi?",
+      "after": "Müşterinin dairesinde elektrik şu anda kesik mi?",
+      "reason": "AS12: exact current-state opposites"
+    },
+    {
+      "target": "X406",
+      "field": "predicates",
+      "before": {
+        "P": "Müşterinin dairesinde elektrik hâlâ kesik.",
+        "notP": "Müşterinin dairesinde elektrik artık kesik değil."
+      },
+      "after": {
+        "P": "Müşterinin dairesinde elektrik şu anda kesik.",
+        "notP": "Müşterinin dairesinde elektrik şu anda kesik değil."
+      },
+      "reason": "AS12: exact current-state opposites"
+    },
+    {
+      "target": "X406",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşterinin dairesinde elektrik hâlâ kesik.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşterinin dairesinde elektrik artık kesik değil.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşterinin dairesinde elektrik şu anda kesik.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşterinin dairesinde elektrik şu anda kesik değil.»"
+      },
+      "reason": "AS12: exact current-state opposites"
+    },
+    {
+      "target": "X489-A",
+      "field": "message",
+      "before": "Dun kargo firmasini arayip kurye cagirdim. Uc tisort iade ettim: mavi, yesil ve siyah. Kargo gorevlisi bazilarini aldi, kalanlari ise ertesi gun alacagini soyledi. Iade kodunu da sms ile gonderdiler.",
+      "after": "Dun kargo firmasini arayip kurye cagirdim. Uc tisortu iade etmek icin hazirladim: mavi, yesil ve siyah. Kargo gorevlisi bazilarini aldi, kalanlari ise ertesi gun alacagini soyledi. Iade kodunu da sms ile gonderdiler.",
+      "reason": "AS13: preparing a return is distinct from pickup"
+    },
+    {
+      "target": "X489-B",
+      "field": "message",
+      "before": "Dun kargo firmasini arayip kurye cagirdim. Uc tisort iade ettim: mavi, yesil ve siyah. Kargo gorevlisi hicbirini almadi, ertesi gun gelecegini soyledi. Iade kodunu da sms ile gonderdiler.",
+      "after": "Dun kargo firmasini arayip kurye cagirdim. Uc tisortu iade etmek icin hazirladim: mavi, yesil ve siyah. Kargo gorevlisi hicbirini almadi, ertesi gun gelecegini soyledi. Iade kodunu da sms ile gonderdiler.",
+      "reason": "AS13: preparing a return is distinct from pickup"
+    },
+    {
+      "target": "X489-C",
+      "field": "message",
+      "before": "Iade kodunu sms ile gonderdiler. Dun kargo firmasini arayip kurye cagirdim; mavi, yesil ve siyah tisortu iade ettim, kargo gorevlisi bir kismini aldi, kalanlari ertesi gun alacagini soyledi.",
+      "after": "Iade kodunu sms ile gonderdiler. Dun kargo firmasini arayip kurye cagirdim; mavi, yesil ve siyah tisortu iade etmek icin hazirladim, kargo gorevlisi bir kismini aldi, kalanlari ertesi gun alacagini soyledi.",
+      "reason": "AS13: preserve preparation versus pickup"
+    },
+    {
+      "target": "X489",
+      "field": "question",
+      "before": "Mavi tişörtün iadesi alındı mı?",
+      "after": "Mavi tişört kargo görevlisi tarafından teslim alındı mı?",
+      "reason": "AS13: specify the pickup actor and event"
+    },
+    {
+      "target": "X489",
+      "field": "predicates",
+      "before": {
+        "P": "Mavi tişörtün iadesi alındı.",
+        "notP": "Mavi tişörtün iadesi alınmadı."
+      },
+      "after": {
+        "P": "Mavi tişört kargo görevlisi tarafından teslim alındı.",
+        "notP": "Mavi tişört kargo görevlisi tarafından teslim alınmadı."
+      },
+      "reason": "AS13: specify the pickup actor and event"
+    },
+    {
+      "target": "X489",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Mavi tişörtün iadesi alındı.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Mavi tişörtün iadesi alınmadı.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Mavi tişört kargo görevlisi tarafından teslim alındı.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Mavi tişört kargo görevlisi tarafından teslim alınmadı.»"
+      },
+      "reason": "AS13: specify the pickup actor and event"
+    },
+    {
+      "target": "X189",
+      "field": "question",
+      "before": "Kuryeyi müşterinin annesi mi aradı?",
+      "after": "Mesajda belirtilen iki aramayı müşterinin annesi mi yaptı?",
+      "reason": "AS14: restrict actor attribution to the described calls"
+    },
+    {
+      "target": "X189",
+      "field": "predicates",
+      "before": {
+        "P": "Kuryeyi müşterinin annesi aradı.",
+        "notP": "Kuryeyi müşterinin annesi aramadı."
+      },
+      "after": {
+        "P": "Mesajda belirtilen iki aramayı müşterinin annesi yaptı.",
+        "notP": "Mesajda belirtilen iki aramayı müşterinin annesi yapmadı."
+      },
+      "reason": "AS14: restrict actor attribution to the described calls"
+    },
+    {
+      "target": "X189",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Kuryeyi müşterinin annesi aradı.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Kuryeyi müşterinin annesi aramadı.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Mesajda belirtilen iki aramayı müşterinin annesi yaptı.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Mesajda belirtilen iki aramayı müşterinin annesi yapmadı.»"
+      },
+      "reason": "AS14: restrict actor attribution to the described calls"
+    },
+    {
+      "target": "X189",
+      "field": "question",
+      "before": "Kuryeyi kim aradı?",
+      "after": "Mesajda belirtilen iki aramayı kim yaptı?",
+      "reason": "AS14: keep entity event scope identical"
+    },
+    {
+      "target": "X341-A",
+      "field": "message",
+      "before": "Upgrade talebimden sonra gelen SMS \"yükseltme yapıldı\" diyor, müşteri temsilcisi ise telefonda \"sistemde hata var, yapılmamış\" dedi. Modemi yeniden başlattım. Sözleşmem Mart 2027'ye kadar sürüyor.",
+      "after": "100 Mbps'e yükseltme talebimden sonra gelen SMS \"yükseltme yapıldı\" diyor, müşteri temsilcisi ise telefonda \"sistemde hata var, yapılmamış\" dedi. Modemi yeniden başlattım. Sözleşmem Mart 2027'ye kadar sürüyor.",
+      "reason": "UR-001: state the target speed in the message"
+    },
+    {
+      "target": "X341-C",
+      "field": "message",
+      "before": "Modemi bu sabah yeniden başlattım. Telefondaki müşteri temsilcisi upgrade için \"sistemde hata var, yapılmamış\" dedi; gelen SMS'te ise \"yükseltme yapıldı\" yazıyor. Sözleşmem Mart 2027'ye kadar sürüyor.",
+      "after": "Modemi bu sabah yeniden başlattım. Telefondaki müşteri temsilcisi 100 Mbps'e yükseltme talebim için \"sistemde hata var, yapılmamış\" dedi; gelen SMS'te ise \"yükseltme yapıldı\" yazıyor. Sözleşmem Mart 2027'ye kadar sürüyor.",
+      "reason": "UR-001: state the target speed in the rewording"
+    },
+    {
+      "target": "X314-A",
+      "field": "message",
+      "before": "Koltuk siparişimi iptal etmek için ekrana girdim ama vazgeçtim, sipariş duruyor. Eşimin yatak siparişi ise geçen hafta iptal edilmişti. Teslimat tarihi 3 Haziran olarak görünüyor.",
+      "after": "Koltuk siparişimi iptal etmek için ekrana girdim ama vazgeçtim, sipariş duruyor. Eşimin yatak siparişi ise geçen hafta iptal edilmişti. Teslimat tarihi 3 Haziran olarak görünüyor. Bu koltuk siparişini daha önce de hiç iptal etmedim.",
+      "reason": "UR-002: close the ever/never history"
+    },
+    {
+      "target": "X314-C",
+      "field": "message",
+      "before": "Eşimin yatak siparişi geçen hafta iptal edilmişti. Benim koltuk siparişimde ise iptal ekranına girip son anda vazgeçtim, sipariş duruyor; teslimat tarihi uygulamada 3 Haziran görünüyor.",
+      "after": "Eşimin yatak siparişi geçen hafta iptal edilmişti. Benim koltuk siparişimde ise iptal ekranına girip son anda vazgeçtim, sipariş duruyor; teslimat tarihi uygulamada 3 Haziran görünüyor. Bu koltuk siparişini daha önce de hiç iptal etmedim.",
+      "reason": "UR-002: close the ever/never history"
+    },
+    {
+      "target": "C134",
+      "field": "question",
+      "before": "Müşteriden depozito şu anda tahsil edilmiş durumda mı?",
+      "after": "Müşterinin kartından çekilmiş ve henüz iade edilmemiş bir kiralama depozitosu var mı?",
+      "reason": "UR-003: ask about a currently retained charge"
+    },
+    {
+      "target": "C134",
+      "field": "predicates",
+      "before": {
+        "P": "Müşteriden depozito şu anda tahsil edilmiş durumda.",
+        "notP": "Müşteriden depozito şu anda tahsil edilmiş durumda değil."
+      },
+      "after": {
+        "P": "Müşterinin kartından çekilmiş ve henüz iade edilmemiş bir kiralama depozitosu var.",
+        "notP": "Müşterinin kartından çekilmiş ve henüz iade edilmemiş bir kiralama depozitosu yok."
+      },
+      "reason": "UR-003: ask about a currently retained charge"
+    },
+    {
+      "target": "C134",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşteriden depozito şu anda tahsil edilmiş durumda.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşteriden depozito şu anda tahsil edilmiş durumda değil.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşterinin kartından çekilmiş ve henüz iade edilmemiş bir kiralama depozitosu var.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşterinin kartından çekilmiş ve henüz iade edilmemiş bir kiralama depozitosu yok.»"
+      },
+      "reason": "UR-003: ask about a currently retained charge"
+    },
+    {
+      "target": "X313",
+      "field": "question",
+      "before": "Müşterinin kartından ürün bedeli şu anda tahsil edilmiş durumda mı?",
+      "after": "Müşterinin kartından ürün bedeli olarak çekilmiş ve henüz iade edilmemiş bir tutar var mı?",
+      "reason": "UR-003: ask about a currently retained charge"
+    },
+    {
+      "target": "X313",
+      "field": "predicates",
+      "before": {
+        "P": "Müşterinin kartından ürün bedeli şu anda tahsil edilmiş durumda.",
+        "notP": "Müşterinin kartından ürün bedeli şu anda tahsil edilmiş durumda değil."
+      },
+      "after": {
+        "P": "Müşterinin kartından ürün bedeli olarak çekilmiş ve henüz iade edilmemiş bir tutar var.",
+        "notP": "Müşterinin kartından ürün bedeli olarak çekilmiş ve henüz iade edilmemiş bir tutar yok."
+      },
+      "reason": "UR-003: ask about a currently retained charge"
+    },
+    {
+      "target": "X313",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşterinin kartından ürün bedeli şu anda tahsil edilmiş durumda.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşterinin kartından ürün bedeli şu anda tahsil edilmiş durumda değil.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Müşterinin kartından ürün bedeli olarak çekilmiş ve henüz iade edilmemiş bir tutar var.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Müşterinin kartından ürün bedeli olarak çekilmiş ve henüz iade edilmemiş bir tutar yok.»"
+      },
+      "reason": "UR-003: ask about a currently retained charge"
+    },
+    {
+      "target": "D077-B",
+      "field": "message",
+      "before": "Ürün hasarlı geldi, değişim yapıldı; ödediğim kargo ücretinin de iadesini bekliyorum.",
+      "after": "Ürün hasarlı geldi, değişim yapıldı; ödediğim kargo ücretinin de iadesini talep ediyorum.",
+      "reason": "UR-006: explicit request form in Development"
+    },
+    {
+      "target": "C037",
+      "field": "rule",
+      "before": "Mobil bankacılıkta günlük havale limiti 5.000 TL'dir. Günlük toplam tutar 5.000 TL'yi aşarsa limit aşılmış olur; tam 5.000 TL limiti aşmaz.",
+      "after": "Mobil bankacılıkta günlük havale limiti 5.000 TL'dir. Günlük toplam tutar 5.000 TL'yi aşarsa limit aşılmış olur; tam 5.000 TL limiti aşmaz. Bu soruda yaklaşık, civarında, civarı, aşağı yukarı ve kabaca biçiminde verilen sayılar, belirtilen sayının yüzde 10 altı ile yüzde 10 üstü arasındaki bir değeri ifade eder; iki sınır da dahildir.",
+      "reason": "NUM1: expose the authored plus/minus 10 percent convention"
+    },
+    {
+      "target": "X062",
+      "field": "rule",
+      "before": "Fatura tutarı 500 TL veya üzerindeyse taksitlendirme yapılabilir.",
+      "after": "Fatura tutarı 500 TL veya üzerindeyse taksitlendirme yapılabilir. Bu soruda yaklaşık, civarında, civarı, aşağı yukarı ve kabaca biçiminde verilen sayılar, belirtilen sayının yüzde 10 altı ile yüzde 10 üstü arasındaki bir değeri ifade eder; iki sınır da dahildir.",
+      "reason": "NUM1: expose the authored plus/minus 10 percent convention"
+    },
+    {
+      "target": "X070",
+      "field": "rule",
+      "before": "Evin kapalı alanı 120 metrekareyi aşarsa ek personel ücreti alınır; tam 120 metrekare dahil değildir. Balkon ve bahçe alanı sayılmaz.",
+      "after": "Evin kapalı alanı 120 metrekareyi aşarsa ek personel ücreti alınır; tam 120 metrekare dahil değildir. Balkon ve bahçe alanı sayılmaz. Bu soruda yaklaşık, civarında, civarı, aşağı yukarı ve kabaca biçiminde verilen sayılar, belirtilen sayının yüzde 10 altı ile yüzde 10 üstü arasındaki bir değeri ifade eder; iki sınır da dahildir.",
+      "reason": "NUM1: expose the authored plus/minus 10 percent convention"
+    },
+    {
+      "target": "X090",
+      "field": "rule",
+      "before": null,
+      "after": "Bu soruda yaklaşık, civarında, civarı, aşağı yukarı ve kabaca biçiminde verilen sayılar, belirtilen sayının yüzde 10 altı ile yüzde 10 üstü arasındaki bir değeri ifade eder; iki sınır da dahildir.",
+      "reason": "NUM1: expose the authored plus/minus 10 percent convention"
+    },
+    {
+      "target": "X061-C",
+      "field": "message",
+      "before": "Hepsi farklı siparişlerden olmak üzere bu yıl şimdiye kadar kendi hesabımdan dört ürünü iade ettim. Eşim ise kendi hesabından iki kez iade yaptı. Hesabımla ilgili net bilgi rica ediyorum.",
+      "after": "Bu yıl şimdiye kadar kendi hesabımdan dört ayrı kez ürün iade ettim; iadelerin her biri farklı bir sipariş içindi. Eşim ise kendi hesabından iki kez iade yaptı. Hesabımla ilgili net bilgi rica ediyorum.",
+      "reason": "NUM2: count return occasions, not products"
+    },
+    {
+      "target": "X057",
+      "field": "predicates",
+      "before": {
+        "P": "Yıllık plan, aylık planı 12 ay ödemeye göre en az 600 TL daha ucuz.",
+        "notP": "Yıllık plan, aylık planı 12 ay ödemeye göre 600 TL'den az ucuz ya da daha pahalı."
+      },
+      "after": {
+        "P": "Yıllık plan, aylık planı 12 ay ödemeye göre en az 600 TL daha ucuz.",
+        "notP": "Yıllık plan, aylık planı 12 ay ödemeye göre en az 600 TL daha ucuz değil."
+      },
+      "reason": "NUM3: include zero savings in the exact opposite"
+    },
+    {
+      "target": "X057",
+      "field": "trackA",
+      "before": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Yıllık plan, aylık planı 12 ay ödemeye göre en az 600 TL daha ucuz.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Yıllık plan, aylık planı 12 ay ödemeye göre 600 TL'den az ucuz ya da daha pahalı.»"
+      },
+      "after": {
+        "P": "Bu mesaj şunu ortaya koyuyor mu: «Yıllık plan, aylık planı 12 ay ödemeye göre en az 600 TL daha ucuz.»",
+        "notP": "Bu mesaj şunu ortaya koyuyor mu: «Yıllık plan, aylık planı 12 ay ödemeye göre en az 600 TL daha ucuz değil.»"
+      },
+      "reason": "NUM3: include zero savings in the exact opposite"
+    },
+    {
+      "target": "X077-A",
+      "field": "message",
+      "before": "Annemlere zeytinyağı göndereceğim: 750 ml'lik dört şişe, bir de 2,5 litrelik su şişesi var. Hepsini tek kolide yollamak istiyorum. Şubeye bu akşam gideceğim, paketlemeyi ona göre yapacağım.",
+      "after": "Annemlere zeytinyağı göndereceğim: her birinde 750 ml zeytinyağı bulunan dört şişe, bir de içinde 2,5 litre su bulunan bir şişe var. Hepsini tek kolide yollamak istiyorum. Şubeye bu akşam gideceğim, paketlemeyi ona göre yapacağım.",
+      "reason": "NUM4: state actual liquid contents"
+    },
+    {
+      "target": "X077-B",
+      "field": "message",
+      "before": "Annemlere zeytinyağı göndereceğim: 750 ml'lik dört şişe, bir de 2 litrelik su şişesi var. Hepsini tek kolide yollamak istiyorum. Şubeye bu akşam gideceğim, paketlemeyi ona göre yapacağım.",
+      "after": "Annemlere zeytinyağı göndereceğim: her birinde 750 ml zeytinyağı bulunan dört şişe, bir de içinde 2 litre su bulunan bir şişe var. Hepsini tek kolide yollamak istiyorum. Şubeye bu akşam gideceğim, paketlemeyi ona göre yapacağım.",
+      "reason": "NUM4: state actual liquid contents"
+    },
+    {
+      "target": "X077-C",
+      "field": "message",
+      "before": "Hepsini tek kolide yollamak istiyorum; annemlere zeytinyağı gönderiyorum, dört şişe ve her biri 750 ml, ayrıca 2,5 litrelik bir su da koyacağım. Şubeye bu akşam gideceğim.",
+      "after": "Hepsini tek kolide yollamak istiyorum; annemlere zeytinyağı gönderiyorum, her birinde 750 ml zeytinyağı bulunan dört şişe, ayrıca içinde 2,5 litre su bulunan bir şişe de koyacağım. Şubeye bu akşam gideceğim.",
+      "reason": "NUM4: state actual liquid contents in the rewording"
+    },
+    {
+      "target": "D022",
+      "field": "rule",
+      "before": "Kargo gecikme tazminatı, teslimat taahhüt edilen günden en az 3 gün sonra yapıldıysa ödenir. Taahhüt edilen gün ile teslimat günü arasındaki gün farkına bakılır.",
+      "after": "Kargo gecikme tazminatı, teslimat taahhüt edilen günden en az 3 gün sonra yapıldıysa ödenir. Taahhüt edilen gün ile teslimat günü arasındaki gün farkına bakılır. Bu mesajda sözü edilen pazartesi, çarşamba ve perşembe aynı takvim haftasındadır.",
+      "reason": "NUM5: expose same-week weekdays"
+    },
+    {
+      "target": "X115-A",
+      "field": "message",
+      "before": "Kedimi geçen cuma veterinere götürdüm, bugün de çarşamba. İlaç kürü dün başladı ama kedi hâlâ iştahsız; ücretsiz kontrol muayenesi istiyorum. Kedinin adı Duman, 4 yaşında ve tüyleri de dökülmeye başladı.",
+      "after": "Kedimi bugünden önceki en son cuma veterinere götürdüm, bugün de çarşamba. İlaç kürü dün başladı ama kedi hâlâ iştahsız; ücretsiz kontrol muayenesi istiyorum. Kedinin adı Duman, 4 yaşında ve tüyleri de dökülmeye başladı.",
+      "reason": "NUM6: use the most recent Friday"
+    },
+    {
+      "target": "X115-B",
+      "field": "message",
+      "before": "Kedimi geçen cuma veterinere götürdüm. İlaç kürü dün başladı ama kedi hâlâ iştahsız; ücretsiz kontrol muayenesi istiyorum. Kedinin adı Duman, 4 yaşında ve tüyleri de dökülmeye başladı.",
+      "after": "Kedimi bugünden önceki en son cuma veterinere götürdüm. İlaç kürü dün başladı ama kedi hâlâ iştahsız; ücretsiz kontrol muayenesi istiyorum. Kedinin adı Duman, 4 yaşında ve tüyleri de dökülmeye başladı.",
+      "reason": "NUM6: use the most recent Friday"
+    },
+    {
+      "target": "X115-C",
+      "field": "message",
+      "before": "Kedim hâlâ iştahsız, ilaç kürü ise dün başladı. Bugün çarşamba; kediyi geçen cuma veterinere götürmüştüm ve ücretsiz kontrol muayenesi istiyorum. Duman adlı kedim 4 yaşında, tüyleri de dökülüyor.",
+      "after": "Kedim hâlâ iştahsız, ilaç kürü ise dün başladı. Bugün çarşamba; kediyi bugünden önceki en son cuma veterinere götürmüştüm ve ücretsiz kontrol muayenesi istiyorum. Duman adlı kedim 4 yaşında, tüyleri de dökülüyor.",
+      "reason": "NUM6: use the most recent Friday"
+    },
+    {
+      "target": "X056",
+      "field": "rule",
+      "before": "Garanti kapsamındaki onarımlarda işçilik ücretini servis karşılar; yedek parça ücreti müşteriye aittir. Müşterinin ödeyeceği tutar 1.000 TL'yi aşarsa yazılı onay alınır.",
+      "after": "Garanti kapsamındaki onarımlarda işçilik ücretini servis karşılar; yedek parça ücreti müşteriye aittir. Müşterinin ödeyeceği tutar 1.000 TL'yi aşarsa yazılı onay alınır. Bu hesaplamada mesajda belirtilen onarım ve parça fiyatları uygulanacak fiyatlar olarak alınır; bu fiyatların kaynağına ilişkin ek doğrulama aranmaz.",
+      "reason": "NUM7: declare the quotation as the computation price basis"
+    },
+    {
+      "target": "X068",
+      "field": "rule",
+      "before": "Toplam hasar bedeli 5.000 TL'yi aşarsa ekspertiz raporu zorunludur. Çekici ücreti hasar bedeline dahil edilmez.",
+      "after": "Toplam hasar bedeli 5.000 TL'yi aşarsa ekspertiz raporu zorunludur. Çekici ücreti hasar bedeline dahil edilmez. Bu hesaplamada mesajda belirtilen onarım ve parça fiyatları uygulanacak fiyatlar olarak alınır; bu fiyatların kaynağına ilişkin ek doğrulama aranmaz.",
+      "reason": "NUM7: declare the quotation as the computation price basis"
+    }
+  ],
+  "rationale": "Text/question/rule corrections from the pre-run review; intended keys retained. Dependent evidence, relations and metadata rebuilt."
+}

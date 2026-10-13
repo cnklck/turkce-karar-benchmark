@@ -1,0 +1,980 @@
+[
+  {
+    "id": "LANG-01",
+    "familyIds": [
+      "X011"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "X011": [
+        "LANG-01: directly date the breakage to the move"
+      ]
+    },
+    "originalClassification": "unsupported_event_key"
+  },
+  {
+    "id": "LANG-02",
+    "familyIds": [
+      "X025",
+      "X049"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "X025": [
+        "LANG-02: assert non-arrival, rather than folder absence"
+      ],
+      "X049": [
+        "LANG-02: assert non-receipt"
+      ]
+    },
+    "originalClassification": "unsupported_negative_keys"
+  },
+  {
+    "id": "LANG-03",
+    "familyIds": [
+      "D058"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "D058": [
+        "LANG-03: identify one duplicated payment"
+      ]
+    },
+    "originalClassification": "target_preservation_failure"
+  },
+  {
+    "id": "LANG-04",
+    "familyIds": [
+      "X035"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "X035": [
+        "LANG-04: resolve not-all versus none scope"
+      ]
+    },
+    "originalClassification": "model_visible_policy_gap"
+  },
+  {
+    "id": "LANG-05",
+    "familyIds": [
+      "D003"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "D003": [
+        "LANG-05: close the recipient scope"
+      ]
+    },
+    "originalClassification": "target_scope_ambiguity"
+  },
+  {
+    "id": "LANG-06",
+    "familyIds": [
+      "D005"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "D005": [
+        "LANG-06: make the writer invoice observation direct"
+      ]
+    },
+    "originalClassification": "policy_boundary_ambiguity"
+  },
+  {
+    "id": "LANG-07",
+    "familyIds": [
+      "C120"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "C120": [
+        "T1 wording: ask about a valid request/qualified plan in this message",
+        "LANG-07 / UR-S01: retain the conditional request without an ambiguous withdrawal"
+      ]
+    },
+    "originalClassification": "ambiguous_message_act"
+  },
+  {
+    "id": "LANG-08",
+    "familyIds": [
+      "X237"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "X237": [
+        "LANG-08: ask about the asserted result, not an unnamed individual tailor"
+      ]
+    },
+    "originalClassification": "actor_scope_ambiguity"
+  },
+  {
+    "id": "LANG-09",
+    "familyIds": [
+      "X263",
+      "X283"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "X263": [
+        "LANG-09: assert the passive cancellation outcome"
+      ],
+      "X283": [
+        "LANG-09: assert the passive enrollment outcome"
+      ]
+    },
+    "originalClassification": "passive_outcome_scope_ambiguity"
+  },
+  {
+    "id": "LANG-10",
+    "familyIds": [
+      "X296"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "X296": [
+        "LANG-10: state full deposit payment",
+        "LANG-10: preserve full payment scope"
+      ]
+    },
+    "originalClassification": "payment_scope_and_preservation_ambiguity"
+  },
+  {
+    "id": "LANG-11",
+    "familyIds": [
+      "C107",
+      "X293"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "C107": [
+        "LANG-11: deny signing up to message time"
+      ],
+      "X293": [
+        "LANG-11: deny signing up to message time"
+      ]
+    },
+    "originalClassification": "temporal_scope_caution"
+  },
+  {
+    "id": "LANG-12",
+    "familyIds": [
+      "X266"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "X266": [
+        "LANG-12: correct the ancillary subject"
+      ]
+    },
+    "originalClassification": "ancillary_reference_and_naturalness"
+  },
+  {
+    "id": "LANG-13",
+    "familyIds": [
+      "C011"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "C011": [
+        "LANG-13: use explicit not-all wording in Core"
+      ]
+    },
+    "originalClassification": "authoring_policy_mismatch"
+  },
+  {
+    "id": "LANG-14",
+    "familyIds": [
+      "X273"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "X273": [
+        "T1 wording: ask about a valid request/qualified plan in this message",
+        "LANG-14: use the visible conditional-request form"
+      ]
+    },
+    "originalClassification": "request_convention_visibility_caution"
+  },
+  {
+    "id": "AS01",
+    "familyIds": [
+      "D099"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "D099": [
+        "AS01: close the basket"
+      ]
+    },
+    "originalClassification": "unsupported-negative-key"
+  },
+  {
+    "id": "AS02",
+    "familyIds": [
+      "C194"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "C194": [
+        "AS02: close the apartment vehicle count"
+      ]
+    },
+    "originalClassification": "unsupported-negative-key"
+  },
+  {
+    "id": "AS03",
+    "familyIds": [
+      "X439"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "X439": [
+        "AS03: name bouquet recipients",
+        "AS03: explicitly exclude roses"
+      ]
+    },
+    "originalClassification": "unsupported-negative-key"
+  },
+  {
+    "id": "AS04",
+    "familyIds": [
+      "X487"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "X487": [
+        "AS04: close the paid/gift basket"
+      ]
+    },
+    "originalClassification": "unsupported-negative-key"
+  },
+  {
+    "id": "AS05",
+    "familyIds": [
+      "X491"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "X491": [
+        "AS05: exclude delivery of the fifth listed item"
+      ]
+    },
+    "originalClassification": "key-and-paraphrase-defect"
+  },
+  {
+    "id": "AS06",
+    "familyIds": [
+      "X470"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "X470": [
+        "AS06: make allowance pooling explicit",
+        "AS06: close baggage and establish the pooled reservation",
+        "AS06: establish the same pooled reservation in the contrast",
+        "AS06: establish the same pooled reservation in the rewording"
+      ]
+    },
+    "originalClassification": "missing-rule-convention"
+  },
+  {
+    "id": "AS07",
+    "familyIds": [
+      "X461"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "X461": [
+        "AS07: distinguish enrollment from starting attendance",
+        "AS07: explicitly establish two enrollments",
+        "AS07: preserve the enrollment count"
+      ]
+    },
+    "originalClassification": "target-evidence-scope"
+  },
+  {
+    "id": "AS08",
+    "familyIds": [
+      "D082",
+      "X405",
+      "X420"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "D082": [
+        "AS08: disambiguate the caller",
+        "AS08: disambiguate the contrast caller"
+      ],
+      "X405": [
+        "AS08: disambiguate the installer"
+      ],
+      "X420": [
+        "AS08: disambiguate the changer"
+      ]
+    },
+    "originalClassification": "unresolved-reference-and-equivalence"
+  },
+  {
+    "id": "AS09",
+    "familyIds": [
+      "X426"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "X426": [
+        "AS09: make the gapped verb refer to ordering",
+        "AS09: preserve ordering in the contrast",
+        "AS09: distinguish giving an object from placing its order"
+      ]
+    },
+    "originalClassification": "paraphrase-defect"
+  },
+  {
+    "id": "AS10",
+    "familyIds": [
+      "X449"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "X449": [
+        "AS10: usability must be asserted, not inferred from liking",
+        "AS10: repair agreement without resolving which product is unusable"
+      ]
+    },
+    "originalClassification": "target-evidence-scope"
+  },
+  {
+    "id": "AS11",
+    "familyIds": [
+      "C161"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "C161": [
+        "AS11: repair person agreement"
+      ]
+    },
+    "originalClassification": "grammar"
+  },
+  {
+    "id": "AS12",
+    "familyIds": [
+      "C180",
+      "X406"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "C180": [
+        "AS12: exact current-state opposites"
+      ],
+      "X406": [
+        "AS12: exact current-state opposites"
+      ]
+    },
+    "originalClassification": "predicate-opposition"
+  },
+  {
+    "id": "AS13",
+    "familyIds": [
+      "X489"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "X489": [
+        "AS13: preparing a return is distinct from pickup",
+        "AS13: preserve preparation versus pickup",
+        "AS13: specify the pickup actor and event"
+      ]
+    },
+    "originalClassification": "event-definition-and-naturalness"
+  },
+  {
+    "id": "AS14",
+    "familyIds": [
+      "X189"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "X189": [
+        "AS14: restrict actor attribution to the described calls",
+        "AS14: keep entity event scope identical"
+      ]
+    },
+    "originalClassification": "residual-scope-risk"
+  },
+  {
+    "id": "UR-001",
+    "familyIds": [
+      "X341"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "X341": [
+        "UR-001: state the target speed in the message",
+        "UR-001: state the target speed in the rewording"
+      ]
+    },
+    "originalClassification": "confirmed_target_definition_defect"
+  },
+  {
+    "id": "UR-002",
+    "familyIds": [
+      "X314"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "X314": [
+        "UR-002: close the ever/never history"
+      ]
+    },
+    "originalClassification": "unresolved_scope_key_disagreement"
+  },
+  {
+    "id": "UR-003",
+    "familyIds": [
+      "C134",
+      "X313"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "C134": [
+        "UR-003: ask about a currently retained charge"
+      ],
+      "X313": [
+        "UR-003: ask about a currently retained charge"
+      ]
+    },
+    "originalClassification": "unresolved_collection_vs_retention_wording"
+  },
+  {
+    "id": "UR-004",
+    "familyIds": [
+      "C135",
+      "C136",
+      "C139",
+      "C141",
+      "C142",
+      "C143",
+      "C146",
+      "C147",
+      "C148",
+      "C149",
+      "C154",
+      "C156",
+      "C157",
+      "C158",
+      "C159",
+      "C160",
+      "D068",
+      "D069",
+      "D070",
+      "D071",
+      "D072",
+      "D074",
+      "D075",
+      "D076",
+      "D077",
+      "D078",
+      "X319",
+      "X320",
+      "X321",
+      "X322",
+      "X324",
+      "X325",
+      "X343",
+      "X344",
+      "X345",
+      "X346",
+      "X347",
+      "X348",
+      "X350",
+      "X351",
+      "X352",
+      "X353",
+      "X354",
+      "X355",
+      "X356",
+      "X359",
+      "X360",
+      "X361",
+      "X363",
+      "X364",
+      "X368",
+      "X369",
+      "X370",
+      "X371",
+      "X373",
+      "X374",
+      "X375",
+      "X376",
+      "X377",
+      "X378",
+      "X381",
+      "X382",
+      "X383",
+      "X385",
+      "X386",
+      "X387",
+      "X390",
+      "X391",
+      "X392",
+      "X394",
+      "X396",
+      "X397",
+      "X398",
+      "X399"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "C135": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "C136": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "C139": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "C141": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "C142": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "C143": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "C146": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "C147": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "C148": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "C149": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "C154": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "C156": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "C157": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "C158": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "C159": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "C160": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "D068": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "D069": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "D070": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "D071": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "D072": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "D074": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "D075": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "D076": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "D077": [
+        "T1 wording: ask about a valid request/qualified plan in this message",
+        "UR-006: explicit request form in Development"
+      ],
+      "D078": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X319": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X320": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X321": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X322": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X324": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X325": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X343": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X344": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X345": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X346": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X347": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X348": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X350": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X351": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X352": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X353": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X354": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X355": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X356": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X359": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X360": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X361": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X363": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X364": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X368": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X369": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X370": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X371": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X373": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X374": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X375": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X376": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X377": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X378": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X381": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X382": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X383": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X385": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X386": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X387": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X390": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X391": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X392": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X394": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X396": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X397": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X398": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X399": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ]
+    },
+    "originalClassification": "confirmed_contract_wording_alignment_risk"
+  },
+  {
+    "id": "UR-005",
+    "familyIds": [
+      "C153",
+      "X380"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "C153": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X380": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ]
+    },
+    "originalClassification": "confirmed_rule_qualified_plan_wording_risk"
+  },
+  {
+    "id": "UR-006",
+    "familyIds": [
+      "D077"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "D077": [
+        "T1 wording: ask about a valid request/qualified plan in this message",
+        "UR-006: explicit request form in Development"
+      ]
+    },
+    "originalClassification": "authored_policy_scope_inconsistency"
+  },
+  {
+    "id": "UR-S01",
+    "familyIds": [
+      "C120"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "C120": [
+        "T1 wording: ask about a valid request/qualified plan in this message",
+        "LANG-07 / UR-S01: retain the conditional request without an ambiguous withdrawal"
+      ]
+    },
+    "originalClassification": "supplemental_out_of_capability_scope"
+  },
+  {
+    "id": "NUM1",
+    "familyIds": [
+      "C037",
+      "X062",
+      "X070",
+      "X090"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "C037": [
+        "NUM1: expose the authored plus/minus 10 percent convention"
+      ],
+      "X062": [
+        "NUM1: expose the authored plus/minus 10 percent convention"
+      ],
+      "X070": [
+        "NUM1: expose the authored plus/minus 10 percent convention"
+      ],
+      "X090": [
+        "NUM1: expose the authored plus/minus 10 percent convention"
+      ]
+    },
+    "originalClassification": "hidden_numerical_convention"
+  },
+  {
+    "id": "NUM2",
+    "familyIds": [
+      "X061"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "X061": [
+        "NUM2: count return occasions, not products"
+      ]
+    },
+    "originalClassification": "rewording_counting_unit"
+  },
+  {
+    "id": "NUM3",
+    "familyIds": [
+      "X057"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "X057": [
+        "NUM3: include zero savings in the exact opposite"
+      ]
+    },
+    "originalClassification": "exact_complement_wording"
+  },
+  {
+    "id": "NUM4",
+    "familyIds": [
+      "X077"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "X077": [
+        "NUM4: state actual liquid contents",
+        "NUM4: state actual liquid contents in the rewording"
+      ]
+    },
+    "originalClassification": "container_capacity_vs_contents"
+  },
+  {
+    "id": "NUM5",
+    "familyIds": [
+      "D022"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "D022": [
+        "NUM5: expose same-week weekdays"
+      ]
+    },
+    "originalClassification": "unstated_same_week"
+  },
+  {
+    "id": "NUM6",
+    "familyIds": [
+      "X115"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "X115": [
+        "NUM6: use the most recent Friday"
+      ]
+    },
+    "originalClassification": "last_weekday_reference"
+  },
+  {
+    "id": "NUM7",
+    "familyIds": [
+      "X056",
+      "X068"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "X056": [
+        "NUM7: declare the quotation as the computation price basis"
+      ],
+      "X068": [
+        "NUM7: declare the quotation as the computation price basis"
+      ]
+    },
+    "originalClassification": "quoted_estimate_vs_actual_price"
+  },
+  {
+    "id": "PROTO-01",
+    "familyIds": [
+      "C109",
+      "C113",
+      "C119",
+      "C120",
+      "D059",
+      "D060",
+      "X265",
+      "X269",
+      "X273",
+      "X274",
+      "X275",
+      "X291",
+      "X298",
+      "X299",
+      "X300"
+    ],
+    "disposition": "corrected before freeze and inference",
+    "rationale": {
+      "C109": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "C113": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "C119": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "C120": [
+        "T1 wording: ask about a valid request/qualified plan in this message",
+        "LANG-07 / UR-S01: retain the conditional request without an ambiguous withdrawal"
+      ],
+      "D059": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "D060": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X265": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X269": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X273": [
+        "T1 wording: ask about a valid request/qualified plan in this message",
+        "LANG-14: use the visible conditional-request form"
+      ],
+      "X274": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X275": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X291": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X298": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X299": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ],
+      "X300": [
+        "T1 wording: ask about a valid request/qualified plan in this message"
+      ]
+    },
+    "originalClassification": "contract_wording_alignment"
+  }
+]

@@ -1,0 +1,24 @@
+import {existsSync,mkdirSync,copyFileSync,readFileSync} from 'node:fs';
+import {resolve,join,dirname} from 'node:path';
+import {root,read} from './archive.mjs';
+import {freeze,IMPLEMENTATION_FILES} from '../harness/freeze.mjs';
+import {save,hash} from '../harness/io.mjs';
+const args=process.argv.slice(2),value=key=>{const i=args.indexOf(key);return i<0?null:args[i+1];};
+const out=value('--out'),chosen=value('--models'),split=value('--split')??'core',count=Number(value('--families')??10);
+if(!out||(!chosen&&!args.includes('--all-models'))||!['dev','core','challenge','all'].includes(split)||!Number.isInteger(count)||count<1)throw new Error('Kullanım: npm run prepare -- --models <kimlik> --split core --families 10 --out experiments/ornek');
+const folder=resolve(out);if(existsSync(folder))throw new Error('Çıktı klasörü zaten var. Yeni bir klasör seç.');
+const full=read('data/sample.json'),original=read('plan.json'),ids=chosen?.split(',')??original.models.map(m=>m.id);
+const tracks=(value('--tracks')??'B1').split(',');
+if(tracks.some(t=>!['A','B1','B2'].includes(t)))throw new Error('Soru biçimi A, B1 veya B2 olmalı.');
+if(ids.length!==new Set(ids).size||ids.some(id=>!original.models.some(m=>m.id===id)))throw new Error('Model kimliği kayıtlı değil veya yinelenmiş.');
+const families=full.families.filter(f=>split==='all'||f.split===split).map(f=>({f,key:hash(`turkce-karar-public-v1|${f.id}`)})).sort((a,b)=>a.key.localeCompare(b.key)).slice(0,count).map(x=>x.f);
+if(families.length!==count)throw new Error('Bu bölümde istenen sayıda soru kümesi yok.');
+const dataset={...full,families,meta:{...full.meta,scope:`${families.length} soru kümesi / ${families.length*3} örnek`,split}};
+for(const key of ['counts','distribution','projectionPopulation'])delete dataset[key];
+const models=ids.map(id=>{const m=original.models.find(m=>m.id===id);const supported=tracks.filter(t=>m.tracks.includes(t));if(!supported.length)throw new Error(`Model seçilen soru biçimini desteklemiyor: ${id}`);return {...m,settings:args.includes('--native-jev')&&id==='~typesafe/jev-latest'&&supported.includes('A')?['common','native']:['common'],tracks:supported};});
+const plan={...original,approval:{inference:false},models,splits:split==='all'?['dev','core','challenge']:[split],variants:['base'],requestConcurrency:8,seed:'turkce-karar-public-v1',modelPolicies:Object.fromEntries(models.map(m=>[m.id,{...original.modelPolicies[m.id],concurrency:Math.min(2,original.modelPolicies[m.id].concurrency)}]))};
+mkdirSync(join(folder,'data'),{recursive:true});save(join(folder,'data/sample.json'),dataset);save(join(folder,'data/changes.json'),{publicationSelection:true});save(join(folder,'plan.json'),plan);
+copyFileSync(join(root,'model-registry.json'),join(folder,'model-registry.json'));
+for(const file of IMPLEMENTATION_FILES){mkdirSync(dirname(join(folder,file)),{recursive:true});copyFileSync(join(root,file),join(folder,file));}
+const frozen=freeze(folder);save(join(folder,'authorization.json'),{experimentId:frozen.id,inference:false,priceCapUsd:null});
+console.log(JSON.stringify({status:'prepared',...frozen,path:folder,networkCalls:0,next:'npm run execute -- --run <klasör> --execute'},null,2));

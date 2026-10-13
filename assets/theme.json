@@ -1,0 +1,13 @@
+{
+  "name": "turkce-karar",
+  "palette": {
+    "background": "#FFFFFF",
+    "primary": "#3D3BF3",
+    "accent": "#FF2929",
+    "ink": "#17162F",
+    "muted": "#6F6C86",
+    "grid": "#D9D8F3",
+    "rule": "#9694FF",
+    "pale": "#F7F7FB"
+  }
+}

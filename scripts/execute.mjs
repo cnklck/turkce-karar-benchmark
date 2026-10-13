@@ -1,0 +1,18 @@
+import {resolve,join} from 'node:path';
+import {pathToFileURL} from 'node:url';
+const args=process.argv.slice(2),value=key=>{const i=args.indexOf(key);return i<0?null:args[i+1];};
+if(!args.includes('--execute')||!value('--run'))throw new Error('Canlı test ücretli API isteği gönderir. Başlatmak için --run <klasör> --execute ekle.');
+const folder=resolve(value('--run'));
+const frozenModule=name=>import(pathToFileURL(join(folder,'harness',name)).href);
+const {loadBundle}=await frozenModule('freeze.mjs');
+const {save,json}=await frozenModule('io.mjs');
+const {createLiveTransport,loadApiKey}=await frozenModule('live-transport.mjs');
+const {runPreflight}=await frozenModule('preflight.mjs');
+const {runPlan}=await frozenModule('run.mjs');
+const bundle=loadBundle(join(folder,'frozen'));
+const transport=createLiveTransport({apiKey:loadApiKey(value('--env-file')),timeoutMs:bundle.plan.timeoutMs,modelTimeouts:bundle.plan.modelPolicies});
+save(join(folder,'authorization.json'),{experimentId:bundle.manifest.id,inference:true,priceCapUsd:null,basis:'Komut satırında açık --execute seçeneği.'});
+const pf=await runPreflight({preflight:json(join(folder,'frozen/preflight.json')),outDir:join(folder,'run/preflight'),transport,maxAttempts:bundle.plan.maxAttempts});
+if(bundle.plan.models.some(m=>!pf.receipt.verifiedModels.includes(m.id)))throw new Error('Yanıt biçimi kontrolü başarısız. Ana test başlamadı.');
+const result=await runPlan({manifest:bundle.manifest,dataset:bundle.dataset,outDir:join(folder,'run/benchmark'),transport,requestConcurrency:bundle.plan.requestConcurrency,maxAttempts:bundle.plan.maxAttempts,seed:bundle.plan.seed,modelPolicies:bundle.plan.modelPolicies,priorPhaseEvents:pf.events,checkpointMs:bundle.plan.checkpointMs});
+console.log(JSON.stringify({experimentId:bundle.manifest.id,decisions:result.records.length,stopReason:result.stopReason,usage:result.usage},null,2));

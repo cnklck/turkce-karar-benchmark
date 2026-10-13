@@ -1,0 +1,13 @@
+import {resolve,join} from 'node:path';
+import {pathToFileURL} from 'node:url';
+const args=process.argv.slice(2),i=args.indexOf('--run');
+if(i<0||!args[i+1])throw new Error('Kullanım: npm run score -- --run experiments/ornek');
+const folder=resolve(args[i+1]);
+const {loadBundle}=await import(pathToFileURL(join(folder,'harness/freeze.mjs')).href);
+const {jsonl,save}=await import(pathToFileURL(join(folder,'harness/io.mjs')).href);
+const {scoreAll}=await import(pathToFileURL(join(folder,'scoring/score.mjs')).href);
+const {dataset,manifest}=loadBundle(join(folder,'frozen'));
+const cases=new Map(dataset.families.flatMap(f=>f.cases.map(c=>[c.id,{f,c}])));
+const result=scoreAll(jsonl(join(folder,'run/benchmark/records.jsonl')),cases,manifest,{datasetHash:manifest.datasetHash});
+save(join(folder,'run/analysis.json'),result);
+console.log(JSON.stringify({integrity:result.integrity,groups:Object.keys(result.summary).length},null,2));
