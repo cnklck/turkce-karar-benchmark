@@ -2,7 +2,7 @@
 
 Türkçe müşteri mesajlarında ne oldu, kim yaptı ve hangi talep geçerli? Bu çalışma, karar modellerini aynı mesajlar ve aynı kurallarla karşılaştırır.
 
-[![Kontroller](https://github.com/cnklck/turkce-karar-benchmark/actions/workflows/checks.yml/badge.svg)](https://github.com/cnklck/turkce-karar-benchmark/actions/workflows/checks.yml)
+[![Kontroller](https://github.com/cnklck/turkce-karar-benchmark/actions/workflows/checks.yml/badge.svg?branch=main&event=push)](https://github.com/cnklck/turkce-karar-benchmark/actions/workflows/checks.yml)
 [![Lisans: MIT](https://img.shields.io/badge/Lisans-MIT-3D3BF3)](LICENSE)
 
 **[Sonuçlar](docs/SONUCLAR.md) · [Yöntem](docs/YONTEM.md) · [Soru bankası](docs/SORU_BANKASI.md) · [Çalıştırma](docs/CALISTIRMA.md) · [Model sürümleri](docs/MODELLER.md)**
